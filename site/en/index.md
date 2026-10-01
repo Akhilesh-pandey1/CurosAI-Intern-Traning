@@ -1,4 +1,4 @@
-# Intern Training
+# Kurosia Intern Training
 
 Welcome. This site takes you from wherever you are today to shipping a full project alone — with AI working under you, not over you.
 

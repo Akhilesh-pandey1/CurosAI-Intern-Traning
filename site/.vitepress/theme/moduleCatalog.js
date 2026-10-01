@@ -1,7 +1,18 @@
 export const MODULES = [
   {
     title: 'HTML/CSS',
-    pages: ['/html-css/01-start-here', '/html-css/02-html-essentials']
+    pages: [
+      {
+        path: '/html-css/01-start-here',
+        enTitle: 'Start Here',
+        hiTitle: 'Yahan Se Shuru Karein'
+      },
+      {
+        path: '/html-css/02-html-essentials',
+        enTitle: 'HTML Essentials',
+        hiTitle: 'HTML Ki Basics'
+      }
+    ]
   },
   { title: 'JavaScript', pages: [] },
   { title: 'React', pages: [] },

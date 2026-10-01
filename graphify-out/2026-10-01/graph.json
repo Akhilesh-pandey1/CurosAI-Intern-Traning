@@ -1286,7 +1286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system",
-      "community": 12,
+      "community": 23,
       "community_name": "design_system.py",
       "norm_label": "design_system.py"
     },
@@ -1551,7 +1551,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_hex_to_ansi",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "hex_to_ansi()"
     },
     {
@@ -1562,7 +1562,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_ansi_ljust",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "ansi_ljust()"
     },
     {
@@ -1573,7 +1573,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_section_header",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "section_header()"
     },
     {
@@ -1584,7 +1584,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_ascii_box",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_ascii_box()"
     },
     {
@@ -1595,7 +1595,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_markdown()"
     },
     {
@@ -1606,7 +1606,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1617,7 +1617,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_safe_slug",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "safe_slug()"
     },
     {
@@ -1628,7 +1628,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_write_persisted_file",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "_write_persisted_file()"
     },
     {
@@ -1639,7 +1639,7 @@
       "_origin": "ast",
       "id": "path",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "path"
     },
     {
@@ -1650,7 +1650,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_persist_design_system",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist_design_system()"
     },
     {
@@ -1661,7 +1661,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_master_md",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format_master_md()"
     },
     {
@@ -1671,8 +1671,8 @@
       "source_location": "L1381",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_page_override_md",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format_page_override_md()"
     },
     {
@@ -1682,8 +1682,8 @@
       "source_location": "L1490",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_intelligent_overrides",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_generate_intelligent_overrides()"
     },
     {
@@ -1693,8 +1693,8 @@
       "source_location": "L1596",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_detect_page_type",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_detect_page_type()"
     },
     {
@@ -1903,7 +1903,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_612",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "convert hex color to ansi true color swatch (\u2588\u2588) with fallback."
     },
     {
@@ -1914,7 +1914,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_626",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "like str.ljust but accounts for zero-width ansi escape sequences."
     },
     {
@@ -1925,7 +1925,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_634",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "create a unicode section separator: \u251c\u2500\u2500\u2500 name \u2500\u2500\u2500...\u2524"
     },
     {
@@ -1936,7 +1936,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_641",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as unicode box with ansi color swatches."
     },
     {
@@ -1947,7 +1947,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1958,7 +1958,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -1969,7 +1969,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_962",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "slugify a name into a single safe path segment. only [a-z0-9_-] survives; every..."
     },
     {
@@ -1980,7 +1980,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_973",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "write fully to a temp file, then publish atomically."
     },
     {
@@ -1991,7 +1991,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_997",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist design system to design-system/<project>/ folder using master +..."
     },
     {
@@ -2002,7 +2002,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1077",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format design system as master.md with hierarchical override logic."
     },
     {
@@ -2012,8 +2012,8 @@
       "source_location": "L1382",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1382",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format a page-specific override file with intelligent ai-generated content."
     },
     {
@@ -2023,8 +2023,8 @@
       "source_location": "L1491",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1491",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "generate intelligent overrides based on page type using layered search. uses..."
     },
     {
@@ -2034,8 +2034,8 @@
       "source_location": "L1597",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1597",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "detect page type from context and search results."
     },
     {
@@ -3208,51 +3208,40 @@
       "_origin": "ast",
       "id": "site_vitepress_config",
       "community": 50,
-      "community_name": "config.mjs",
+      "community_name": "ModuleProgressDots.vue",
       "norm_label": "config.mjs"
     },
     {
-      "label": "ENGLISH_FIRST_MODULE_LINKS",
+      "label": "ENGLISH_PAGE_LABELS",
       "file_type": "code",
       "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L7",
+      "source_location": "L8",
       "_origin": "ast",
-      "id": "site_vitepress_config_english_first_module_links",
+      "id": "site_vitepress_config_english_page_labels",
       "community": 50,
-      "community_name": "config.mjs",
-      "norm_label": "english_first_module_links"
+      "community_name": "ModuleProgressDots.vue",
+      "norm_label": "english_page_labels"
     },
     {
-      "label": "HINGLISH_FIRST_MODULE_LINKS",
+      "label": "HINGLISH_PAGE_LABELS",
       "file_type": "code",
       "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
-      "id": "site_vitepress_config_hinglish_first_module_links",
+      "id": "site_vitepress_config_hinglish_page_labels",
       "community": 50,
-      "community_name": "config.mjs",
-      "norm_label": "hinglish_first_module_links"
-    },
-    {
-      "label": "PENDING_MODULE_LABELS",
-      "file_type": "code",
-      "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "site_vitepress_config_pending_module_labels",
-      "community": 50,
-      "community_name": "config.mjs",
-      "norm_label": "pending_module_labels"
+      "community_name": "ModuleProgressDots.vue",
+      "norm_label": "hinglish_page_labels"
     },
     {
       "label": "buildSidebar()",
       "file_type": "code",
       "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L31",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "site_vitepress_config_buildsidebar",
       "community": 50,
-      "community_name": "config.mjs",
+      "community_name": "ModuleProgressDots.vue",
       "norm_label": "buildsidebar()"
     },
     {
@@ -3262,19 +3251,52 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_confettiburst",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 84,
+      "community_name": "index.js",
       "norm_label": "confettiburst.vue"
+    },
+    {
+      "label": "CENTER_BURST_OPTIONS",
+      "file_type": "code",
+      "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_vitepress_theme_components_confettiburst_center_burst_options",
+      "community": 84,
+      "community_name": "index.js",
+      "norm_label": "center_burst_options"
+    },
+    {
+      "label": "LEFT_SIDE_BURST_OPTIONS",
+      "file_type": "code",
+      "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "site_vitepress_theme_components_confettiburst_left_side_burst_options",
+      "community": 84,
+      "community_name": "index.js",
+      "norm_label": "left_side_burst_options"
+    },
+    {
+      "label": "RIGHT_SIDE_BURST_OPTIONS",
+      "file_type": "code",
+      "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "site_vitepress_theme_components_confettiburst_right_side_burst_options",
+      "community": 84,
+      "community_name": "index.js",
+      "norm_label": "right_side_burst_options"
     },
     {
       "label": "fireConfettiBurst()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
-      "source_location": "L7",
+      "source_location": "L10",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_confettiburst_fireconfettiburst",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 84,
+      "community_name": "index.js",
       "norm_label": "fireconfettiburst()"
     },
     {
@@ -3295,8 +3317,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "continuebutton.vue"
     },
     {
@@ -3306,8 +3328,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton_router",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "router"
     },
     {
@@ -3317,8 +3339,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton_findnextunfinishedpagepath",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "{ findnextunfinishedpagepath }"
     },
     {
@@ -3328,8 +3350,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton_picksitetext_localeprefix",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "{ picksitetext, localeprefix }"
     },
     {
@@ -3339,8 +3361,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton_targetpagepath",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "targetpagepath"
     },
     {
@@ -3350,8 +3372,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton_buttonlabel",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "buttonlabel"
     },
     {
@@ -3361,8 +3383,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_continuebutton_handlecontinueclick",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "handlecontinueclick()"
     },
     {
@@ -3372,52 +3394,52 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_moduleprogressdots",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
       "norm_label": "moduleprogressdots.vue"
     },
     {
-      "label": "{ MODULES, countCheckedPages }",
+      "label": "{ countCheckedPages }",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L6",
+      "source_location": "L7",
       "_origin": "ast",
-      "id": "site_vitepress_theme_components_moduleprogressdots_modules_countcheckedpages",
-      "community": 2,
-      "community_name": "useProgress.js",
-      "norm_label": "{ modules, countcheckedpages }"
+      "id": "site_vitepress_theme_components_moduleprogressdots_countcheckedpages",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
+      "norm_label": "{ countcheckedpages }"
     },
     {
       "label": "{ localePrefix }",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L7",
+      "source_location": "L8",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_moduleprogressdots_localeprefix",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
       "norm_label": "{ localeprefix }"
     },
     {
       "label": "resolveModuleState()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L13",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_moduleprogressdots_resolvemodulestate",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
       "norm_label": "resolvemodulestate()"
     },
     {
       "label": "moduleStates",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_moduleprogressdots_modulestates",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
       "norm_label": "modulestates"
     },
     {
@@ -3427,8 +3449,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_pagecheckoff",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "pagecheckoff.vue"
     },
     {
@@ -3438,8 +3460,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_pagecheckoff_page",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "{ page }"
     },
     {
@@ -3449,8 +3471,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_pagecheckoff_ispagechecked_togglepagecheck",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "{ ispagechecked, togglepagecheck }"
     },
     {
@@ -3460,8 +3482,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_pagecheckoff_picksitetext",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "{ picksitetext }"
     },
     {
@@ -3471,8 +3493,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_pagecheckoff_ischecked",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "ischecked"
     },
     {
@@ -3482,8 +3504,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_pagecheckoff_handlecheckofftoggle",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "handlecheckofftoggle()"
     },
     {
@@ -3493,8 +3515,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "quizblock.vue"
     },
     {
@@ -3504,8 +3526,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_props",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "props"
     },
     {
@@ -3515,8 +3537,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_picksitetext",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "{ picksitetext }"
     },
     {
@@ -3526,8 +3548,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_visibleanswerindexes",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "visibleanswerindexes"
     },
     {
@@ -3537,8 +3559,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_blocktitle",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "blocktitle"
     },
     {
@@ -3548,8 +3570,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_showanswerlabel",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "showanswerlabel"
     },
     {
@@ -3559,8 +3581,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_hideanswerlabel",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "hideanswerlabel"
     },
     {
@@ -3570,8 +3592,8 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_isanswervisible",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "isanswervisible()"
     },
     {
@@ -3581,8 +3603,8 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_quizblock_handleanswertoggle",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 83,
+      "community_name": "QuizBlock.vue",
       "norm_label": "handleanswertoggle()"
     },
     {
@@ -3592,8 +3614,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "videoslot.vue"
     },
     {
@@ -3603,8 +3625,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot_props",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "props"
     },
     {
@@ -3614,8 +3636,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot_picksitetext",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "{ picksitetext }"
     },
     {
@@ -3625,8 +3647,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot_findyoutubevideoid",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "findyoutubevideoid()"
     },
     {
@@ -3636,8 +3658,8 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot_embedurl",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "embedurl"
     },
     {
@@ -3647,8 +3669,8 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot_watchlabel",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "watchlabel"
     },
     {
@@ -3658,8 +3680,8 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "site_vitepress_theme_components_videoslot_placeholdertext",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 86,
+      "community_name": "VideoSlot.vue",
       "norm_label": "placeholdertext"
     },
     {
@@ -3674,21 +3696,10 @@
       "norm_label": "useprogress.js"
     },
     {
-      "label": "MODULES",
-      "file_type": "code",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "site_vitepress_theme_composables_useprogress_modules",
-      "community": 2,
-      "community_name": "useProgress.js",
-      "norm_label": "modules"
-    },
-    {
       "label": "PAGE_ORDER",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L28",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_page_order",
       "community": 2,
@@ -3699,7 +3710,7 @@
       "label": "checkedPages",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L30",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_checkedpages",
       "community": 2,
@@ -3710,7 +3721,7 @@
       "label": "celebratedModules",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L31",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_celebratedmodules",
       "community": 2,
@@ -3721,7 +3732,7 @@
       "label": "loadStoredProgress()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L34",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_loadstoredprogress",
       "community": 2,
@@ -3732,7 +3743,7 @@
       "label": "saveStoredProgress()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L53",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_savestoredprogress",
       "community": 2,
@@ -3743,7 +3754,7 @@
       "label": "loadProgressOnce()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L61",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_loadprogressonce",
       "community": 2,
@@ -3754,18 +3765,18 @@
       "label": "toPageKey()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L69",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_topagekey",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 85,
+      "community_name": "PageCheckOff.vue",
       "norm_label": "topagekey()"
     },
     {
       "label": "isPageChecked()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L79",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_ispagechecked",
       "community": 2,
@@ -3773,32 +3784,10 @@
       "norm_label": "ispagechecked()"
     },
     {
-      "label": "findModuleOfPage()",
-      "file_type": "code",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L83",
-      "_origin": "ast",
-      "id": "site_vitepress_theme_composables_useprogress_findmoduleofpage",
-      "community": 2,
-      "community_name": "useProgress.js",
-      "norm_label": "findmoduleofpage()"
-    },
-    {
-      "label": "isModuleComplete()",
-      "file_type": "code",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L87",
-      "_origin": "ast",
-      "id": "site_vitepress_theme_composables_useprogress_ismodulecomplete",
-      "community": 2,
-      "community_name": "useProgress.js",
-      "norm_label": "ismodulecomplete()"
-    },
-    {
       "label": "celebrateModuleOnce()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L91",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_celebratemoduleonce",
       "community": 2,
@@ -3809,7 +3798,7 @@
       "label": "togglePageCheck()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L101",
+      "source_location": "L78",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_togglepagecheck",
       "community": 2,
@@ -3820,7 +3809,7 @@
       "label": "countCheckedPages()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L114",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_countcheckedpages",
       "community": 2,
@@ -3831,7 +3820,7 @@
       "label": "findNextUnfinishedPagePath()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L118",
+      "source_location": "L100",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_findnextunfinishedpagepath",
       "community": 2,
@@ -3842,7 +3831,7 @@
       "label": "useProgress()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L123",
+      "source_location": "L106",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_useprogress_useprogress",
       "community": 2,
@@ -3856,8 +3845,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_usesitetext",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "usesitetext.js"
     },
     {
@@ -3867,8 +3856,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "site_vitepress_theme_composables_usesitetext_usesitetext",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 41,
+      "community_name": "ContinueButton.vue",
       "norm_label": "usesitetext()"
     },
     {
@@ -3878,8 +3867,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_index",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 84,
+      "community_name": "index.js",
       "norm_label": "index.js"
     },
     {
@@ -3889,9 +3878,31 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "site_vitepress_theme_index_enhanceapp",
-      "community": 2,
-      "community_name": "useProgress.js",
+      "community": 84,
+      "community_name": "index.js",
       "norm_label": "enhanceapp()"
+    },
+    {
+      "label": "moduleCatalog.js",
+      "file_type": "code",
+      "source_file": "site/.vitepress/theme/moduleCatalog.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_vitepress_theme_modulecatalog",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
+      "norm_label": "modulecatalog.js"
+    },
+    {
+      "label": "MODULES",
+      "file_type": "code",
+      "source_file": "site/.vitepress/theme/moduleCatalog.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_vitepress_theme_modulecatalog_modules",
+      "community": 50,
+      "community_name": "ModuleProgressDots.vue",
+      "norm_label": "modules"
     },
     {
       "label": "package.json",
@@ -13592,7 +13603,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L31",
+      "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_config",
@@ -13603,33 +13614,79 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_config",
-      "target": "site_vitepress_config_english_first_module_links",
+      "target": "site_vitepress_config_english_page_labels",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_config",
-      "target": "site_vitepress_config_hinglish_first_module_links",
+      "target": "site_vitepress_config_hinglish_page_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/config.mjs",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_config",
+      "target": "site_vitepress_theme_modulecatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/config.mjs",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_config",
+      "target": "site_vitepress_theme_modulecatalog_modules",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/config.mjs",
-      "source_location": "L17",
+      "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_vitepress_config",
-      "target": "site_vitepress_config_pending_module_labels",
+      "source": "site_vitepress_theme_components_confettiburst",
+      "target": "site_vitepress_theme_components_confettiburst_center_burst_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_components_confettiburst",
+      "target": "site_vitepress_theme_components_confettiburst_fireconfettiburst",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/components/ConfettiBurst.vue",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_components_confettiburst",
+      "target": "site_vitepress_theme_components_confettiburst_left_side_burst_options",
       "confidence_score": 1.0
     },
     {
@@ -13640,7 +13697,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_confettiburst",
-      "target": "site_vitepress_theme_components_confettiburst_fireconfettiburst",
+      "target": "site_vitepress_theme_components_confettiburst_right_side_burst_options",
       "confidence_score": 1.0
     },
     {
@@ -13801,6 +13858,17 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
+      "target": "site_vitepress_theme_components_moduleprogressdots_countcheckedpages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_components_moduleprogressdots",
       "target": "site_vitepress_theme_components_moduleprogressdots_localeprefix",
       "confidence_score": 1.0
     },
@@ -13808,18 +13876,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_components_moduleprogressdots",
-      "target": "site_vitepress_theme_components_moduleprogressdots_modules_countcheckedpages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
@@ -13830,7 +13887,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
@@ -13842,7 +13899,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
@@ -13854,7 +13911,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
@@ -13866,7 +13923,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
@@ -13878,11 +13935,35 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_moduleprogressdots",
       "target": "site_vitepress_theme_composables_usesitetext_usesitetext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_components_moduleprogressdots",
+      "target": "site_vitepress_theme_modulecatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/components/ModuleProgressDots.vue",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_components_moduleprogressdots",
+      "target": "site_vitepress_theme_modulecatalog_modules",
       "confidence_score": 1.0
     },
     {
@@ -14290,7 +14371,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L31",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14301,7 +14382,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L91",
+      "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14312,7 +14393,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L30",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14323,7 +14404,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L114",
+      "source_location": "L95",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14334,18 +14415,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L83",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_composables_useprogress",
-      "target": "site_vitepress_theme_composables_useprogress_findmoduleofpage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L118",
+      "source_location": "L100",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14356,18 +14426,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L87",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_composables_useprogress",
-      "target": "site_vitepress_theme_composables_useprogress_ismodulecomplete",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L79",
+      "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14378,7 +14437,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L61",
+      "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14389,7 +14448,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L34",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14400,18 +14459,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_composables_useprogress",
-      "target": "site_vitepress_theme_composables_useprogress_modules",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L28",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14422,7 +14470,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L53",
+      "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14433,7 +14481,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L101",
+      "source_location": "L78",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14444,7 +14492,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L69",
+      "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
@@ -14455,11 +14503,35 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L123",
+      "source_location": "L106",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress",
       "target": "site_vitepress_theme_composables_useprogress_useprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/composables/useProgress.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_composables_useprogress",
+      "target": "site_vitepress_theme_modulecatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/composables/useProgress.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_composables_useprogress",
+      "target": "site_vitepress_theme_modulecatalog_modules",
       "confidence_score": 1.0
     },
     {
@@ -14468,19 +14540,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L84",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_composables_useprogress_findmoduleofpage",
-      "target": "site_vitepress_theme_composables_useprogress_modules"
-    },
-    {
-      "relation": "references",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L119",
+      "source_location": "L101",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_findnextunfinishedpagepath",
@@ -14491,7 +14551,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L66",
+      "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_loadprogressonce",
@@ -14503,7 +14563,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L97",
+      "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_celebratemoduleonce",
@@ -14515,7 +14575,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L106",
+      "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_togglepagecheck",
@@ -14527,7 +14587,7 @@
       "context": "argument",
       "confidence": "INFERRED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L125",
+      "source_location": "L108",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_useprogress",
@@ -14539,7 +14599,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L102",
+      "source_location": "L79",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_togglepagecheck",
@@ -14551,7 +14611,7 @@
       "context": "collection",
       "confidence": "INFERRED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L130",
+      "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_useprogress",
@@ -14563,31 +14623,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L107",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_composables_useprogress_togglepagecheck",
-      "target": "site_vitepress_theme_composables_useprogress_findmoduleofpage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L108",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_composables_useprogress_togglepagecheck",
-      "target": "site_vitepress_theme_composables_useprogress_ismodulecomplete",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L109",
+      "source_location": "L89",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_togglepagecheck",
@@ -14595,11 +14631,23 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "site/.vitepress/theme/composables/useProgress.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_composables_useprogress_togglepagecheck",
+      "target": "site_vitepress_theme_modulecatalog_modules"
+    },
+    {
       "relation": "indirect_call",
       "context": "collection",
       "confidence": "INFERRED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L131",
+      "source_location": "L112",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_useprogress",
@@ -14611,7 +14659,7 @@
       "context": "collection",
       "confidence": "INFERRED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L132",
+      "source_location": "L113",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_useprogress",
@@ -14623,7 +14671,7 @@
       "context": "collection",
       "confidence": "INFERRED",
       "source_file": "site/.vitepress/theme/composables/useProgress.js",
-      "source_location": "L133",
+      "source_location": "L114",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_composables_useprogress_useprogress",
@@ -14650,6 +14698,17 @@
       "_origin": "ast",
       "source": "site_vitepress_theme_index",
       "target": "site_vitepress_theme_index_enhanceapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/.vitepress/theme/moduleCatalog.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_vitepress_theme_modulecatalog",
+      "target": "site_vitepress_theme_modulecatalog_modules",
       "confidence_score": 1.0
     },
     {
@@ -18439,5 +18498,6 @@
       "confidence_score": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "f25317a845cc0b7e226739d0d8be47f66e1fc2d0"
 }

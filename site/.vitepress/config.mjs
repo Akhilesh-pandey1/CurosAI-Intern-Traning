@@ -1,29 +1,22 @@
 import { defineConfig } from 'vitepress'
 import { MODULES } from './theme/moduleCatalog.js'
 
-const SITE_TITLE = 'Intern Training'
+const SITE_TITLE = 'Kurosia Intern Training'
 const SITE_DESCRIPTION =
   'One ordered path from intern to independent builder — HTML/CSS, JavaScript, React, Python, and AI-first working habits.'
+const COMPANY_URL = ''
 
-const ENGLISH_PAGE_LABELS = {
-  '/html-css/01-start-here': 'Start Here',
-  '/html-css/02-html-essentials': 'HTML Essentials'
-}
+const companyNavLinks = COMPANY_URL === '' ? [] : [{ text: 'Kurosia', link: COMPANY_URL }]
 
-const HINGLISH_PAGE_LABELS = {
-  '/html-css/01-start-here': 'Yahan Se Shuru Karein',
-  '/html-css/02-html-essentials': 'HTML Ki Basics'
-}
-
-function buildSidebar(localePrefix, pageLabels) {
+function buildSidebar(localePrefix, pickPageTitle) {
   const sidebarEntries = MODULES.map((trainingModule, moduleIndex) => {
     const moduleLabel = `${moduleIndex + 1}. ${trainingModule.title}`
     if (trainingModule.pages.length === 0) {
       return { text: moduleLabel }
     }
-    const pageLinks = trainingModule.pages.map((pagePath) => ({
-      text: pageLabels[pagePath],
-      link: `${localePrefix}${pagePath}`
+    const pageLinks = trainingModule.pages.map((page) => ({
+      text: pickPageTitle(page),
+      link: `${localePrefix}${page.path}`
     }))
     return { text: moduleLabel, collapsed: moduleIndex > 0, items: pageLinks }
   })
@@ -48,7 +41,8 @@ export default defineConfig({
       link: '/',
       themeConfig: {
         siteTitle: SITE_TITLE,
-        sidebar: buildSidebar('', ENGLISH_PAGE_LABELS),
+        nav: companyNavLinks,
+        sidebar: buildSidebar('', (page) => page.enTitle),
         docFooter: {
           prev: 'Previous',
           next: 'Next'
@@ -68,7 +62,8 @@ export default defineConfig({
       link: '/hi/',
       themeConfig: {
         siteTitle: SITE_TITLE,
-        sidebar: buildSidebar('/hi', HINGLISH_PAGE_LABELS),
+        nav: companyNavLinks,
+        sidebar: buildSidebar('/hi', (page) => page.hiTitle),
         docFooter: {
           prev: 'Pichla page',
           next: 'Agla page'

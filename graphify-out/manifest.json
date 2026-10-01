@@ -70,13 +70,13 @@
     "semantic_hash": ""
   },
   "site/.vitepress/config.mjs": {
-    "mtime": 1790859794.0265155,
-    "ast_hash": "9402b52e0fb0f5abec8ee623c10606a6",
+    "mtime": 1790860142.7184658,
+    "ast_hash": "0f30291b23e4f0039f5e897963844358",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ConfettiBurst.vue": {
-    "mtime": 1790859815.9513822,
-    "ast_hash": "a49cc79c3f953f3de1f18893bd5ed40b",
+    "mtime": 1790860169.114564,
+    "ast_hash": "19b965cf4d88734fc6890e97dbabcea8",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ContinueButton.vue": {
@@ -90,8 +90,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageCheckOff.vue": {
-    "mtime": 1790859124.9545817,
-    "ast_hash": "a75667131c978811cbbfa895bc7ce317",
+    "mtime": 1790860163.819435,
+    "ast_hash": "fc2a2bbff819089fe31497656b0f94ee",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/QuizBlock.vue": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/composables/useProgress.js": {
-    "mtime": 1790859803.8144608,
-    "ast_hash": "c81ae63233f6f4286016507d92b4f722",
+    "mtime": 1790860153.0725489,
+    "ast_hash": "6d2a719949fad0aca9d755d7d74e75d0",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/composables/useSiteText.js": {
@@ -460,8 +460,8 @@
     "semantic_hash": ""
   },
   "site/en/index.md": {
-    "mtime": 1790859202.0866895,
-    "ast_hash": "c6832e90c4f1e3fd90a2abdb5ec9ff51",
+    "mtime": 1790860175.6600614,
+    "ast_hash": "63868ac737d4de13ab1863d37a12b0cc",
     "semantic_hash": ""
   },
   "site/hi/html-css/01-start-here.md": {
@@ -475,13 +475,13 @@
     "semantic_hash": ""
   },
   "site/hi/index.md": {
-    "mtime": 1790859245.2654822,
-    "ast_hash": "b31ee0f91edcb2d0074c8b2f7a0f4cbe",
+    "mtime": 1790860176.0844162,
+    "ast_hash": "f0009fccd88d1563459002cb807e5c10",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1790859781.5453372,
-    "ast_hash": "ec82a7b21ec91f60d799c0b2bc945f4d",
+    "mtime": 1790860132.4193807,
+    "ast_hash": "eea9c1d5340f062eea7f689388dca0ca",
     "semantic_hash": ""
   }
 }

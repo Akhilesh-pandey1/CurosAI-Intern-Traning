@@ -2,6 +2,7 @@ import { onMounted, ref } from 'vue'
 import { MODULES } from '../moduleCatalog.js'
 
 const STORAGE_KEY = 'intern-training-progress'
+export const PAGE_CHECKED_EVENT = 'intern-training-page-checked'
 export const MODULE_COMPLETED_EVENT = 'intern-training-module-completed'
 const ENGLISH_FOLDER_PREFIX = 'en/'
 const HINGLISH_FOLDER_PREFIX = 'hi/'
@@ -81,26 +82,38 @@ function togglePageCheck(pageKey) {
     ? checkedPages.value.filter((page) => page !== pageKey)
     : [...checkedPages.value, pageKey]
   saveStoredProgress()
-  const owningModule = MODULES.find((trainingModule) => trainingModule.pages.includes(pageKey))
-  const moduleNowComplete =
-    owningModule !== undefined &&
-    owningModule.pages.every((page) => checkedPages.value.includes(page))
-  if (moduleNowComplete) {
+  const owningModule = MODULES.find(
+    (trainingModule) =>
+      trainingModule.pages.length > 0 &&
+      trainingModule.pages.some((page) => page.path === pageKey) &&
+      trainingModule.pages.every((page) => checkedPages.value.includes(page.path))
+  )
+  if (owningModule !== undefined) {
     celebrateModuleOnce(owningModule)
+  } else if (!wasChecked) {
+    window.dispatchEvent(new CustomEvent(PAGE_CHECKED_EVENT))
   }
   const isNowChecked = !wasChecked
   return isNowChecked
 }
 
 function countCheckedPages(trainingModule) {
-  const checkedPageCount = trainingModule.pages.filter((page) => checkedPages.value.includes(page)).length
+  const checkedPageCount = trainingModule.pages.filter((page) => checkedPages.value.includes(page.path)).length
   return checkedPageCount
 }
 
 function findNextUnfinishedPagePath() {
-  const nextUnfinishedPage = PAGE_ORDER.find((page) => !checkedPages.value.includes(page))
-  const nextUnfinishedPagePath = nextUnfinishedPage === undefined ? '/' : nextUnfinishedPage
+  const nextUnfinishedPage = PAGE_ORDER.find((page) => !checkedPages.value.includes(page.path))
+  const nextUnfinishedPagePath = nextUnfinishedPage === undefined ? '/' : nextUnfinishedPage.path
   return nextUnfinishedPagePath
+}
+
+function findNextPageAfter(pageKey) {
+  const currentPageIndex = PAGE_ORDER.findIndex((page) => page.path === pageKey)
+  const isLastBuiltPage = currentPageIndex === PAGE_ORDER.length - 1
+  const hasNoNextPage = currentPageIndex === -1 || isLastBuiltPage
+  const nextPage = hasNoNextPage ? null : PAGE_ORDER[currentPageIndex + 1]
+  return nextPage
 }
 
 export function useProgress() {
@@ -111,7 +124,8 @@ export function useProgress() {
     isPageChecked,
     togglePageCheck,
     countCheckedPages,
-    findNextUnfinishedPagePath
+    findNextUnfinishedPagePath,
+    findNextPageAfter
   }
   return progressHelpers
 }
