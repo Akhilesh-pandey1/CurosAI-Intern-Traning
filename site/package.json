@@ -1,0 +1,15 @@
+{
+  "name": "intern-training-site",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3"
+  }
+}
