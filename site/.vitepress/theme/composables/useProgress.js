@@ -12,7 +12,6 @@ const MARKDOWN_EXTENSION = '.md'
 const PAGE_ORDER = MODULES.flatMap((trainingModule) => trainingModule.pages)
 
 const checkedPages = ref([])
-const celebratedModules = ref([])
 let progressLoaded = false
 
 function loadStoredProgress() {
@@ -25,20 +24,13 @@ function loadStoredProgress() {
     if (Array.isArray(parsedProgress.checkedPages)) {
       checkedPages.value = parsedProgress.checkedPages
     }
-    if (Array.isArray(parsedProgress.celebratedModules)) {
-      celebratedModules.value = parsedProgress.celebratedModules
-    }
   } catch {
     checkedPages.value = []
-    celebratedModules.value = []
   }
 }
 
 function saveStoredProgress() {
-  const progress = {
-    checkedPages: checkedPages.value,
-    celebratedModules: celebratedModules.value
-  }
+  const progress = { checkedPages: checkedPages.value }
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
 }
 
@@ -66,16 +58,6 @@ function isPageChecked(pageKey) {
   return pageIsChecked
 }
 
-function celebrateModuleOnce(owningModule) {
-  const alreadyCelebrated = celebratedModules.value.includes(owningModule.title)
-  if (alreadyCelebrated) {
-    return
-  }
-  celebratedModules.value = [...celebratedModules.value, owningModule.title]
-  saveStoredProgress()
-  window.dispatchEvent(new CustomEvent(MODULE_COMPLETED_EVENT, { detail: { moduleTitle: owningModule.title } }))
-}
-
 function togglePageCheck(pageKey) {
   const wasChecked = isPageChecked(pageKey)
   checkedPages.value = wasChecked
@@ -93,7 +75,9 @@ function celebratePageTransition(pageKey) {
       trainingModule.pages.every((page) => checkedPages.value.includes(page.path))
   )
   if (owningModule !== undefined) {
-    celebrateModuleOnce(owningModule)
+    window.dispatchEvent(
+      new CustomEvent(MODULE_COMPLETED_EVENT, { detail: { moduleTitle: owningModule.title } })
+    )
     return
   }
   window.dispatchEvent(new CustomEvent(PAGE_CHECKED_EVENT))

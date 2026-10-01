@@ -1,5 +1,6 @@
 <script setup>
 import { onBeforeUnmount, onMounted } from 'vue'
+import { playApplauseSound } from '../applauseSound.js'
 import { MODULE_COMPLETED_EVENT, PAGE_CHECKED_EVENT } from '../composables/useProgress'
 
 const PAGE_CHECK_BURST_OPTIONS = { particleCount: 80, spread: 60, origin: { y: 0.8 } }
@@ -14,10 +15,12 @@ async function fireConfetti(burstOptions) {
 }
 
 function handlePageChecked() {
+  playApplauseSound()
   fireConfetti(PAGE_CHECK_BURST_OPTIONS)
 }
 
 function handleModuleCompleted() {
+  playApplauseSound()
   fireConfetti(CENTER_BURST_OPTIONS)
   window.setTimeout(() => {
     fireConfetti(LEFT_SIDE_BURST_OPTIONS)

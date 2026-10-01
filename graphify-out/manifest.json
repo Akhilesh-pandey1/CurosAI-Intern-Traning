@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ConfettiBurst.vue": {
-    "mtime": 1790860169.114564,
-    "ast_hash": "19b965cf4d88734fc6890e97dbabcea8",
+    "mtime": 1790861237.6446898,
+    "ast_hash": "6bfbe021a9fcb0de29dfd82a6459ec71",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ContinueButton.vue": {
@@ -100,8 +100,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/composables/useProgress.js": {
-    "mtime": 1790860519.3104348,
-    "ast_hash": "5c5a20a63990c8cd35baaec4880b2261",
+    "mtime": 1790861244.5095143,
+    "ast_hash": "811dfbeca4f13248b0712c3df503f577",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/composables/useSiteText.js": {
@@ -482,6 +482,11 @@
   "site/.vitepress/theme/components/PageNextButton.vue": {
     "mtime": 1790860900.5824573,
     "ast_hash": "cc4d795c07f48257abf643e9920244c1",
+    "semantic_hash": ""
+  },
+  "site/.vitepress/theme/applauseSound.js": {
+    "mtime": 1790861230.3538213,
+    "ast_hash": "4f6502273187837b7c5fd615205b87c9",
     "semantic_hash": ""
   }
 }

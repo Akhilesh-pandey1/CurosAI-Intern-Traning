@@ -80,13 +80,13 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ContinueButton.vue": {
-    "mtime": 1790859317.540572,
-    "ast_hash": "08ccbc825b39ae53d884e1160931cf37",
+    "mtime": 1790861012.328419,
+    "ast_hash": "08a6e388b5b49f97fafb90aab8579d12",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ModuleProgressDots.vue": {
-    "mtime": 1790859826.0733232,
-    "ast_hash": "d7a3726a3916052460da883603fef512",
+    "mtime": 1790860905.4769328,
+    "ast_hash": "11532ee36d897fd7685feb0772291634",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/QuizBlock.vue": {
@@ -480,8 +480,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
-    "mtime": 1790860742.232421,
-    "ast_hash": "2942e52d01b2192333462ad907f4453b",
+    "mtime": 1790860900.5824573,
+    "ast_hash": "cc4d795c07f48257abf643e9920244c1",
     "semantic_hash": ""
   }
 }
