@@ -82,19 +82,21 @@ function togglePageCheck(pageKey) {
     ? checkedPages.value.filter((page) => page !== pageKey)
     : [...checkedPages.value, pageKey]
   saveStoredProgress()
+  const isNowChecked = !wasChecked
+  return isNowChecked
+}
+
+function celebratePageTransition(pageKey) {
   const owningModule = MODULES.find(
     (trainingModule) =>
-      trainingModule.pages.length > 0 &&
       trainingModule.pages.some((page) => page.path === pageKey) &&
       trainingModule.pages.every((page) => checkedPages.value.includes(page.path))
   )
   if (owningModule !== undefined) {
     celebrateModuleOnce(owningModule)
-  } else if (!wasChecked) {
-    window.dispatchEvent(new CustomEvent(PAGE_CHECKED_EVENT))
+    return
   }
-  const isNowChecked = !wasChecked
-  return isNowChecked
+  window.dispatchEvent(new CustomEvent(PAGE_CHECKED_EVENT))
 }
 
 function countCheckedPages(trainingModule) {
@@ -123,6 +125,7 @@ export function useProgress() {
   const progressHelpers = {
     isPageChecked,
     togglePageCheck,
+    celebratePageTransition,
     countCheckedPages,
     findNextUnfinishedPagePath,
     findNextPageAfter

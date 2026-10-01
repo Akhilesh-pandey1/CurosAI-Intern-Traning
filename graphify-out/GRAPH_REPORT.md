@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-01)
 
 ## Corpus Check
-- 91 files · ~168,925 words
+- 91 files · ~168,920 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 766 nodes · 906 edges · 82 communities (73 shown, 9 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
+- 766 nodes · 909 edges · 83 communities (74 shown, 9 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cad8e987`
+- Built from commit: `0180054e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,7 @@
 - Before Grill — the problem gate
 - Page Map
 - tickets.mjs
-- generate_design_system
+- design_system.py
 - Steps
 - Test-Driven Development
 - package.json
@@ -38,7 +38,7 @@
 - .generate
 - AGENTS.md
 - CLAUDE.md
-- design_system.py
+- persist_design_system
 - graphify reference: extra exports and benchmark
 - helper.js
 - Code Style & Standards
@@ -56,7 +56,8 @@
 - 1.1 Start Here
 - 1.2 HTML Essentials
 - node-js-code-style.md
-- _resolve_color_mode
+- _generate_intelligent_overrides
+- generate_design_system
 - graphify reference: query, path, explain
 - write-spec-greenfield/templates/design.md
 - write-spec-greenfield/templates/spec.md
@@ -103,13 +104,13 @@
   site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
 - `handleCheckOffToggle()` --calls--> `toPageKey()`  [EXTRACTED]
   site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
-- `togglePageCheck()` --references--> `MODULES`  [EXTRACTED]
-  site/.vitepress/theme/composables/useProgress.js → site/.vitepress/theme/moduleCatalog.js
+- `handleNextClick()` --calls--> `celebratePageTransition()`  [EXTRACTED]
+  site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (82 total, 9 thin omitted)
+## Communities (83 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -159,9 +160,9 @@ Nodes (15): 10. Frontend UI Design — 5 pages, 11. Clean Code & Testing — 5 p
 Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
-### Community 12 - "generate_design_system"
-Cohesion: 0.17
-Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
+### Community 12 - "design_system.py"
+Cohesion: 0.18
+Nodes (14): ansi_ljust(), format_ascii_box(), hex_to_ansi(), _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -203,9 +204,9 @@ Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines,
 Cohesion: 0.22
 Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines, Working Directory
 
-### Community 23 - "design_system.py"
-Cohesion: 0.18
-Nodes (15): _detect_page_type(), format_master_md(), format_page_override_md(), _generate_intelligent_overrides(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses… (+7 more)
+### Community 23 - "persist_design_system"
+Cohesion: 0.25
+Nodes (9): format_master_md(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Slugify a name into a single safe path segment. Only [a-z0-9_-] survives; every…, Write fully to a temp file, then publish atomically., Persist design system to design-system/<project>/ folder using Master +…, safe_slug(), _write_persisted_file() (+1 more)
 
 ### Community 24 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
@@ -275,9 +276,13 @@ Nodes (6): 1.2 HTML Essentials, Forms — page input kaise leta hai, Hands-on, S
 Cohesion: 0.33
 Nodes (5): Error & Exception Handling, File Structure, Function Composition & Layout, Libraries & Dependencies, MVC Folder Structure
 
-### Community 42 - "_resolve_color_mode"
+### Community 41 - "_generate_intelligent_overrides"
 Cohesion: 0.33
-Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary()
+Nodes (6): _detect_page_type(), format_page_override_md(), _generate_intelligent_overrides(), Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses…, Detect page type from context and search results.
+
+### Community 42 - "generate_design_system"
+Cohesion: 0.50
+Nodes (4): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation. Args: query: Search query (e.g.,…
 
 ### Community 43 - "graphify reference: query, path, explain"
 Cohesion: 0.33
@@ -340,24 +345,24 @@ Cohesion: 0.32
 Nodes (7): CENTER_BURST_OPTIONS, fireConfetti(), handleModuleCompleted(), handlePageChecked(), LEFT_SIDE_BURST_OPTIONS, PAGE_CHECK_BURST_OPTIONS, RIGHT_SIDE_BURST_OPTIONS
 
 ## Knowledge Gaps
-- **401 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+396 more)
+- **399 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+394 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`?**
+- **Why does `search()` connect `core.py` to `_generate_intelligent_overrides`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `.generate`, `generate_design_system`, `design_system.py`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `generate_design_system`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _401 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _399 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**
   _Cohesion score 0.05868118572292801 - nodes in this community are weakly interconnected._
 - **Should `useProgress.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.05182443151771549 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.053410893707033315 - nodes in this community are weakly interconnected._

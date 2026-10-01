@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/config.mjs": {
-    "mtime": 1790860142.7184658,
-    "ast_hash": "0f30291b23e4f0039f5e897963844358",
+    "mtime": 1790860294.764271,
+    "ast_hash": "322187d20b7b7fb20d140bc9de09d0d8",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ConfettiBurst.vue": {
@@ -460,8 +460,8 @@
     "semantic_hash": ""
   },
   "site/en/index.md": {
-    "mtime": 1790860175.6600614,
-    "ast_hash": "63868ac737d4de13ab1863d37a12b0cc",
+    "mtime": 1790860295.2867184,
+    "ast_hash": "1574beebd2db5ab54e9c0af03ee8bca5",
     "semantic_hash": ""
   },
   "site/hi/html-css/01-start-here.md": {
@@ -475,8 +475,8 @@
     "semantic_hash": ""
   },
   "site/hi/index.md": {
-    "mtime": 1790860176.0844162,
-    "ast_hash": "f0009fccd88d1563459002cb807e5c10",
+    "mtime": 1790860295.6485538,
+    "ast_hash": "e8099ef25977bb8c1d609ca6edea4b27",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
