@@ -1,46 +1,16 @@
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { MODULES } from '../moduleCatalog.js'
 
-const STORAGE_KEY = 'intern-training-progress'
-export const PAGE_CHECKED_EVENT = 'intern-training-page-checked'
-export const MODULE_COMPLETED_EVENT = 'intern-training-module-completed'
 const ENGLISH_FOLDER_PREFIX = 'en/'
 const HINGLISH_FOLDER_PREFIX = 'hi/'
 const LOCALE_PREFIX_LENGTH = 3
 const MARKDOWN_EXTENSION = '.md'
+const PAGE_CELEBRATION = 'page'
+const MODULE_CELEBRATION = 'module'
 
 const PAGE_ORDER = MODULES.flatMap((trainingModule) => trainingModule.pages)
 
 const checkedPages = ref([])
-let progressLoaded = false
-
-function loadStoredProgress() {
-  const rawProgress = window.localStorage.getItem(STORAGE_KEY)
-  if (rawProgress === null) {
-    return
-  }
-  try {
-    const parsedProgress = JSON.parse(rawProgress)
-    if (Array.isArray(parsedProgress.checkedPages)) {
-      checkedPages.value = parsedProgress.checkedPages
-    }
-  } catch {
-    checkedPages.value = []
-  }
-}
-
-function saveStoredProgress() {
-  const progress = { checkedPages: checkedPages.value }
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
-}
-
-function loadProgressOnce() {
-  if (progressLoaded) {
-    return
-  }
-  progressLoaded = true
-  loadStoredProgress()
-}
 
 export function toPageKey(relativePath) {
   const hasLocalePrefix =
@@ -63,24 +33,18 @@ function togglePageCheck(pageKey) {
   checkedPages.value = wasChecked
     ? checkedPages.value.filter((page) => page !== pageKey)
     : [...checkedPages.value, pageKey]
-  saveStoredProgress()
   const isNowChecked = !wasChecked
   return isNowChecked
 }
 
-function celebratePageTransition(pageKey) {
+function resolveCelebrationType(pageKey) {
   const owningModule = MODULES.find(
     (trainingModule) =>
       trainingModule.pages.some((page) => page.path === pageKey) &&
       trainingModule.pages.every((page) => checkedPages.value.includes(page.path))
   )
-  if (owningModule !== undefined) {
-    window.dispatchEvent(
-      new CustomEvent(MODULE_COMPLETED_EVENT, { detail: { moduleTitle: owningModule.title } })
-    )
-    return
-  }
-  window.dispatchEvent(new CustomEvent(PAGE_CHECKED_EVENT))
+  const celebrationType = owningModule === undefined ? PAGE_CELEBRATION : MODULE_CELEBRATION
+  return celebrationType
 }
 
 function countCheckedPages(trainingModule) {
@@ -103,13 +67,10 @@ function findNextPageAfter(pageKey) {
 }
 
 export function useProgress() {
-  if (typeof window !== 'undefined') {
-    onMounted(loadProgressOnce)
-  }
   const progressHelpers = {
     isPageChecked,
     togglePageCheck,
-    celebratePageTransition,
+    resolveCelebrationType,
     countCheckedPages,
     findNextUnfinishedPagePath,
     findNextPageAfter

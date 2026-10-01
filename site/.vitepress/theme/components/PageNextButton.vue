@@ -1,15 +1,25 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
-import { useData } from 'vitepress'
+import { useData, useRouter } from 'vitepress'
+import { playApplauseSound } from '../applauseSound.js'
 import { toPageKey, useProgress } from '../composables/useProgress'
 import { useSiteText } from '../composables/useSiteText'
 
 const { page } = useData()
-const { isPageChecked, togglePageCheck, findNextPageAfter, celebratePageTransition } = useProgress()
+const router = useRouter()
+const { isPageChecked, togglePageCheck, findNextPageAfter, resolveCelebrationType } = useProgress()
 const { pickSiteText, localePrefix } = useSiteText()
+
+const PAGE_BURST_OPTIONS = { particleCount: 120, spread: 70, origin: { y: 0.7 } }
+const CENTER_BURST_OPTIONS = { particleCount: 160, spread: 80, origin: { y: 0.7 } }
+const LEFT_SIDE_BURST_OPTIONS = { particleCount: 90, angle: 60, spread: 70, origin: { x: 0, y: 0.8 } }
+const RIGHT_SIDE_BURST_OPTIONS = { particleCount: 90, angle: 120, spread: 70, origin: { x: 1, y: 0.8 } }
+const SIDE_BURST_DELAY_MILLISECONDS = 250
+const NAVIGATION_DELAY_MILLISECONDS = 900
 
 const isChecked = ref(false)
 const nextPage = ref(null)
+const isCelebrating = ref(false)
 
 onMounted(() => {
   const currentPageKey = toPageKey(page.value.relativePath)
@@ -17,12 +27,39 @@ onMounted(() => {
   nextPage.value = findNextPageAfter(currentPageKey)
 })
 
+async function firePageCelebration() {
+  const confetti = (await import('canvas-confetti')).default
+  confetti(PAGE_BURST_OPTIONS)
+}
+
+async function fireModuleCelebration() {
+  const confetti = (await import('canvas-confetti')).default
+  confetti(CENTER_BURST_OPTIONS)
+  window.setTimeout(() => {
+    confetti(LEFT_SIDE_BURST_OPTIONS)
+    confetti(RIGHT_SIDE_BURST_OPTIONS)
+  }, SIDE_BURST_DELAY_MILLISECONDS)
+}
+
 function handleNextClick() {
+  if (isCelebrating.value) {
+    return
+  }
+  isCelebrating.value = true
   const currentPageKey = toPageKey(page.value.relativePath)
   if (!isChecked.value) {
     isChecked.value = togglePageCheck(currentPageKey)
   }
-  celebratePageTransition(currentPageKey)
+  playApplauseSound()
+  const celebrationType = resolveCelebrationType(currentPageKey)
+  if (celebrationType === 'module') {
+    fireModuleCelebration()
+  } else {
+    firePageCelebration()
+  }
+  window.setTimeout(() => {
+    router.go(nextButtonHref.value)
+  }, NAVIGATION_DELAY_MILLISECONDS)
 }
 
 const nextButtonHref = computed(() => {
@@ -52,9 +89,9 @@ const nextButtonLabel = computed(() => {
 
 <template>
   <div v-if="nextPage !== null" class="page-next-button">
-    <a class="next-button" :href="nextButtonHref" @click="handleNextClick">
+    <button type="button" class="next-button" @click="handleNextClick">
       {{ nextButtonLabel }}
-    </a>
+    </button>
   </div>
 </template>
 
@@ -67,6 +104,7 @@ const nextButtonLabel = computed(() => {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   padding: 14px 18px;
   border: 1px solid var(--vp-button-brand-border);
   border-radius: 12px;
@@ -74,7 +112,7 @@ const nextButtonLabel = computed(() => {
   color: var(--vp-button-brand-text);
   font-size: 17px;
   font-weight: 700;
-  text-decoration: none;
+  cursor: pointer;
   transition: background-color 0.2s;
 }
 
