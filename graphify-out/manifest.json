@@ -475,13 +475,18 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
-    "mtime": 1790861950.0364454,
-    "ast_hash": "6ea52fec50031fb820f3c01283a3f24e",
+    "mtime": 1790862147.0159535,
+    "ast_hash": "2df857de50fd0f0272b1b8eb25082d4f",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/applauseSound.js": {
-    "mtime": 1790861949.691229,
-    "ast_hash": "718102c1ec0c57e94c30257c646f057f",
+    "mtime": 1790862146.6797483,
+    "ast_hash": "25042e7f191b9a6ae4b161fffc463cf5",
+    "semantic_hash": ""
+  },
+  "site/public/audience-clapping.mp3": {
+    "mtime": 1790862135.737982,
+    "ast_hash": "c9987cee479f83082a82e72e8b14a170",
     "semantic_hash": ""
   }
 }

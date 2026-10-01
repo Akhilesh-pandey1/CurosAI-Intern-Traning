@@ -51,7 +51,7 @@ function handleNextClick() {
     isChecked.value = togglePageCheck(currentPageKey)
   }
   const celebrationType = resolveCelebrationType(currentPageKey)
-  playApplauseSound(celebrationType)
+  playApplauseSound()
   if (celebrationType === 'module') {
     fireModuleCelebration()
   } else {

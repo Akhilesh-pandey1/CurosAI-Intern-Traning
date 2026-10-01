@@ -1286,7 +1286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system",
-      "community": 12,
+      "community": 23,
       "community_name": "design_system.py",
       "norm_label": "design_system.py"
     },
@@ -1551,7 +1551,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_hex_to_ansi",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "hex_to_ansi()"
     },
     {
@@ -1562,7 +1562,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_ansi_ljust",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "ansi_ljust()"
     },
     {
@@ -1573,7 +1573,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_section_header",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "section_header()"
     },
     {
@@ -1584,7 +1584,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_ascii_box",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_ascii_box()"
     },
     {
@@ -1595,7 +1595,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_markdown()"
     },
     {
@@ -1606,7 +1606,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1617,7 +1617,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_safe_slug",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "safe_slug()"
     },
     {
@@ -1628,7 +1628,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_write_persisted_file",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "_write_persisted_file()"
     },
     {
@@ -1639,7 +1639,7 @@
       "_origin": "ast",
       "id": "path",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "path"
     },
     {
@@ -1650,7 +1650,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_persist_design_system",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist_design_system()"
     },
     {
@@ -1661,7 +1661,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_master_md",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format_master_md()"
     },
     {
@@ -1671,8 +1671,8 @@
       "source_location": "L1381",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_page_override_md",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format_page_override_md()"
     },
     {
@@ -1682,8 +1682,8 @@
       "source_location": "L1490",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_intelligent_overrides",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_generate_intelligent_overrides()"
     },
     {
@@ -1693,8 +1693,8 @@
       "source_location": "L1596",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_detect_page_type",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_detect_page_type()"
     },
     {
@@ -1903,7 +1903,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_612",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "convert hex color to ansi true color swatch (\u2588\u2588) with fallback."
     },
     {
@@ -1914,7 +1914,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_626",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "like str.ljust but accounts for zero-width ansi escape sequences."
     },
     {
@@ -1925,7 +1925,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_634",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "create a unicode section separator: \u251c\u2500\u2500\u2500 name \u2500\u2500\u2500...\u2524"
     },
     {
@@ -1936,7 +1936,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_641",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as unicode box with ansi color swatches."
     },
     {
@@ -1947,7 +1947,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1958,7 +1958,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -1969,7 +1969,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_962",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "slugify a name into a single safe path segment. only [a-z0-9_-] survives; every..."
     },
     {
@@ -1980,7 +1980,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_973",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "write fully to a temp file, then publish atomically."
     },
     {
@@ -1991,7 +1991,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_997",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist design system to design-system/<project>/ folder using master +..."
     },
     {
@@ -2002,7 +2002,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1077",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format design system as master.md with hierarchical override logic."
     },
     {
@@ -2012,8 +2012,8 @@
       "source_location": "L1382",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1382",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format a page-specific override file with intelligent ai-generated content."
     },
     {
@@ -2023,8 +2023,8 @@
       "source_location": "L1491",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1491",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "generate intelligent overrides based on page type using layered search. uses..."
     },
     {
@@ -2034,8 +2034,8 @@
       "source_location": "L1597",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1597",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "detect page type from context and search results."
     },
     {
@@ -3229,52 +3229,19 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "site_vitepress_theme_applausesound",
-      "community": 84,
-      "community_name": "playApplauseSound",
+      "community": 42,
+      "community_name": "PageNextButton.vue",
       "norm_label": "applausesound.js"
-    },
-    {
-      "label": "getAudioContext()",
-      "file_type": "code",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "site_vitepress_theme_applausesound_getaudiocontext",
-      "community": 84,
-      "community_name": "playApplauseSound",
-      "norm_label": "getaudiocontext()"
-    },
-    {
-      "label": "createNoiseBuffer()",
-      "file_type": "code",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "site_vitepress_theme_applausesound_createnoisebuffer",
-      "community": 84,
-      "community_name": "playApplauseSound",
-      "norm_label": "createnoisebuffer()"
-    },
-    {
-      "label": "scheduleClap()",
-      "file_type": "code",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "site_vitepress_theme_applausesound_scheduleclap",
-      "community": 84,
-      "community_name": "playApplauseSound",
-      "norm_label": "scheduleclap()"
     },
     {
       "label": "playApplauseSound()",
       "file_type": "code",
       "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L49",
+      "source_location": "L5",
       "_origin": "ast",
       "id": "site_vitepress_theme_applausesound_playapplausesound",
-      "community": 84,
-      "community_name": "playApplauseSound",
+      "community": 42,
+      "community_name": "PageNextButton.vue",
       "norm_label": "playapplausesound()"
     },
     {
@@ -13715,44 +13682,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_applausesound",
-      "target": "site_vitepress_theme_applausesound_createnoisebuffer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_applausesound",
-      "target": "site_vitepress_theme_applausesound_getaudiocontext",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L49",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_applausesound",
       "target": "site_vitepress_theme_applausesound_playapplausesound",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_applausesound",
-      "target": "site_vitepress_theme_applausesound_scheduleclap",
       "confidence_score": 1.0
     },
     {
@@ -13765,42 +13699,6 @@
       "_origin": "ast",
       "source": "site_vitepress_theme_components_pagenextbutton",
       "target": "site_vitepress_theme_applausesound",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L53",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_applausesound_playapplausesound",
-      "target": "site_vitepress_theme_applausesound_getaudiocontext",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L54",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_applausesound_playapplausesound",
-      "target": "site_vitepress_theme_applausesound_createnoisebuffer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "site/.vitepress/theme/applauseSound.js",
-      "source_location": "L58",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_vitepress_theme_applausesound_playapplausesound",
-      "target": "site_vitepress_theme_applausesound_scheduleclap",
       "confidence_score": 1.0
     },
     {
@@ -13820,7 +13718,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "site/.vitepress/theme/components/PageNextButton.vue",
-      "source_location": "L53",
+      "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_pagenextbutton_handlenextclick",
@@ -14370,7 +14268,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/.vitepress/theme/components/PageNextButton.vue",
-      "source_location": "L54",
+      "source_location": "L53",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_vitepress_theme_components_pagenextbutton_handlenextclick",
@@ -18713,5 +18611,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ea7d2ec81e8414387d00225c17b3e8fb77e69fda"
+  "built_at_commit": "6812b42c83c68a7f327064fa052466a1074229b4"
 }

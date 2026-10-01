@@ -1,7 +1,7 @@
 # Graph Report - Intern-Training  (2026-10-01)
 
 ## Corpus Check
-- 91 files · ~168,715 words
+- 91 files · ~168,699 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6812b42c`
+- Built from commit: `967a2584`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,7 @@
 - Before Grill — the problem gate
 - Page Map
 - tickets.mjs
-- generate_design_system
+- design_system.py
 - Steps
 - Test-Driven Development
 - package.json
@@ -35,10 +35,10 @@
 - ._apply_reasoning
 - Python Code Style & Standards
 - _select_palette_for_mode
-- .generate
+- _generate_intelligent_overrides
 - AGENTS.md
 - CLAUDE.md
-- design_system.py
+- persist_design_system
 - graphify reference: extra exports and benchmark
 - helper.js
 - Code Style & Standards
@@ -162,9 +162,9 @@ Nodes (15): 10. Frontend UI Design — 5 pages, 11. Clean Code & Testing — 5 p
 Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
-### Community 12 - "generate_design_system"
-Cohesion: 0.17
-Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
+### Community 12 - "design_system.py"
+Cohesion: 0.18
+Nodes (14): ansi_ljust(), _filter_anti_patterns_for_mode(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -179,8 +179,8 @@ Cohesion: 0.15
 Nodes (12): dependencies, canvas-confetti, devDependencies, vitepress, canvas-confetti, name, private, scripts (+4 more)
 
 ### Community 16 - "DesignSystemGenerator"
-Cohesion: 0.27
-Nodes (4): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords.
+Cohesion: 0.15
+Nodes (9): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Execute searches across multiple domains., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None. (+1 more)
 
 ### Community 17 - "._apply_reasoning"
 Cohesion: 0.24
@@ -194,9 +194,9 @@ Nodes (9): Code Quality, Error & Exception Handling, File Structure, Imports, Li
 Cohesion: 0.22
 Nodes (10): _contrast_ratio(), _derive_dark_palette(), _palette_is_dark(), WCAG relative luminance of a #RRGGBB string, or None if unparseable., True when a colors.csv row's Background is a dark surface., WCAG contrast ratio for two hex colors, or None if either is invalid., Keep product brand tokens while deriving accessible dark surfaces., Pick the highest-ranked palette matching the resolved mode. Only the dark case… (+2 more)
 
-### Community 20 - ".generate"
-Cohesion: 0.20
-Nodes (7): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Execute searches across multiple domains., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None., _resolve_dial()
+### Community 20 - "_generate_intelligent_overrides"
+Cohesion: 0.33
+Nodes (6): _detect_page_type(), format_page_override_md(), _generate_intelligent_overrides(), Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses…, Detect page type from context and search results.
 
 ### Community 21 - "AGENTS.md"
 Cohesion: 0.22
@@ -206,9 +206,9 @@ Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines,
 Cohesion: 0.22
 Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines, Working Directory
 
-### Community 23 - "design_system.py"
-Cohesion: 0.18
-Nodes (15): _detect_page_type(), format_master_md(), format_page_override_md(), _generate_intelligent_overrides(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses… (+7 more)
+### Community 23 - "persist_design_system"
+Cohesion: 0.25
+Nodes (9): format_master_md(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Slugify a name into a single safe path segment. Only [a-z0-9_-] survives; every…, Write fully to a temp file, then publish atomically., Persist design system to design-system/<project>/ folder using Master +…, safe_slug(), _write_persisted_file() (+1 more)
 
 ### Community 24 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
@@ -362,9 +362,9 @@ Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as d
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`?**
+- **Why does `search()` connect `core.py` to `DesignSystemGenerator`, `design_system.py`, `_generate_intelligent_overrides`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `.generate`, `generate_design_system`, `design_system.py`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
