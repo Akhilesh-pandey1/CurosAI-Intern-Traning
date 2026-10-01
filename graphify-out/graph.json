@@ -1286,7 +1286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system",
-      "community": 12,
+      "community": 23,
       "community_name": "design_system.py",
       "norm_label": "design_system.py"
     },
@@ -1551,7 +1551,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_hex_to_ansi",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "hex_to_ansi()"
     },
     {
@@ -1562,7 +1562,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_ansi_ljust",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "ansi_ljust()"
     },
     {
@@ -1573,7 +1573,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_section_header",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "section_header()"
     },
     {
@@ -1584,7 +1584,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_ascii_box",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_ascii_box()"
     },
     {
@@ -1595,7 +1595,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_markdown()"
     },
     {
@@ -1606,7 +1606,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1617,7 +1617,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_safe_slug",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "safe_slug()"
     },
     {
@@ -1628,7 +1628,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_write_persisted_file",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "_write_persisted_file()"
     },
     {
@@ -1639,7 +1639,7 @@
       "_origin": "ast",
       "id": "path",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "path"
     },
     {
@@ -1650,7 +1650,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_persist_design_system",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist_design_system()"
     },
     {
@@ -1661,7 +1661,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_master_md",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format_master_md()"
     },
     {
@@ -1671,8 +1671,8 @@
       "source_location": "L1381",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_page_override_md",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format_page_override_md()"
     },
     {
@@ -1682,8 +1682,8 @@
       "source_location": "L1490",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_intelligent_overrides",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_generate_intelligent_overrides()"
     },
     {
@@ -1693,8 +1693,8 @@
       "source_location": "L1596",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_detect_page_type",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_detect_page_type()"
     },
     {
@@ -1903,7 +1903,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_612",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "convert hex color to ansi true color swatch (\u2588\u2588) with fallback."
     },
     {
@@ -1914,7 +1914,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_626",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "like str.ljust but accounts for zero-width ansi escape sequences."
     },
     {
@@ -1925,7 +1925,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_634",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "create a unicode section separator: \u251c\u2500\u2500\u2500 name \u2500\u2500\u2500...\u2524"
     },
     {
@@ -1936,7 +1936,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_641",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as unicode box with ansi color swatches."
     },
     {
@@ -1947,7 +1947,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1958,7 +1958,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -1969,7 +1969,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_962",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "slugify a name into a single safe path segment. only [a-z0-9_-] survives; every..."
     },
     {
@@ -1980,7 +1980,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_973",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "write fully to a temp file, then publish atomically."
     },
     {
@@ -1991,7 +1991,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_997",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist design system to design-system/<project>/ folder using master +..."
     },
     {
@@ -2002,7 +2002,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1077",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format design system as master.md with hierarchical override logic."
     },
     {
@@ -2012,8 +2012,8 @@
       "source_location": "L1382",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1382",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format a page-specific override file with intelligent ai-generated content."
     },
     {
@@ -2023,8 +2023,8 @@
       "source_location": "L1491",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1491",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "generate intelligent overrides based on page type using layered search. uses..."
     },
     {
@@ -2034,8 +2034,8 @@
       "source_location": "L1597",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1597",
-      "community": 41,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "detect page type from context and search results."
     },
     {
@@ -8213,19 +8213,19 @@
       "_origin": "ast",
       "id": "site_en_index",
       "community": 48,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "en/index.md"
     },
     {
-      "label": "Kurosia Intern Training",
+      "label": "Curosai Intern Training",
       "file_type": "document",
       "source_file": "site/en/index.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "site_en_index_kurosia_intern_training",
+      "id": "site_en_index_curosai_intern_training",
       "community": 48,
-      "community_name": "Kurosia Intern Training",
-      "norm_label": "kurosia intern training"
+      "community_name": "Curosai Intern Training",
+      "norm_label": "curosai intern training"
     },
     {
       "label": "How to use this site",
@@ -8235,7 +8235,7 @@
       "_origin": "ast",
       "id": "site_en_index_how_to_use_this_site",
       "community": 48,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "how to use this site"
     },
     {
@@ -8246,7 +8246,7 @@
       "_origin": "ast",
       "id": "site_en_index_the_learning_approach_in_short",
       "community": 48,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "the learning approach in short"
     },
     {
@@ -8257,7 +8257,7 @@
       "_origin": "ast",
       "id": "site_en_index_what_you_will_build",
       "community": 48,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "what you will build"
     },
     {
@@ -8422,19 +8422,19 @@
       "_origin": "ast",
       "id": "site_hi_index",
       "community": 49,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "hi/index.md"
     },
     {
-      "label": "Kurosia Intern Training",
+      "label": "Curosai Intern Training",
       "file_type": "document",
       "source_file": "site/hi/index.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "site_hi_index_kurosia_intern_training",
+      "id": "site_hi_index_curosai_intern_training",
       "community": 49,
-      "community_name": "Kurosia Intern Training",
-      "norm_label": "kurosia intern training"
+      "community_name": "Curosai Intern Training",
+      "norm_label": "curosai intern training"
     },
     {
       "label": "Is site ko kaise use karein",
@@ -8444,7 +8444,7 @@
       "_origin": "ast",
       "id": "site_hi_index_is_site_ko_kaise_use_karein",
       "community": 49,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "is site ko kaise use karein"
     },
     {
@@ -8455,7 +8455,7 @@
       "_origin": "ast",
       "id": "site_hi_index_learning_approach_short_mein",
       "community": 49,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "learning approach \u2014 short mein"
     },
     {
@@ -8466,7 +8466,7 @@
       "_origin": "ast",
       "id": "site_hi_index_aap_kya_banoge",
       "community": 49,
-      "community_name": "Kurosia Intern Training",
+      "community_name": "Curosai Intern Training",
       "norm_label": "aap kya banoge"
     }
   ],
@@ -18499,7 +18499,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_index",
-      "target": "site_en_index_kurosia_intern_training",
+      "target": "site_en_index_curosai_intern_training",
       "confidence_score": 1.0
     },
     {
@@ -18509,7 +18509,7 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_index_kurosia_intern_training",
+      "source": "site_en_index_curosai_intern_training",
       "target": "site_en_index_how_to_use_this_site",
       "confidence_score": 1.0
     },
@@ -18520,7 +18520,7 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_index_kurosia_intern_training",
+      "source": "site_en_index_curosai_intern_training",
       "target": "site_en_index_the_learning_approach_in_short",
       "confidence_score": 1.0
     },
@@ -18531,7 +18531,7 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_index_kurosia_intern_training",
+      "source": "site_en_index_curosai_intern_training",
       "target": "site_en_index_what_you_will_build",
       "confidence_score": 1.0
     },
@@ -18675,7 +18675,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_index",
-      "target": "site_hi_index_kurosia_intern_training",
+      "target": "site_hi_index_curosai_intern_training",
       "confidence_score": 1.0
     },
     {
@@ -18685,7 +18685,7 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_hi_index_kurosia_intern_training",
+      "source": "site_hi_index_curosai_intern_training",
       "target": "site_hi_index_aap_kya_banoge",
       "confidence_score": 1.0
     },
@@ -18696,7 +18696,7 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_hi_index_kurosia_intern_training",
+      "source": "site_hi_index_curosai_intern_training",
       "target": "site_hi_index_is_site_ko_kaise_use_karein",
       "confidence_score": 1.0
     },
@@ -18707,11 +18707,11 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_hi_index_kurosia_intern_training",
+      "source": "site_hi_index_curosai_intern_training",
       "target": "site_hi_index_learning_approach_short_mein",
       "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "60f95aacb0fb4512d06f851adf373b6595ed1c60"
+  "built_at_commit": "cad8e9879209f261841d5160de64e4406fcc074f"
 }

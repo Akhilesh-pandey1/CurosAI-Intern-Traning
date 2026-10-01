@@ -1,4 +1,4 @@
-# Kurosia Intern Training
+# Curosai Intern Training
 
 Welcome. Ye site aapko le jaati hai jahan aaj ho, wahan se ek poora project akela ship karne tak — AI aapke neeche kaam karta hai, aapke upar nahi.
 

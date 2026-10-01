@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
 import { MODULES } from './theme/moduleCatalog.js'
 
-const SITE_TITLE = 'Kurosia Intern Training'
+const SITE_TITLE = 'Curosai Intern Training'
 const SITE_DESCRIPTION =
   'One ordered path from intern to independent builder — HTML/CSS, JavaScript, React, Python, and AI-first working habits.'
-const COMPANY_URL = ''
+const COMPANY_URL = 'https://curosai.com'
 
-const companyNavLinks = COMPANY_URL === '' ? [] : [{ text: 'Kurosia', link: COMPANY_URL }]
+const companyNavLinks = COMPANY_URL === '' ? [] : [{ text: 'Curosai', link: COMPANY_URL }]
 
 function buildSidebar(localePrefix, pickPageTitle) {
   const sidebarEntries = MODULES.map((trainingModule, moduleIndex) => {
