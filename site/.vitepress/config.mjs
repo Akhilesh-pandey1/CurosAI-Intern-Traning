@@ -44,8 +44,8 @@ export default defineConfig({
         nav: companyNavLinks,
         sidebar: buildSidebar('', (page) => page.enTitle),
         docFooter: {
-          prev: 'Previous',
-          next: 'Next'
+          prev: false,
+          next: false
         },
         returnToTopLabel: 'Back to top',
         outline: {
@@ -65,8 +65,8 @@ export default defineConfig({
         nav: companyNavLinks,
         sidebar: buildSidebar('/hi', (page) => page.hiTitle),
         docFooter: {
-          prev: 'Pichla page',
-          next: 'Agla page'
+          prev: false,
+          next: false
         },
         returnToTopLabel: 'Upar wapas jao',
         outline: {
