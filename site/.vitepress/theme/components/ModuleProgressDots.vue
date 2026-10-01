@@ -32,7 +32,7 @@ const moduleStates = computed(() =>
     const moduleState = {
       title: trainingModule.title,
       chipTag: hasFirstPage ? 'a' : 'span',
-      chipHref: hasFirstPage ? `${localePrefix.value}${trainingModule.pages[0]}.html` : undefined,
+      chipHref: hasFirstPage ? `${localePrefix.value}${trainingModule.pages[0]}` : undefined,
       checkedPageCount,
       totalPages,
       progressState: resolveModuleState(totalPages, checkedPageCount)

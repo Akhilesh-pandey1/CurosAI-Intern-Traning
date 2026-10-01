@@ -26,44 +26,33 @@ function handleNextClick() {
 }
 
 const nextButtonHref = computed(() => {
-  if (nextPage.value !== null) {
-    const nextPageHref = `${localePrefix.value}${nextPage.value.path}.html`
-    return nextPageHref
+  if (nextPage.value === null) {
+    return ''
   }
-  const homeHref = `${localePrefix.value}/`
-  return homeHref
+  const nextPageHref = `${localePrefix.value}${nextPage.value.path}`
+  return nextPageHref
 })
 
 const nextButtonLabel = computed(() => {
-  if (nextPage.value !== null) {
-    const nextPageTitle = pickSiteText(nextPage.value.enTitle, nextPage.value.hiTitle)
-    if (isChecked.value) {
-      const nextLabel = pickSiteText(`Next: ${nextPageTitle} →`, `Agla: ${nextPageTitle} →`)
-      return nextLabel
-    }
-    const doneAndNextLabel = pickSiteText(
-      `I have done this — Next: ${nextPageTitle} →`,
-      `Maine kar liya — Agla: ${nextPageTitle} →`
-    )
-    return doneAndNextLabel
+  if (nextPage.value === null) {
+    return ''
   }
+  const nextPageTitle = pickSiteText(nextPage.value.enTitle, nextPage.value.hiTitle)
   if (isChecked.value) {
-    const homeLabel = pickSiteText('Back to Home 🎉', 'Home wapas 🎉')
-    return homeLabel
+    const nextLabel = pickSiteText(`Next: ${nextPageTitle} →`, `Agla: ${nextPageTitle} →`)
+    return nextLabel
   }
-  const doneAndHomeLabel = pickSiteText('I have done this — back to Home 🎉', 'Maine kar liya — Home wapas 🎉')
-  return doneAndHomeLabel
+  const doneAndNextLabel = pickSiteText(
+    `I have done this — Next: ${nextPageTitle} →`,
+    `Maine kar liya — Agla: ${nextPageTitle} →`
+  )
+  return doneAndNextLabel
 })
 </script>
 
 <template>
-  <div class="page-next-button">
-    <a
-      class="next-button"
-      :class="{ 'is-module-end': nextPage === null }"
-      :href="nextButtonHref"
-      @click="handleNextClick"
-    >
+  <div v-if="nextPage !== null" class="page-next-button">
+    <a class="next-button" :href="nextButtonHref" @click="handleNextClick">
       {{ nextButtonLabel }}
     </a>
   </div>
@@ -92,15 +81,5 @@ const nextButtonLabel = computed(() => {
 .next-button:hover {
   border-color: var(--vp-button-brand-hover-border);
   background: var(--vp-button-brand-hover-bg);
-}
-
-.next-button.is-module-end {
-  border-color: var(--vp-c-green-1);
-  background: var(--vp-c-bg);
-  color: var(--vp-c-green-1);
-}
-
-.next-button.is-module-end:hover {
-  background: var(--vp-c-green-soft, transparent);
 }
 </style>

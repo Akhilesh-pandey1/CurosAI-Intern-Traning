@@ -8,12 +8,14 @@ const router = useRouter()
 const { findNextUnfinishedPagePath } = useProgress()
 const { pickSiteText, localePrefix } = useSiteText()
 
-const targetPagePath = ref('/')
+const targetPagePath = ref('')
+const hasUnfinishedPages = ref(false)
 
 onMounted(() => {
   const nextPagePath = findNextUnfinishedPagePath()
+  hasUnfinishedPages.value = nextPagePath !== '/'
   targetPagePath.value =
-    nextPagePath === '/' ? `${localePrefix.value}/` : `${localePrefix.value}${nextPagePath}.html`
+    nextPagePath === '/' ? `${localePrefix.value}/` : `${localePrefix.value}${nextPagePath}`
 })
 
 const buttonLabel = computed(() => pickSiteText('Continue learning', 'Aage padho'))
@@ -24,7 +26,7 @@ function handleContinueClick() {
 </script>
 
 <template>
-  <button type="button" class="continue-button" @click="handleContinueClick">
+  <button v-if="hasUnfinishedPages" type="button" class="continue-button" @click="handleContinueClick">
     {{ buttonLabel }} <span aria-hidden="true">→</span>
   </button>
 </template>
