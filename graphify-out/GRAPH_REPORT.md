@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-01)
 
 ## Corpus Check
-- 91 files · ~168,920 words
+- 91 files · ~168,853 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 766 nodes · 909 edges · 83 communities (74 shown, 9 thin omitted)
+- 765 nodes · 906 edges · 83 communities (74 shown, 9 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0180054e`
+- Built from commit: `40e0d0a8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -98,14 +98,14 @@
 ## Surprising Connections (you probably didn't know these)
 - `_generate_intelligent_overrides()` --calls--> `search()`  [EXTRACTED]
   .claude/skills/design-screens/uiux/scripts/design_system.py → .claude/skills/design-screens/uiux/scripts/core.py
-- `handleCheckOffToggle()` --calls--> `findNextPageAfter()`  [EXTRACTED]
-  site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
-- `handleCheckOffToggle()` --calls--> `togglePageCheck()`  [EXTRACTED]
-  site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
-- `handleCheckOffToggle()` --calls--> `toPageKey()`  [EXTRACTED]
-  site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
 - `handleNextClick()` --calls--> `celebratePageTransition()`  [EXTRACTED]
-  site/.vitepress/theme/components/PageCheckOff.vue → site/.vitepress/theme/composables/useProgress.js
+  site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/composables/useProgress.js
+- `handleNextClick()` --calls--> `togglePageCheck()`  [EXTRACTED]
+  site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/composables/useProgress.js
+- `handleNextClick()` --calls--> `toPageKey()`  [EXTRACTED]
+  site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/composables/useProgress.js
+- `celebratePageTransition()` --references--> `MODULES`  [EXTRACTED]
+  site/.vitepress/theme/composables/useProgress.js → site/.vitepress/theme/moduleCatalog.js
 
 ## Import Cycles
 - None detected.
@@ -122,7 +122,7 @@ Nodes (55): bootstrapPage(), brandMarkup(), broadcast(), browserLauncherForPlatf
 
 ### Community 2 - "useProgress.js"
 Cohesion: 0.05
-Nodes (47): buttonLabel, { findNextUnfinishedPagePath }, { pickSiteText, localePrefix }, router, targetPagePath, { countCheckedPages }, { localePrefix }, moduleStates (+39 more)
+Nodes (46): buttonLabel, { findNextUnfinishedPagePath }, { pickSiteText, localePrefix }, router, targetPagePath, { countCheckedPages }, { localePrefix }, moduleStates (+38 more)
 
 ### Community 3 - "deny"
 Cohesion: 0.07
@@ -365,4 +365,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `server.cjs` be split into smaller, more focused modules?**
   _Cohesion score 0.05868118572292801 - nodes in this community are weakly interconnected._
 - **Should `useProgress.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.053410893707033315 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.053551912568306013 - nodes in this community are weakly interconnected._

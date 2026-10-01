@@ -42,4 +42,4 @@ Ek simple rule: *jo dikh sakta hai, click ho sakta hai, ya hil-dul sakta hai —
 
 Ye loop — generate, ask, modify, observe — isi poori training ka engine hai.
 
-<PageCheckOff />
+<PageNextButton />

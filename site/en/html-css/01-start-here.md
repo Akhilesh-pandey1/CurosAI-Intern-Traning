@@ -42,4 +42,4 @@ A simple rule: *if you can see it, click it, or watch it move, it is user side. 
 
 That loop — generate, ask, modify, observe — is the engine of this whole training.
 
-<PageCheckOff />
+<PageNextButton />
