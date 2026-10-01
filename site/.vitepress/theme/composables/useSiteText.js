@@ -9,5 +9,6 @@ export function useSiteText() {
 
   const pickSiteText = (englishText, hinglishText) => (isHinglish.value ? hinglishText : englishText)
 
-  return { pickSiteText, localePrefix }
+  const siteTextHelpers = { pickSiteText, localePrefix }
+  return siteTextHelpers
 }

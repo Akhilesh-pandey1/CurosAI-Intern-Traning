@@ -1,9 +1,10 @@
 <script setup>
 import { computed } from 'vue'
+import { MODULES } from '../moduleCatalog.js'
 import { useProgress } from '../composables/useProgress'
 import { useSiteText } from '../composables/useSiteText'
 
-const { MODULES, countCheckedPages } = useProgress()
+const { countCheckedPages } = useProgress()
 const { localePrefix } = useSiteText()
 
 const NOT_STARTED_STATE = 'not-started'
@@ -27,39 +28,34 @@ const moduleStates = computed(() =>
   MODULES.map((trainingModule) => {
     const checkedPageCount = countCheckedPages(trainingModule)
     const totalPages = trainingModule.pages.length
-    const firstPagePath =
-      totalPages > 0 ? `${localePrefix.value}${trainingModule.pages[0]}.html` : ''
-    const moduleState = resolveModuleState(totalPages, checkedPageCount)
-    return {
+    const hasFirstPage = totalPages > 0
+    const moduleState = {
       title: trainingModule.title,
-      firstPagePath,
+      chipTag: hasFirstPage ? 'a' : 'span',
+      chipHref: hasFirstPage ? `${localePrefix.value}${trainingModule.pages[0]}.html` : undefined,
       checkedPageCount,
       totalPages,
-      moduleState
+      progressState: resolveModuleState(totalPages, checkedPageCount)
     }
+    return moduleState
   })
 )
 </script>
 
 <template>
   <div class="module-progress-dots">
-    <template v-for="moduleState in moduleStates" :key="moduleState.title">
-      <a
-        v-if="moduleState.firstPagePath !== ''"
-        class="module-chip"
-        :class="`is-${moduleState.moduleState}`"
-        :href="moduleState.firstPagePath"
-      >
-        <span class="module-dot"></span>
-        <span class="module-title">{{ moduleState.title }}</span>
-        <span class="module-count">{{ moduleState.checkedPageCount }}/{{ moduleState.totalPages }}</span>
-      </a>
-      <span v-else class="module-chip" :class="`is-${moduleState.moduleState}`">
-        <span class="module-dot"></span>
-        <span class="module-title">{{ moduleState.title }}</span>
-        <span class="module-count">{{ moduleState.checkedPageCount }}/{{ moduleState.totalPages }}</span>
-      </span>
-    </template>
+    <component
+      :is="moduleState.chipTag"
+      v-for="moduleState in moduleStates"
+      :key="moduleState.title"
+      class="module-chip"
+      :class="`is-${moduleState.progressState}`"
+      :href="moduleState.chipHref"
+    >
+      <span class="module-dot"></span>
+      <span class="module-title">{{ moduleState.title }}</span>
+      <span class="module-count">{{ moduleState.checkedPageCount }}/{{ moduleState.totalPages }}</span>
+    </component>
   </div>
 </template>
 

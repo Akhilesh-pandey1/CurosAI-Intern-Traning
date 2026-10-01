@@ -75,4 +75,14 @@ Three ideas carry most of the weight:
 4. Modify it yourself: add a footer, remove one skill, make the email input optional, add a phone number field.
 5. Observe after each change — one change at a time.
 
+<QuizBlock
+  :questions="[
+    { question: 'Which tag carries the main heading of a page?', answer: 'The h1 tag — and a page gets only one of them.' },
+    { question: 'What is the difference between a div and a section?', answer: 'Both group content, but section carries meaning — it names one themed block of the page. A div is a plain box with no meaning.' },
+    { question: 'Why does every input deserve a label?', answer: 'The label tells the user — and screen readers — what to type. It connects to its input by matching the for and id values.' },
+    { question: 'What does type email do on an input?', answer: 'It tells the browser what kind of data belongs there, so the browser can check the format for free before the form is submitted.' },
+    { question: 'Where does the browser tab title come from?', answer: 'From the title tag inside head — the part of the page that holds settings the visitor does not read.' }
+  ]"
+/>
+
 <PageCheckOff />

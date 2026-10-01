@@ -1,4 +1,5 @@
 import { onMounted, ref } from 'vue'
+import { MODULES } from '../moduleCatalog.js'
 
 const STORAGE_KEY = 'intern-training-progress'
 export const MODULE_COMPLETED_EVENT = 'intern-training-module-completed'
@@ -7,25 +8,7 @@ const HINGLISH_FOLDER_PREFIX = 'hi/'
 const LOCALE_PREFIX_LENGTH = 3
 const MARKDOWN_EXTENSION = '.md'
 
-export const MODULES = [
-  {
-    title: 'HTML/CSS',
-    pages: ['/html-css/01-start-here', '/html-css/02-html-essentials']
-  },
-  { title: 'JavaScript', pages: [] },
-  { title: 'React', pages: [] },
-  { title: 'Python/Flask', pages: [] },
-  { title: 'Database', pages: [] },
-  { title: 'CLI (Terminal)', pages: [] },
-  { title: 'Git', pages: [] },
-  { title: 'Agent Coding', pages: [] },
-  { title: 'API Design', pages: [] },
-  { title: 'Frontend UI Design', pages: [] },
-  { title: 'Clean Code & Testing', pages: [] },
-  { title: 'School CRM Capstone', pages: [] }
-]
-
-const PAGE_ORDER = MODULES.flatMap((module) => module.pages)
+const PAGE_ORDER = MODULES.flatMap((trainingModule) => trainingModule.pages)
 
 const checkedPages = ref([])
 const celebratedModules = ref([])
@@ -71,31 +54,25 @@ export function toPageKey(relativePath) {
     relativePath.startsWith(ENGLISH_FOLDER_PREFIX) || relativePath.startsWith(HINGLISH_FOLDER_PREFIX)
   const pathWithoutLocale = hasLocalePrefix ? relativePath.slice(LOCALE_PREFIX_LENGTH) : relativePath
   const hasMarkdownExtension = pathWithoutLocale.endsWith(MARKDOWN_EXTENSION)
-  return hasMarkdownExtension
+  const pageKey = hasMarkdownExtension
     ? pathWithoutLocale.slice(0, -MARKDOWN_EXTENSION.length)
     : pathWithoutLocale
+  return pageKey
 }
 
 function isPageChecked(pageKey) {
-  return checkedPages.value.includes(pageKey)
+  const pageIsChecked = checkedPages.value.includes(pageKey)
+  return pageIsChecked
 }
 
-function findModuleOfPage(pageKey) {
-  return MODULES.find((module) => module.pages.includes(pageKey))
-}
-
-function isModuleComplete(module) {
-  return module.pages.length > 0 && module.pages.every((page) => checkedPages.value.includes(page))
-}
-
-function celebrateModuleOnce(module) {
-  const alreadyCelebrated = celebratedModules.value.includes(module.title)
+function celebrateModuleOnce(owningModule) {
+  const alreadyCelebrated = celebratedModules.value.includes(owningModule.title)
   if (alreadyCelebrated) {
     return
   }
-  celebratedModules.value = [...celebratedModules.value, module.title]
+  celebratedModules.value = [...celebratedModules.value, owningModule.title]
   saveStoredProgress()
-  window.dispatchEvent(new CustomEvent(MODULE_COMPLETED_EVENT, { detail: { moduleTitle: module.title } }))
+  window.dispatchEvent(new CustomEvent(MODULE_COMPLETED_EVENT, { detail: { moduleTitle: owningModule.title } }))
 }
 
 function togglePageCheck(pageKey) {
@@ -104,32 +81,37 @@ function togglePageCheck(pageKey) {
     ? checkedPages.value.filter((page) => page !== pageKey)
     : [...checkedPages.value, pageKey]
   saveStoredProgress()
-  const module = findModuleOfPage(pageKey)
-  if (module !== undefined && isModuleComplete(module)) {
-    celebrateModuleOnce(module)
+  const owningModule = MODULES.find((trainingModule) => trainingModule.pages.includes(pageKey))
+  const moduleNowComplete =
+    owningModule !== undefined &&
+    owningModule.pages.every((page) => checkedPages.value.includes(page))
+  if (moduleNowComplete) {
+    celebrateModuleOnce(owningModule)
   }
-  return !wasChecked
+  const isNowChecked = !wasChecked
+  return isNowChecked
 }
 
-function countCheckedPages(module) {
-  return module.pages.filter((page) => checkedPages.value.includes(page)).length
+function countCheckedPages(trainingModule) {
+  const checkedPageCount = trainingModule.pages.filter((page) => checkedPages.value.includes(page)).length
+  return checkedPageCount
 }
 
 function findNextUnfinishedPagePath() {
   const nextUnfinishedPage = PAGE_ORDER.find((page) => !checkedPages.value.includes(page))
-  return nextUnfinishedPage === undefined ? '/' : nextUnfinishedPage
+  const nextUnfinishedPagePath = nextUnfinishedPage === undefined ? '/' : nextUnfinishedPage
+  return nextUnfinishedPagePath
 }
 
 export function useProgress() {
   if (typeof window !== 'undefined') {
     onMounted(loadProgressOnce)
   }
-  return {
-    MODULES,
-    checkedPages,
+  const progressHelpers = {
     isPageChecked,
     togglePageCheck,
     countCheckedPages,
     findNextUnfinishedPagePath
   }
+  return progressHelpers
 }

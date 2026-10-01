@@ -1,41 +1,33 @@
 import { defineConfig } from 'vitepress'
+import { MODULES } from './theme/moduleCatalog.js'
 
 const SITE_TITLE = 'Intern Training'
 const SITE_DESCRIPTION =
   'One ordered path from intern to independent builder — HTML/CSS, JavaScript, React, Python, and AI-first working habits.'
 
-const ENGLISH_FIRST_MODULE_LINKS = [
-  { text: 'Start Here', link: '/html-css/01-start-here' },
-  { text: 'HTML Essentials', link: '/html-css/02-html-essentials' }
-]
+const ENGLISH_PAGE_LABELS = {
+  '/html-css/01-start-here': 'Start Here',
+  '/html-css/02-html-essentials': 'HTML Essentials'
+}
 
-const HINGLISH_FIRST_MODULE_LINKS = [
-  { text: 'Start Here', link: '/hi/html-css/01-start-here' },
-  { text: 'HTML Essentials', link: '/hi/html-css/02-html-essentials' }
-]
+const HINGLISH_PAGE_LABELS = {
+  '/html-css/01-start-here': 'Yahan Se Shuru Karein',
+  '/html-css/02-html-essentials': 'HTML Ki Basics'
+}
 
-const PENDING_MODULE_LABELS = [
-  '2. JavaScript',
-  '3. React',
-  '4. Python/Flask',
-  '5. Database',
-  '6. CLI (Terminal)',
-  '7. Git',
-  '8. Agent Coding',
-  '9. API Design',
-  '10. Frontend UI Design',
-  '11. Clean Code & Testing',
-  '12. School CRM Capstone'
-]
-
-function buildSidebar(firstModuleLinks) {
-  const htmlCssModule = {
-    text: '1. HTML/CSS',
-    collapsed: false,
-    items: firstModuleLinks
-  }
-  const pendingModules = PENDING_MODULE_LABELS.map((label) => ({ text: label }))
-  return [htmlCssModule, ...pendingModules]
+function buildSidebar(localePrefix, pageLabels) {
+  const sidebarEntries = MODULES.map((trainingModule, moduleIndex) => {
+    const moduleLabel = `${moduleIndex + 1}. ${trainingModule.title}`
+    if (trainingModule.pages.length === 0) {
+      return { text: moduleLabel }
+    }
+    const pageLinks = trainingModule.pages.map((pagePath) => ({
+      text: pageLabels[pagePath],
+      link: `${localePrefix}${pagePath}`
+    }))
+    return { text: moduleLabel, collapsed: moduleIndex > 0, items: pageLinks }
+  })
+  return sidebarEntries
 }
 
 export default defineConfig({
@@ -56,7 +48,7 @@ export default defineConfig({
       link: '/',
       themeConfig: {
         siteTitle: SITE_TITLE,
-        sidebar: buildSidebar(ENGLISH_FIRST_MODULE_LINKS),
+        sidebar: buildSidebar('', ENGLISH_PAGE_LABELS),
         docFooter: {
           prev: 'Previous',
           next: 'Next'
@@ -76,7 +68,7 @@ export default defineConfig({
       link: '/hi/',
       themeConfig: {
         siteTitle: SITE_TITLE,
-        sidebar: buildSidebar(HINGLISH_FIRST_MODULE_LINKS),
+        sidebar: buildSidebar('/hi', HINGLISH_PAGE_LABELS),
         docFooter: {
           prev: 'Pichla page',
           next: 'Agla page'

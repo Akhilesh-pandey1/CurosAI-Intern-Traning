@@ -75,4 +75,14 @@ Teen ideas kaafi weight utha lete hain:
 4. Khud modify karo: footer jodo, ek skill hatao, email input optional banao, phone number field jodo.
 5. Har change ke baad observe karo — ek time par ek change.
 
+<QuizBlock
+  :questions="[
+    { question: 'Page ka main heading kaunsa tag rakhta hai?', answer: 'h1 tag — aur ek page par sirf ek h1 hota hai.' },
+    { question: 'div aur section mein kya farak hai?', answer: 'Dono content group karte hain, par section matlab rakhta hai — page ka ek themed hissa batata hai. div bas plain dabba hai, koi matlab nahi.' },
+    { question: 'Har input ke saath label kyun hona chahiye?', answer: 'Label user ko — aur screen readers ko — batata hai kya bharna hai. Ye for aur id mila ke apne input se judta hai.' },
+    { question: 'Input par type email kya karta hai?', answer: 'Browser ko batata hai wahan kaunsa data aata hai, taaki browser form submit hone se pehle format free mein check kar le.' },
+    { question: 'Browser tab ka title kahan se aata hai?', answer: 'head ke andar title tag se — page ka wo hissa jo settings rakhta hai jo visitor padhta nahi.' }
+  ]"
+/>
+
 <PageCheckOff />
