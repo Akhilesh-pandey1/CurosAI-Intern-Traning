@@ -1,23 +1,23 @@
 # Graph Report - Intern-Training  (2026-10-01)
 
 ## Corpus Check
-- 92 files · ~168,982 words
+- 91 files · ~168,869 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 769 nodes · 914 edges · 83 communities (74 shown, 9 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.5)
+- 766 nodes · 906 edges · 87 communities (78 shown, 9 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `68b19b6e`
+- Built from commit: `620d4ae4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - core.py
 - server.cjs
-- useProgress.js
+- ModuleProgressDots.vue
 - deny
 - What You Must Do When Invoked
 - Dimensions
@@ -57,7 +57,7 @@
 - 1.2 HTML Essentials
 - node-js-code-style.md
 - _generate_intelligent_overrides
-- generate_design_system
+- PageNextButton.vue
 - graphify reference: query, path, explain
 - write-spec-greenfield/templates/design.md
 - write-spec-greenfield/templates/spec.md
@@ -65,6 +65,7 @@
 - write-spec/templates/spec.md
 - Curosai Intern Training
 - Curosai Intern Training
+- useProgress.js
 - Commit Story
 - graphify reference: add a URL and watch a folder
 - graphify reference: commit hook and native CLAUDE.md integration
@@ -81,7 +82,10 @@
 - testing.md
 - extraction-spec.md
 - write-tickets/SKILL.md
-- ConfettiBurst.vue
+- QuizBlock.vue
+- playApplauseSound
+- ContinueButton.vue
+- _resolve_color_mode
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -98,19 +102,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `_generate_intelligent_overrides()` --calls--> `search()`  [EXTRACTED]
   .claude/skills/design-screens/uiux/scripts/design_system.py → .claude/skills/design-screens/uiux/scripts/core.py
-- `handleModuleCompleted()` --calls--> `playApplauseSound()`  [EXTRACTED]
-  site/.vitepress/theme/components/ConfettiBurst.vue → site/.vitepress/theme/applauseSound.js
-- `handlePageChecked()` --calls--> `playApplauseSound()`  [EXTRACTED]
-  site/.vitepress/theme/components/ConfettiBurst.vue → site/.vitepress/theme/applauseSound.js
-- `handleNextClick()` --calls--> `celebratePageTransition()`  [EXTRACTED]
+- `handleNextClick()` --calls--> `playApplauseSound()`  [EXTRACTED]
+  site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/applauseSound.js
+- `handleNextClick()` --calls--> `resolveCelebrationType()`  [EXTRACTED]
   site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/composables/useProgress.js
 - `handleNextClick()` --calls--> `togglePageCheck()`  [EXTRACTED]
+  site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/composables/useProgress.js
+- `handleNextClick()` --calls--> `toPageKey()`  [EXTRACTED]
   site/.vitepress/theme/components/PageNextButton.vue → site/.vitepress/theme/composables/useProgress.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (83 total, 9 thin omitted)
+## Communities (87 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -120,9 +124,9 @@ Nodes (60): BM25, _contains_phrase(), detect_domain(), _domain_keywords(), _exac
 Cohesion: 0.06
 Nodes (55): bootstrapPage(), brandMarkup(), broadcast(), browserLauncherForPlatform(), chmodOwnerOnly(), clients, companionUrl(), computeAcceptKey() (+47 more)
 
-### Community 2 - "useProgress.js"
-Cohesion: 0.05
-Nodes (45): buttonLabel, { findNextUnfinishedPagePath }, hasUnfinishedPages, { pickSiteText, localePrefix }, router, targetPagePath, { countCheckedPages }, { localePrefix } (+37 more)
+### Community 2 - "ModuleProgressDots.vue"
+Cohesion: 0.15
+Nodes (9): { countCheckedPages }, { localePrefix }, moduleStates, embedUrl, { pickSiteText }, placeholderText, props, watchLabel (+1 more)
 
 ### Community 3 - "deny"
 Cohesion: 0.07
@@ -161,8 +165,8 @@ Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
 ### Community 12 - "design_system.py"
-Cohesion: 0.18
-Nodes (14): ansi_ljust(), format_ascii_box(), hex_to_ansi(), _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
+Cohesion: 0.22
+Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -280,9 +284,9 @@ Nodes (5): Error & Exception Handling, File Structure, Function Composition & La
 Cohesion: 0.33
 Nodes (6): _detect_page_type(), format_page_override_md(), _generate_intelligent_overrides(), Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses…, Detect page type from context and search results.
 
-### Community 42 - "generate_design_system"
-Cohesion: 0.50
-Nodes (4): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation. Args: query: Search query (e.g.,…
+### Community 42 - "PageNextButton.vue"
+Cohesion: 0.13
+Nodes (17): CENTER_BURST_OPTIONS, fireModuleCelebration(), firePageCelebration(), handleNextClick(), isCelebrating, isChecked, { isPageChecked, togglePageCheck, findNextPageAfter, resolveCelebrationType }, LEFT_SIDE_BURST_OPTIONS (+9 more)
 
 ### Community 43 - "graphify reference: query, path, explain"
 Cohesion: 0.33
@@ -312,6 +316,10 @@ Nodes (4): Curosai Intern Training, How to use this site, The learning approach 
 Cohesion: 0.40
 Nodes (4): Aap kya banoge, Curosai Intern Training, Is site ko kaise use karein, Learning approach — short mein
 
+### Community 50 - "useProgress.js"
+Cohesion: 0.27
+Nodes (10): checkedPages, countCheckedPages(), findNextPageAfter(), findNextUnfinishedPagePath(), isPageChecked(), PAGE_ORDER, resolveCelebrationType(), togglePageCheck() (+2 more)
+
 ### Community 51 - "Commit Story"
 Cohesion: 0.50
 Nodes (3): Commit Story, Git rules, Steps
@@ -340,12 +348,24 @@ Nodes (3): How to break a slice into tasks, One group per build slice, Task qual
 Cohesion: 0.50
 Nodes (3): **Project 1 – Registration Form**, **Project 2 – Personal Portfolio Page**, **Projects - **
 
-### Community 84 - "ConfettiBurst.vue"
-Cohesion: 0.26
-Nodes (11): createNoiseBuffer(), getAudioContext(), playApplauseSound(), scheduleClap(), CENTER_BURST_OPTIONS, fireConfetti(), handleModuleCompleted(), handlePageChecked() (+3 more)
+### Community 83 - "QuizBlock.vue"
+Cohesion: 0.25
+Nodes (8): blockTitle, handleAnswerToggle(), hideAnswerLabel, isAnswerVisible(), { pickSiteText }, props, showAnswerLabel, visibleAnswerIndexes
+
+### Community 84 - "playApplauseSound"
+Cohesion: 0.70
+Nodes (4): createNoiseBuffer(), getAudioContext(), playApplauseSound(), scheduleClap()
+
+### Community 85 - "ContinueButton.vue"
+Cohesion: 0.25
+Nodes (6): buttonLabel, { findNextUnfinishedPagePath }, hasUnfinishedPages, { pickSiteText, localePrefix }, router, targetPagePath
+
+### Community 86 - "_resolve_color_mode"
+Cohesion: 0.33
+Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary()
 
 ## Knowledge Gaps
-- **399 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+394 more)
+- **401 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+396 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -354,15 +374,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `search()` connect `core.py` to `_generate_intelligent_overrides`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `generate_design_system`, `design_system.py`, `.generate`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _399 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _401 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**
   _Cohesion score 0.05868118572292801 - nodes in this community are weakly interconnected._
-- **Should `useProgress.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.05367231638418079 - nodes in this community are weakly interconnected._
+- **Should `deny` be split into smaller, more focused modules?**
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

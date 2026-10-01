@@ -74,11 +74,6 @@
     "ast_hash": "322187d20b7b7fb20d140bc9de09d0d8",
     "semantic_hash": ""
   },
-  "site/.vitepress/theme/components/ConfettiBurst.vue": {
-    "mtime": 1790861237.6446898,
-    "ast_hash": "6bfbe021a9fcb0de29dfd82a6459ec71",
-    "semantic_hash": ""
-  },
   "site/.vitepress/theme/components/ContinueButton.vue": {
     "mtime": 1790861012.328419,
     "ast_hash": "08a6e388b5b49f97fafb90aab8579d12",
@@ -100,8 +95,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/composables/useProgress.js": {
-    "mtime": 1790861244.5095143,
-    "ast_hash": "811dfbeca4f13248b0712c3df503f577",
+    "mtime": 1790861397.8425047,
+    "ast_hash": "64b91b9eb940b563e2505f853a03a53a",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/composables/useSiteText.js": {
@@ -110,8 +105,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/index.js": {
-    "mtime": 1790860748.3113847,
-    "ast_hash": "c18f5912714d7c080e419a76f0c7379b",
+    "mtime": 1790861423.844423,
+    "ast_hash": "40d6fa649cb3420c725911dff6bb4ff7",
     "semantic_hash": ""
   },
   "site/package.json": {
@@ -480,8 +475,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
-    "mtime": 1790860900.5824573,
-    "ast_hash": "cc4d795c07f48257abf643e9920244c1",
+    "mtime": 1790861416.350703,
+    "ast_hash": "2a5ccb63ed659e02aeb3b2a686889129",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/applauseSound.js": {

@@ -17,9 +17,10 @@ export function toPageKey(relativePath) {
     relativePath.startsWith(ENGLISH_FOLDER_PREFIX) || relativePath.startsWith(HINGLISH_FOLDER_PREFIX)
   const pathWithoutLocale = hasLocalePrefix ? relativePath.slice(LOCALE_PREFIX_LENGTH) : relativePath
   const hasMarkdownExtension = pathWithoutLocale.endsWith(MARKDOWN_EXTENSION)
-  const pageKey = hasMarkdownExtension
+  const pathWithoutExtension = hasMarkdownExtension
     ? pathWithoutLocale.slice(0, -MARKDOWN_EXTENSION.length)
     : pathWithoutLocale
+  const pageKey = `/${pathWithoutExtension}`
   return pageKey
 }
 
