@@ -1,7 +1,7 @@
 # Graph Report - Intern-Training  (2026-10-02)
 
 ## Corpus Check
-- 91 files · ~168,424 words
+- 91 files · ~169,034 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9c81617f`
+- Built from commit: `5c1fa7f6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -265,7 +265,7 @@ Nodes (3): 1.1 Start Here, User side vs server side — in basic words, What HTM
 
 ### Community 37 - "1.2 HTML Essentials"
 Cohesion: 0.29
-Nodes (6): 1.2 HTML Essentials, Forms — how a page collects input, Hands-on, The structure every page shares, The tags you will actually use, Watch
+Nodes (6): 1.2 HTML Essentials, First: what to do and what not to do, Forms — how a page collects input, Hands-on — build your portfolio page, part by part, The structure every page shares, The tags you will actually use
 
 ### Community 38 - "1.1 Start Here"
 Cohesion: 0.50
@@ -273,7 +273,7 @@ Nodes (3): 1.1 Start Here, HTML और CSS क्या हैं, User side vs 
 
 ### Community 39 - "1.2 HTML Essentials"
 Cohesion: 0.29
-Nodes (6): 1.2 HTML Essentials, Forms — page input kaise leta hai, Hands-on, Structure jo har page share karta hai, Tags jo actually use hote hain, Watch karo
+Nodes (6): 1.2 HTML Essentials, Forms — page input कैसे लेता है, Hands-on — अपना portfolio page बनाओ, हिस्सा-हिस्सा में, Structure जो हर page share करता है, Tags जो actually use होते हैं, पहले: क्या करना है और क्या नहीं
 
 ### Community 40 - "node-js-code-style.md"
 Cohesion: 0.33

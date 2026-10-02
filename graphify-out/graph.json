@@ -8085,10 +8085,21 @@
       "norm_label": "1.2 html essentials"
     },
     {
-      "label": "The tags you will actually use",
+      "label": "First: what to do and what not to do",
       "file_type": "document",
       "source_file": "site/en/html-css/02-html-essentials.md",
       "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_html_css_02_html_essentials_first_what_to_do_and_what_not_to_do",
+      "community": 37,
+      "community_name": "1.2 HTML Essentials",
+      "norm_label": "first: what to do and what not to do"
+    },
+    {
+      "label": "The tags you will actually use",
+      "file_type": "document",
+      "source_file": "site/en/html-css/02-html-essentials.md",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "site_en_html_css_02_html_essentials_the_tags_you_will_actually_use",
       "community": 37,
@@ -8099,7 +8110,7 @@
       "label": "The structure every page shares",
       "file_type": "document",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L19",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "site_en_html_css_02_html_essentials_the_structure_every_page_shares",
       "community": 37,
@@ -8110,7 +8121,7 @@
       "label": "Forms \u2014 how a page collects input",
       "file_type": "document",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L42",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "site_en_html_css_02_html_essentials_forms_how_a_page_collects_input",
       "community": 37,
@@ -8118,26 +8129,15 @@
       "norm_label": "forms \u2014 how a page collects input"
     },
     {
-      "label": "Watch",
+      "label": "Hands-on \u2014 build your portfolio page, part by part",
       "file_type": "document",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L64",
+      "source_location": "L80",
       "_origin": "ast",
-      "id": "site_en_html_css_02_html_essentials_watch",
+      "id": "site_en_html_css_02_html_essentials_hands_on_build_your_portfolio_page_part_by_part",
       "community": 37,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "watch"
-    },
-    {
-      "label": "Hands-on",
-      "file_type": "document",
-      "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L70",
-      "_origin": "ast",
-      "id": "site_en_html_css_02_html_essentials_hands_on",
-      "community": 37,
-      "community_name": "1.2 HTML Essentials",
-      "norm_label": "hands-on"
+      "norm_label": "hands-on \u2014 build your portfolio page, part by part"
     },
     {
       "label": "en/index.md",
@@ -8261,59 +8261,59 @@
       "norm_label": "1.2 html essentials"
     },
     {
-      "label": "Tags jo actually use hote hain",
+      "label": "\u092a\u0939\u0932\u0947: \u0915\u094d\u092f\u093e \u0915\u0930\u0928\u093e \u0939\u0948 \u0914\u0930 \u0915\u094d\u092f\u093e \u0928\u0939\u0940\u0902",
       "file_type": "document",
       "source_file": "site/hi/html-css/02-html-essentials.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "site_hi_html_css_02_html_essentials_tags_jo_actually_use_hote_hain",
+      "id": "site_hi_html_css_02_html_essentials_\u092a\u0939\u0932_\u0915_\u092f_\u0915\u0930\u0928_\u0939_\u0914\u0930_\u0915_\u092f_\u0928\u0939",
       "community": 39,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "tags jo actually use hote hain"
+      "norm_label": "\u092a\u0939\u0932\u0947: \u0915\u092f\u093e \u0915\u0930\u0928\u093e \u0939\u0948 \u0914\u0930 \u0915\u092f\u093e \u0928\u0939\u0940\u0902"
     },
     {
-      "label": "Structure jo har page share karta hai",
+      "label": "Tags \u091c\u094b actually use \u0939\u094b\u0924\u0947 \u0939\u0948\u0902",
       "file_type": "document",
       "source_file": "site/hi/html-css/02-html-essentials.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "site_hi_html_css_02_html_essentials_structure_jo_har_page_share_karta_hai",
+      "id": "site_hi_html_css_02_html_essentials_tags_\u091c_actually_use_\u0939_\u0924_\u0939",
       "community": 39,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "structure jo har page share karta hai"
+      "norm_label": "tags \u091c\u094b actually use \u0939\u094b\u0924\u0947 \u0939\u0948\u0902"
     },
     {
-      "label": "Forms \u2014 page input kaise leta hai",
+      "label": "Structure \u091c\u094b \u0939\u0930 page share \u0915\u0930\u0924\u093e \u0939\u0948",
       "file_type": "document",
       "source_file": "site/hi/html-css/02-html-essentials.md",
-      "source_location": "L42",
+      "source_location": "L35",
       "_origin": "ast",
-      "id": "site_hi_html_css_02_html_essentials_forms_page_input_kaise_leta_hai",
+      "id": "site_hi_html_css_02_html_essentials_structure_\u091c_\u0939\u0930_page_share_\u0915\u0930\u0924_\u0939",
       "community": 39,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "forms \u2014 page input kaise leta hai"
+      "norm_label": "structure \u091c\u094b \u0939\u0930 page share \u0915\u0930\u0924\u093e \u0939\u0948"
     },
     {
-      "label": "Watch karo",
+      "label": "Forms \u2014 page input \u0915\u0948\u0938\u0947 \u0932\u0947\u0924\u093e \u0939\u0948",
       "file_type": "document",
       "source_file": "site/hi/html-css/02-html-essentials.md",
-      "source_location": "L64",
+      "source_location": "L58",
       "_origin": "ast",
-      "id": "site_hi_html_css_02_html_essentials_watch_karo",
+      "id": "site_hi_html_css_02_html_essentials_forms_page_input_\u0915_\u0938_\u0932_\u0924_\u0939",
       "community": 39,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "watch karo"
+      "norm_label": "forms \u2014 page input \u0915\u0948\u0938\u0947 \u0932\u0947\u0924\u093e \u0939\u0948"
     },
     {
-      "label": "Hands-on",
+      "label": "Hands-on \u2014 \u0905\u092a\u0928\u093e portfolio page \u092c\u0928\u093e\u0913, \u0939\u093f\u0938\u094d\u0938\u093e-\u0939\u093f\u0938\u094d\u0938\u093e \u092e\u0947\u0902",
       "file_type": "document",
       "source_file": "site/hi/html-css/02-html-essentials.md",
-      "source_location": "L70",
+      "source_location": "L80",
       "_origin": "ast",
-      "id": "site_hi_html_css_02_html_essentials_hands_on",
+      "id": "site_hi_html_css_02_html_essentials_hands_on_\u0905\u092a\u0928_portfolio_page_\u092c\u0928_\u0913_\u0939_\u0938_\u0938_\u0939_\u0938_\u0938_\u092e",
       "community": 39,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "hands-on"
+      "norm_label": "hands-on \u2014 \u0905\u092a\u0928\u093e portfolio page \u092c\u0928\u093e\u0913, \u0939\u093f\u0938\u0938\u093e-\u0939\u093f\u0938\u0938\u093e \u092e\u0947\u0902"
     },
     {
       "label": "hi/index.md",
@@ -18239,7 +18239,18 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L42",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_html_css_02_html_essentials_1_2_html_essentials",
+      "target": "site_en_html_css_02_html_essentials_first_what_to_do_and_what_not_to_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/html-css/02-html-essentials.md",
+      "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_html_css_02_html_essentials_1_2_html_essentials",
@@ -18250,18 +18261,18 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L70",
+      "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_en_html_css_02_html_essentials_hands_on",
+      "target": "site_en_html_css_02_html_essentials_hands_on_build_your_portfolio_page_part_by_part",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L19",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_html_css_02_html_essentials_1_2_html_essentials",
@@ -18272,22 +18283,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L5",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_html_css_02_html_essentials_1_2_html_essentials",
       "target": "site_en_html_css_02_html_essentials_the_tags_you_will_actually_use",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/en/html-css/02-html-essentials.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_en_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_en_html_css_02_html_essentials_watch",
       "confidence_score": 1.0
     },
     {
@@ -18382,22 +18382,33 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/02-html-essentials.md",
-      "source_location": "L42",
+      "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_hi_html_css_02_html_essentials_forms_page_input_kaise_leta_hai",
+      "target": "site_hi_html_css_02_html_essentials_forms_page_input_\u0915_\u0938_\u0932_\u0924_\u0939",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/02-html-essentials.md",
-      "source_location": "L70",
+      "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_hi_html_css_02_html_essentials_hands_on",
+      "target": "site_hi_html_css_02_html_essentials_hands_on_\u0905\u092a\u0928_portfolio_page_\u092c\u0928_\u0913_\u0939_\u0938_\u0938_\u0939_\u0938_\u0938_\u092e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/02-html-essentials.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_02_html_essentials_1_2_html_essentials",
+      "target": "site_hi_html_css_02_html_essentials_structure_\u091c_\u0939\u0930_page_share_\u0915\u0930\u0924_\u0939",
       "confidence_score": 1.0
     },
     {
@@ -18408,7 +18419,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_hi_html_css_02_html_essentials_structure_jo_har_page_share_karta_hai",
+      "target": "site_hi_html_css_02_html_essentials_tags_\u091c_actually_use_\u0939_\u0924_\u0939",
       "confidence_score": 1.0
     },
     {
@@ -18419,18 +18430,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_hi_html_css_02_html_essentials_tags_jo_actually_use_hote_hain",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/hi/html-css/02-html-essentials.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_hi_html_css_02_html_essentials_1_2_html_essentials",
-      "target": "site_hi_html_css_02_html_essentials_watch_karo",
+      "target": "site_hi_html_css_02_html_essentials_\u092a\u0939\u0932_\u0915_\u092f_\u0915\u0930\u0928_\u0939_\u0914\u0930_\u0915_\u092f_\u0928\u0939",
       "confidence_score": 1.0
     },
     {
@@ -18479,5 +18479,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9c81617f49fa20c2a8d5fa9ecda94ab33c0f84ee"
+  "built_at_commit": "5c1fa7f6c996fafa27d5b0df8208f05e488ae586"
 }

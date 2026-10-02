@@ -1,16 +1,16 @@
-# Graph Report - Intern-Training  (2026-10-01)
+# Graph Report - Intern-Training  (2026-10-02)
 
 ## Corpus Check
-- 91 files · ~168,699 words
+- 91 files · ~168,424 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 763 nodes · 900 edges · 85 communities (76 shown, 9 thin omitted)
+- 757 nodes · 894 edges · 86 communities (77 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `967a2584`
+- Built from commit: `9c81617f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -56,6 +56,7 @@
 - 1.1 Start Here
 - 1.2 HTML Essentials
 - node-js-code-style.md
+- .generate
 - PageNextButton.vue
 - graphify reference: query, path, explain
 - write-spec-greenfield/templates/design.md
@@ -112,7 +113,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (85 total, 9 thin omitted)
+## Communities (86 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -163,8 +164,8 @@ Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
 ### Community 12 - "design_system.py"
-Cohesion: 0.18
-Nodes (14): ansi_ljust(), _filter_anti_patterns_for_mode(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
+Cohesion: 0.22
+Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -179,8 +180,8 @@ Cohesion: 0.15
 Nodes (12): dependencies, canvas-confetti, devDependencies, vitepress, canvas-confetti, name, private, scripts (+4 more)
 
 ### Community 16 - "DesignSystemGenerator"
-Cohesion: 0.15
-Nodes (9): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Execute searches across multiple domains., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None. (+1 more)
+Cohesion: 0.27
+Nodes (4): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords.
 
 ### Community 17 - "._apply_reasoning"
 Cohesion: 0.24
@@ -259,16 +260,16 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 36 - "1.1 Start Here"
-Cohesion: 0.29
-Nodes (6): 1.1 Start Here, Hands-on, The AI-first method: generate → ask → modify → observe, User side vs server side — in basic words, Watch, What HTML and CSS are
+Cohesion: 0.50
+Nodes (3): 1.1 Start Here, User side vs server side — in basic words, What HTML and CSS are
 
 ### Community 37 - "1.2 HTML Essentials"
 Cohesion: 0.29
 Nodes (6): 1.2 HTML Essentials, Forms — how a page collects input, Hands-on, The structure every page shares, The tags you will actually use, Watch
 
 ### Community 38 - "1.1 Start Here"
-Cohesion: 0.29
-Nodes (6): 1.1 Start Here, AI-first method: generate → ask → modify → observe, Hands-on, HTML aur CSS kya hain, User side vs server side — simple shabdon mein, Watch karo
+Cohesion: 0.50
+Nodes (3): 1.1 Start Here, HTML और CSS क्या हैं, User side vs server side — आसान शब्दों में
 
 ### Community 39 - "1.2 HTML Essentials"
 Cohesion: 0.29
@@ -277,6 +278,10 @@ Nodes (6): 1.2 HTML Essentials, Forms — page input kaise leta hai, Hands-on, S
 ### Community 40 - "node-js-code-style.md"
 Cohesion: 0.33
 Nodes (5): Error & Exception Handling, File Structure, Function Composition & Layout, Libraries & Dependencies, MVC Folder Structure
+
+### Community 41 - ".generate"
+Cohesion: 0.20
+Nodes (7): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Execute searches across multiple domains., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None., _resolve_dial()
 
 ### Community 42 - "PageNextButton.vue"
 Cohesion: 0.13
@@ -355,21 +360,21 @@ Cohesion: 0.33
 Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary()
 
 ## Knowledge Gaps
-- **401 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+396 more)
+- **395 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+390 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `search()` connect `core.py` to `DesignSystemGenerator`, `design_system.py`, `_generate_intelligent_overrides`?**
+- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _401 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _395 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

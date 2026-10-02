@@ -1297,8 +1297,8 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_resolve_dial",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "_resolve_dial()"
     },
     {
@@ -1396,8 +1396,8 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_filter_anti_patterns_for_mode",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "_filter_anti_patterns_for_mode()"
     },
     {
@@ -1484,8 +1484,8 @@
       "source_location": "L319",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_multi_domain_search",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "._multi_domain_search()"
     },
     {
@@ -1528,8 +1528,8 @@
       "source_location": "L445",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_extract_results",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "._extract_results()"
     },
     {
@@ -1539,8 +1539,8 @@
       "source_location": "L449",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_generate",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": ".generate()"
     },
     {
@@ -1704,8 +1704,8 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_91",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "bucket a 1-10 dial value into its tier config. returns none if value is none."
     },
     {
@@ -1803,8 +1803,8 @@
       "source_location": "L247",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_247",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "drop \"avoid dark mode\" advice once dark mode is the resolved answer."
     },
     {
@@ -1836,8 +1836,8 @@
       "source_location": "L321",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_321",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "execute searches across multiple domains."
     },
     {
@@ -1880,8 +1880,8 @@
       "source_location": "L446",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_446",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "extract results list from search result dict."
     },
     {
@@ -1891,8 +1891,8 @@
       "source_location": "L451",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_451",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 41,
+      "community_name": ".generate",
       "norm_label": "generate complete design system recommendation. variance/motion/density are..."
     },
     {
@@ -8041,32 +8041,10 @@
       "norm_label": "1.1 start here"
     },
     {
-      "label": "What HTML and CSS are",
-      "file_type": "document",
-      "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "site_en_html_css_01_start_here_what_html_and_css_are",
-      "community": 36,
-      "community_name": "1.1 Start Here",
-      "norm_label": "what html and css are"
-    },
-    {
-      "label": "The AI-first method: generate \u2192 ask \u2192 modify \u2192 observe",
-      "file_type": "document",
-      "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "site_en_html_css_01_start_here_the_ai_first_method_generate_ask_modify_observe",
-      "community": 36,
-      "community_name": "1.1 Start Here",
-      "norm_label": "the ai-first method: generate \u2192 ask \u2192 modify \u2192 observe"
-    },
-    {
       "label": "User side vs server side \u2014 in basic words",
       "file_type": "document",
       "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L25",
+      "source_location": "L5",
       "_origin": "ast",
       "id": "site_en_html_css_01_start_here_user_side_vs_server_side_in_basic_words",
       "community": 36,
@@ -8074,26 +8052,15 @@
       "norm_label": "user side vs server side \u2014 in basic words"
     },
     {
-      "label": "Watch",
+      "label": "What HTML and CSS are",
       "file_type": "document",
       "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L32",
+      "source_location": "L19",
       "_origin": "ast",
-      "id": "site_en_html_css_01_start_here_watch",
+      "id": "site_en_html_css_01_start_here_what_html_and_css_are",
       "community": 36,
       "community_name": "1.1 Start Here",
-      "norm_label": "watch"
-    },
-    {
-      "label": "Hands-on",
-      "file_type": "document",
-      "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "site_en_html_css_01_start_here_hands_on",
-      "community": 36,
-      "community_name": "1.1 Start Here",
-      "norm_label": "hands-on"
+      "norm_label": "what html and css are"
     },
     {
       "label": "en/html-css/02-html-essentials.md",
@@ -8250,59 +8217,26 @@
       "norm_label": "1.1 start here"
     },
     {
-      "label": "HTML aur CSS kya hain",
+      "label": "User side vs server side \u2014 \u0906\u0938\u093e\u0928 \u0936\u092c\u094d\u0926\u094b\u0902 \u092e\u0947\u0902",
       "file_type": "document",
       "source_file": "site/hi/html-css/01-start-here.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "site_hi_html_css_01_start_here_html_aur_css_kya_hain",
+      "id": "site_hi_html_css_01_start_here_user_side_vs_server_side_\u0906\u0938_\u0928_\u0936\u092c_\u0926_\u092e",
       "community": 38,
       "community_name": "1.1 Start Here",
-      "norm_label": "html aur css kya hain"
+      "norm_label": "user side vs server side \u2014 \u0906\u0938\u093e\u0928 \u0936\u092c\u0926\u094b\u0902 \u092e\u0947\u0902"
     },
     {
-      "label": "AI-first method: generate \u2192 ask \u2192 modify \u2192 observe",
+      "label": "HTML \u0914\u0930 CSS \u0915\u094d\u092f\u093e \u0939\u0948\u0902",
       "file_type": "document",
       "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L14",
+      "source_location": "L19",
       "_origin": "ast",
-      "id": "site_hi_html_css_01_start_here_ai_first_method_generate_ask_modify_observe",
+      "id": "site_hi_html_css_01_start_here_html_\u0914\u0930_css_\u0915_\u092f_\u0939",
       "community": 38,
       "community_name": "1.1 Start Here",
-      "norm_label": "ai-first method: generate \u2192 ask \u2192 modify \u2192 observe"
-    },
-    {
-      "label": "User side vs server side \u2014 simple shabdon mein",
-      "file_type": "document",
-      "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "site_hi_html_css_01_start_here_user_side_vs_server_side_simple_shabdon_mein",
-      "community": 38,
-      "community_name": "1.1 Start Here",
-      "norm_label": "user side vs server side \u2014 simple shabdon mein"
-    },
-    {
-      "label": "Watch karo",
-      "file_type": "document",
-      "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "site_hi_html_css_01_start_here_watch_karo",
-      "community": 38,
-      "community_name": "1.1 Start Here",
-      "norm_label": "watch karo"
-    },
-    {
-      "label": "Hands-on",
-      "file_type": "document",
-      "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "site_hi_html_css_01_start_here_hands_on",
-      "community": 38,
-      "community_name": "1.1 Start Here",
-      "norm_label": "hands-on"
+      "norm_label": "html \u0914\u0930 css \u0915\u092f\u093e \u0939\u0948\u0902"
     },
     {
       "label": "hi/html-css/02-html-essentials.md",
@@ -18272,29 +18206,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L36",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_en_html_css_01_start_here_1_1_start_here",
-      "target": "site_en_html_css_01_start_here_hands_on",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_en_html_css_01_start_here_1_1_start_here",
-      "target": "site_en_html_css_01_start_here_the_ai_first_method_generate_ask_modify_observe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L25",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_html_css_01_start_here_1_1_start_here",
@@ -18305,18 +18217,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_en_html_css_01_start_here_1_1_start_here",
-      "target": "site_en_html_css_01_start_here_watch",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/en/html-css/01-start-here.md",
-      "source_location": "L5",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_html_css_01_start_here_1_1_start_here",
@@ -18448,22 +18349,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L14",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_html_css_01_start_here_1_1_start_here",
-      "target": "site_hi_html_css_01_start_here_ai_first_method_generate_ask_modify_observe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L36",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_hi_html_css_01_start_here_1_1_start_here",
-      "target": "site_hi_html_css_01_start_here_hands_on",
+      "target": "site_hi_html_css_01_start_here_html_\u0914\u0930_css_\u0915_\u092f_\u0939",
       "confidence_score": 1.0
     },
     {
@@ -18474,29 +18364,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_hi_html_css_01_start_here_1_1_start_here",
-      "target": "site_hi_html_css_01_start_here_html_aur_css_kya_hain",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_hi_html_css_01_start_here_1_1_start_here",
-      "target": "site_hi_html_css_01_start_here_user_side_vs_server_side_simple_shabdon_mein",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "site/hi/html-css/01-start-here.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "site_hi_html_css_01_start_here_1_1_start_here",
-      "target": "site_hi_html_css_01_start_here_watch_karo",
+      "target": "site_hi_html_css_01_start_here_user_side_vs_server_side_\u0906\u0938_\u0928_\u0936\u092c_\u0926_\u092e",
       "confidence_score": 1.0
     },
     {
@@ -18611,5 +18479,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "967a258407f94fab4560aba88d265dbb0f8e1ddd"
+  "built_at_commit": "9c81617f49fa20c2a8d5fa9ecda94ab33c0f84ee"
 }
