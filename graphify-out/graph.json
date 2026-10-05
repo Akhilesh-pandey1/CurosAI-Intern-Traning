@@ -1341,8 +1341,8 @@
       "source_location": "L164",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_style_is_dark_primary",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 99,
+      "community_name": "_resolve_color_mode",
       "norm_label": "_style_is_dark_primary()"
     },
     {
@@ -1352,8 +1352,8 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_query_wants_dark",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 99,
+      "community_name": "_resolve_color_mode",
       "norm_label": "_query_wants_dark()"
     },
     {
@@ -1363,8 +1363,8 @@
       "source_location": "L186",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_resolve_color_mode",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 99,
+      "community_name": "_resolve_color_mode",
       "norm_label": "_resolve_color_mode()"
     },
     {
@@ -1594,8 +1594,8 @@
       "source_location": "L791",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
-      "community": 96,
-      "community_name": "generate_design_system",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "format_markdown()"
     },
     {
@@ -1605,8 +1605,8 @@
       "source_location": "L919",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
-      "community": 96,
-      "community_name": "generate_design_system",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1748,8 +1748,8 @@
       "source_location": "L165",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_165",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 99,
+      "community_name": "_resolve_color_mode",
       "norm_label": "true when a styles.csv row describes itself as dark-first."
     },
     {
@@ -1759,8 +1759,8 @@
       "source_location": "L181",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_181",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 99,
+      "community_name": "_resolve_color_mode",
       "norm_label": "true when the query explicitly asks for a dark theme."
     },
     {
@@ -1770,8 +1770,8 @@
       "source_location": "L187",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_187",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 99,
+      "community_name": "_resolve_color_mode",
       "norm_label": "resolve the mode the rest of the output has to agree with."
     },
     {
@@ -1946,8 +1946,8 @@
       "source_location": "L792",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
-      "community": 96,
-      "community_name": "generate_design_system",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1957,8 +1957,8 @@
       "source_location": "L923",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
-      "community": 96,
-      "community_name": "generate_design_system",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -8140,7 +8140,7 @@
       "norm_label": "hands-on \u2014 build your portfolio page, part by part"
     },
     {
-      "label": "03-css-and-tailwind.md",
+      "label": "en/html-css/03-css-and-tailwind.md",
       "file_type": "document",
       "source_file": "site/en/html-css/03-css-and-tailwind.md",
       "source_location": "L1",
@@ -8148,7 +8148,7 @@
       "id": "site_en_html_css_03_css_and_tailwind",
       "community": 84,
       "community_name": "1.3 CSS and Tailwind CSS",
-      "norm_label": "03-css-and-tailwind.md"
+      "norm_label": "en/html-css/03-css-and-tailwind.md"
     },
     {
       "label": "1.3 CSS and Tailwind CSS",
@@ -8272,7 +8272,7 @@
       "norm_label": "what you will build"
     },
     {
-      "label": "javascript/01-start-here.md",
+      "label": "en/javascript/01-start-here.md",
       "file_type": "document",
       "source_file": "site/en/javascript/01-start-here.md",
       "source_location": "L1",
@@ -8280,7 +8280,7 @@
       "id": "site_en_javascript_01_start_here",
       "community": 88,
       "community_name": "2.1 Start Here",
-      "norm_label": "javascript/01-start-here.md"
+      "norm_label": "en/javascript/01-start-here.md"
     },
     {
       "label": "2.1 Start Here",
@@ -8327,7 +8327,7 @@
       "norm_label": "try it right now \u2014 the browser console"
     },
     {
-      "label": "02-variables-types-operators.md",
+      "label": "en/javascript/02-variables-types-operators.md",
       "file_type": "document",
       "source_file": "site/en/javascript/02-variables-types-operators.md",
       "source_location": "L1",
@@ -8335,7 +8335,7 @@
       "id": "site_en_javascript_02_variables_types_operators",
       "community": 87,
       "community_name": "2.2 Variables, Types & Operators",
-      "norm_label": "02-variables-types-operators.md"
+      "norm_label": "en/javascript/02-variables-types-operators.md"
     },
     {
       "label": "2.2 Variables, Types & Operators",
@@ -8393,7 +8393,7 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
-      "label": "03-arrays-objects.md",
+      "label": "en/javascript/03-arrays-objects.md",
       "file_type": "document",
       "source_file": "site/en/javascript/03-arrays-objects.md",
       "source_location": "L1",
@@ -8401,7 +8401,7 @@
       "id": "site_en_javascript_03_arrays_objects",
       "community": 89,
       "community_name": "2.3 Arrays & Objects",
-      "norm_label": "03-arrays-objects.md"
+      "norm_label": "en/javascript/03-arrays-objects.md"
     },
     {
       "label": "2.3 Arrays & Objects",
@@ -8459,7 +8459,7 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
-      "label": "04-conditions-loops.md",
+      "label": "en/javascript/04-conditions-loops.md",
       "file_type": "document",
       "source_file": "site/en/javascript/04-conditions-loops.md",
       "source_location": "L1",
@@ -8467,7 +8467,7 @@
       "id": "site_en_javascript_04_conditions_loops",
       "community": 90,
       "community_name": "2.4 Conditions & Loops",
-      "norm_label": "04-conditions-loops.md"
+      "norm_label": "en/javascript/04-conditions-loops.md"
     },
     {
       "label": "2.4 Conditions & Loops",
@@ -8514,7 +8514,7 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
-      "label": "05-functions-es6-modules.md",
+      "label": "en/javascript/05-functions-es6-modules.md",
       "file_type": "document",
       "source_file": "site/en/javascript/05-functions-es6-modules.md",
       "source_location": "L1",
@@ -8522,7 +8522,7 @@
       "id": "site_en_javascript_05_functions_es6_modules",
       "community": 91,
       "community_name": "2.5 Functions & ES6 Modules",
-      "norm_label": "05-functions-es6-modules.md"
+      "norm_label": "en/javascript/05-functions-es6-modules.md"
     },
     {
       "label": "2.5 Functions & ES6 Modules",
@@ -8569,7 +8569,7 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
-      "label": "06-dom-events-storage.md",
+      "label": "en/javascript/06-dom-events-storage.md",
       "file_type": "document",
       "source_file": "site/en/javascript/06-dom-events-storage.md",
       "source_location": "L1",
@@ -8577,7 +8577,7 @@
       "id": "site_en_javascript_06_dom_events_storage",
       "community": 92,
       "community_name": "2.6 DOM, Events & Storage",
-      "norm_label": "06-dom-events-storage.md"
+      "norm_label": "en/javascript/06-dom-events-storage.md"
     },
     {
       "label": "2.6 DOM, Events & Storage",
@@ -8646,7 +8646,7 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
-      "label": "07-async-apis.md",
+      "label": "en/javascript/07-async-apis.md",
       "file_type": "document",
       "source_file": "site/en/javascript/07-async-apis.md",
       "source_location": "L1",
@@ -8654,7 +8654,7 @@
       "id": "site_en_javascript_07_async_apis",
       "community": 93,
       "community_name": "2.7 Async & APIs",
-      "norm_label": "07-async-apis.md"
+      "norm_label": "en/javascript/07-async-apis.md"
     },
     {
       "label": "2.7 Async & APIs",
@@ -8712,7 +8712,7 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
-      "label": "08-project-calculator.md",
+      "label": "en/javascript/08-project-calculator.md",
       "file_type": "document",
       "source_file": "site/en/javascript/08-project-calculator.md",
       "source_location": "L1",
@@ -8720,7 +8720,7 @@
       "id": "site_en_javascript_08_project_calculator",
       "community": 94,
       "community_name": "2.8 Project \u2014 Calculator",
-      "norm_label": "08-project-calculator.md"
+      "norm_label": "en/javascript/08-project-calculator.md"
     },
     {
       "label": "2.8 Project \u2014 Calculator",
@@ -8778,7 +8778,7 @@
       "norm_label": "know it, do not copy it"
     },
     {
-      "label": "09-project-todo-list.md",
+      "label": "en/javascript/09-project-todo-list.md",
       "file_type": "document",
       "source_file": "site/en/javascript/09-project-todo-list.md",
       "source_location": "L1",
@@ -8786,7 +8786,7 @@
       "id": "site_en_javascript_09_project_todo_list",
       "community": 95,
       "community_name": "2.9 Project \u2014 To-Do List",
-      "norm_label": "09-project-todo-list.md"
+      "norm_label": "en/javascript/09-project-todo-list.md"
     },
     {
       "label": "2.9 Project \u2014 To-Do List",
@@ -8844,7 +8844,7 @@
       "norm_label": "know it, do not copy it"
     },
     {
-      "label": "10-project-weather-app.md",
+      "label": "en/javascript/10-project-weather-app.md",
       "file_type": "document",
       "source_file": "site/en/javascript/10-project-weather-app.md",
       "source_location": "L1",
@@ -8852,7 +8852,7 @@
       "id": "site_en_javascript_10_project_weather_app",
       "community": 86,
       "community_name": "2.10 Project \u2014 Weather App",
-      "norm_label": "10-project-weather-app.md"
+      "norm_label": "en/javascript/10-project-weather-app.md"
     },
     {
       "label": "2.10 Project \u2014 Weather App",
@@ -9053,6 +9053,83 @@
       "norm_label": "hands-on \u2014 \u0905\u092a\u0928\u093e portfolio page \u092c\u0928\u093e\u0913, \u0939\u093f\u0938\u0938\u093e-\u0939\u093f\u0938\u0938\u093e \u092e\u0947\u0902"
     },
     {
+      "label": "hi/html-css/03-css-and-tailwind.md",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "hi/html-css/03-css-and-tailwind.md"
+    },
+    {
+      "label": "1.3 CSS and Tailwind CSS",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "1.3 css and tailwind css"
+    },
+    {
+      "label": "CSS actually \u0915\u0930\u0924\u093e \u0915\u094d\u092f\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind_css_actually_\u0915\u0930\u0924_\u0915_\u092f_\u0939",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "css actually \u0915\u0930\u0924\u093e \u0915\u092f\u093e \u0939\u0948"
+    },
+    {
+      "label": "Tailwind CSS \u2014 \u091c\u094b framework \u0939\u092e use \u0915\u0930\u0924\u0947 \u0939\u0948\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind_tailwind_css_\u091c_framework_\u0939\u092e_use_\u0915\u0930\u0924_\u0939",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "tailwind css \u2014 \u091c\u094b framework \u0939\u092e use \u0915\u0930\u0924\u0947 \u0939\u0948\u0902"
+    },
+    {
+      "label": "Tailwind \u0915\u0947 core \u0939\u093f\u0938\u094d\u0938\u0947",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind_tailwind_\u0915_core_\u0939_\u0938_\u0938",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "tailwind \u0915\u0947 core \u0939\u093f\u0938\u0938\u0947"
+    },
+    {
+      "label": "Responsiveness \u2014 \u091c\u0939\u093e\u0901 Tailwind \u091a\u092e\u0915\u0924\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind_responsiveness_\u091c\u0939_tailwind_\u091a\u092e\u0915\u0924_\u0939",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "responsiveness \u2014 \u091c\u0939\u093e\u0901 tailwind \u091a\u092e\u0915\u0924\u093e \u0939\u0948"
+    },
+    {
+      "label": "Hands-on \u2014 \u0905\u092a\u0928\u093e portfolio \u0926\u094b \u092c\u093e\u0930 restyle \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "site_hi_html_css_03_css_and_tailwind_hands_on_\u0905\u092a\u0928_portfolio_\u0926_\u092c_\u0930_restyle_\u0915\u0930",
+      "community": 97,
+      "community_name": "1.3 CSS and Tailwind CSS",
+      "norm_label": "hands-on \u2014 \u0905\u092a\u0928\u093e portfolio \u0926\u094b \u092c\u093e\u0930 restyle \u0915\u0930\u094b"
+    },
+    {
       "label": "hi/index.md",
       "file_type": "document",
       "source_file": "site/hi/index.md",
@@ -9106,6 +9183,666 @@
       "community": 49,
       "community_name": "Curosai Intern Training",
       "norm_label": "aap kya banoge"
+    },
+    {
+      "label": "hi/javascript/01-start-here.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_01_start_here",
+      "community": 105,
+      "community_name": "2.1 Start Here",
+      "norm_label": "hi/javascript/01-start-here.md"
+    },
+    {
+      "label": "2.1 Start Here",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_01_start_here_2_1_start_here",
+      "community": 105,
+      "community_name": "2.1 Start Here",
+      "norm_label": "2.1 start here"
+    },
+    {
+      "label": "JavaScript actually \u0915\u0930\u0924\u093e \u0915\u094d\u092f\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_01_start_here_javascript_actually_\u0915\u0930\u0924_\u0915_\u092f_\u0939",
+      "community": 105,
+      "community_name": "2.1 Start Here",
+      "norm_label": "javascript actually \u0915\u0930\u0924\u093e \u0915\u092f\u093e \u0939\u0948"
+    },
+    {
+      "label": "\u092a\u0942\u0930\u0947 module \u0915\u093e \u090f\u0915 method \u2014 \u092a\u0939\u0932\u0947 predict \u0915\u0930\u094b, \u092b\u093f\u0930 run \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "site_hi_javascript_01_start_here_\u092a_\u0930_module_\u0915_\u090f\u0915_method_\u092a\u0939\u0932_predict_\u0915\u0930_\u092b_\u0930_run_\u0915\u0930",
+      "community": 105,
+      "community_name": "2.1 Start Here",
+      "norm_label": "\u092a\u0942\u0930\u0947 module \u0915\u093e \u090f\u0915 method \u2014 \u092a\u0939\u0932\u0947 predict \u0915\u0930\u094b, \u092b\u093f\u0930 run \u0915\u0930\u094b"
+    },
+    {
+      "label": "\u0905\u092d\u0940, \u0907\u0938\u0940 \u0935\u0915\u093c\u094d\u0924 \u0906\u091c\u093c\u092e\u093e\u0913 \u2014 browser console",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "site_hi_javascript_01_start_here_\u0905\u092d_\u0907\u0938_\u0935\u0915_\u0924_\u0906\u091c_\u092e_\u0913_browser_console",
+      "community": 105,
+      "community_name": "2.1 Start Here",
+      "norm_label": "\u0905\u092d\u0940, \u0907\u0938\u0940 \u0935\u0915\u0924 \u0906\u091c\u092e\u093e\u0913 \u2014 browser console"
+    },
+    {
+      "label": "hi/javascript/02-variables-types-operators.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_02_variables_types_operators",
+      "community": 100,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "hi/javascript/02-variables-types-operators.md"
+    },
+    {
+      "label": "2.2 Variables, Types & Operators",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "community": 100,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "2.2 variables, types & operators"
+    },
+    {
+      "label": "Variables \u2014 let \u0914\u0930 const",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_02_variables_types_operators_variables_let_\u0914\u0930_const",
+      "community": 100,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "variables \u2014 let \u0914\u0930 const"
+    },
+    {
+      "label": "Data types \u2014 \u0930\u094b\u091c\u093c \u0915\u0947 \u092a\u093e\u0901\u091a \u0936\u0915\u094d\u0932\u0947\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "site_hi_javascript_02_variables_types_operators_data_types_\u0930_\u091c_\u0915_\u092a_\u091a_\u0936\u0915_\u0932",
+      "community": 100,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "data types \u2014 \u0930\u094b\u091c \u0915\u0947 \u092a\u093e\u0901\u091a \u0936\u0915\u0932\u0947\u0902"
+    },
+    {
+      "label": "Operators \u2014 \u0930\u094b\u091c\u093c \u0915\u0940 \u091a\u093e\u0932\u0947\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "site_hi_javascript_02_variables_types_operators_operators_\u0930_\u091c_\u0915_\u091a_\u0932",
+      "community": 100,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "operators \u2014 \u0930\u094b\u091c \u0915\u0940 \u091a\u093e\u0932\u0947\u0902"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "site_hi_javascript_02_variables_types_operators_hands_on_predict_run_compare",
+      "community": 100,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "hi/javascript/03-arrays-objects.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_03_arrays_objects",
+      "community": 101,
+      "community_name": "2.3 Arrays & Objects",
+      "norm_label": "hi/javascript/03-arrays-objects.md"
+    },
+    {
+      "label": "2.3 Arrays & Objects",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_03_arrays_objects_2_3_arrays_objects",
+      "community": 101,
+      "community_name": "2.3 Arrays & Objects",
+      "norm_label": "2.3 arrays & objects"
+    },
+    {
+      "label": "Arrays \u2014 \u0928\u0902\u092c\u0930 \u0935\u093e\u0932\u0940 list",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_03_arrays_objects_arrays_\u0928_\u092c\u0930_\u0935_\u0932_list",
+      "community": 101,
+      "community_name": "2.3 Arrays & Objects",
+      "norm_label": "arrays \u2014 \u0928\u0902\u092c\u0930 \u0935\u093e\u0932\u0940 list"
+    },
+    {
+      "label": "Objects \u2014 \u0928\u093e\u092e \u0935\u093e\u0932\u093e \u0921\u092c\u094d\u092c\u093e",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "site_hi_javascript_03_arrays_objects_objects_\u0928_\u092e_\u0935_\u0932_\u0921\u092c_\u092c",
+      "community": 101,
+      "community_name": "2.3 Arrays & Objects",
+      "norm_label": "objects \u2014 \u0928\u093e\u092e \u0935\u093e\u0932\u093e \u0921\u092c\u092c\u093e"
+    },
+    {
+      "label": "map, filter, find \u2014 \u0924\u0940\u0928 \u0930\u094b\u091c\u093c \u0935\u093e\u0932\u0947 methods",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "site_hi_javascript_03_arrays_objects_map_filter_find_\u0924_\u0928_\u0930_\u091c_\u0935_\u0932_methods",
+      "community": 101,
+      "community_name": "2.3 Arrays & Objects",
+      "norm_label": "map, filter, find \u2014 \u0924\u0940\u0928 \u0930\u094b\u091c \u0935\u093e\u0932\u0947 methods"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "site_hi_javascript_03_arrays_objects_hands_on_predict_run_compare",
+      "community": 101,
+      "community_name": "2.3 Arrays & Objects",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "hi/javascript/04-conditions-loops.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_04_conditions_loops",
+      "community": 106,
+      "community_name": "2.4 Conditions & Loops",
+      "norm_label": "hi/javascript/04-conditions-loops.md"
+    },
+    {
+      "label": "2.4 Conditions & Loops",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_04_conditions_loops_2_4_conditions_loops",
+      "community": 106,
+      "community_name": "2.4 Conditions & Loops",
+      "norm_label": "2.4 conditions & loops"
+    },
+    {
+      "label": "Conditions \u2014 if, else",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_04_conditions_loops_conditions_if_else",
+      "community": 106,
+      "community_name": "2.4 Conditions & Loops",
+      "norm_label": "conditions \u2014 if, else"
+    },
+    {
+      "label": "Loops \u2014 for, for...of, forEach",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "site_hi_javascript_04_conditions_loops_loops_for_for_of_foreach",
+      "community": 106,
+      "community_name": "2.4 Conditions & Loops",
+      "norm_label": "loops \u2014 for, for...of, foreach"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "site_hi_javascript_04_conditions_loops_hands_on_predict_run_compare",
+      "community": 106,
+      "community_name": "2.4 Conditions & Loops",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "hi/javascript/05-functions-es6-modules.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_05_functions_es6_modules",
+      "community": 107,
+      "community_name": "2.5 Functions & ES6 Modules",
+      "norm_label": "hi/javascript/05-functions-es6-modules.md"
+    },
+    {
+      "label": "2.5 Functions & ES6 Modules",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_05_functions_es6_modules_2_5_functions_es6_modules",
+      "community": 107,
+      "community_name": "2.5 Functions & ES6 Modules",
+      "norm_label": "2.5 functions & es6 modules"
+    },
+    {
+      "label": "Functions \u2014 \u0915\u093e\u092e \u0915\u094b \u0928\u093e\u092e \u0926\u0947 \u0926\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_05_functions_es6_modules_functions_\u0915_\u092e_\u0915_\u0928_\u092e_\u0926_\u0926",
+      "community": 107,
+      "community_name": "2.5 Functions & ES6 Modules",
+      "norm_label": "functions \u2014 \u0915\u093e\u092e \u0915\u094b \u0928\u093e\u092e \u0926\u0947 \u0926\u094b"
+    },
+    {
+      "label": "ES6 Modules \u2014 code \u0915\u094b files \u092e\u0947\u0902 \u092c\u093e\u0901\u091f\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "site_hi_javascript_05_functions_es6_modules_es6_modules_code_\u0915_files_\u092e_\u092c_\u091f",
+      "community": 107,
+      "community_name": "2.5 Functions & ES6 Modules",
+      "norm_label": "es6 modules \u2014 code \u0915\u094b files \u092e\u0947\u0902 \u092c\u093e\u0901\u091f\u094b"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "site_hi_javascript_05_functions_es6_modules_hands_on_predict_run_compare",
+      "community": 107,
+      "community_name": "2.5 Functions & ES6 Modules",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "hi/javascript/06-dom-events-storage.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "hi/javascript/06-dom-events-storage.md"
+    },
+    {
+      "label": "2.6 DOM, Events & Storage",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "2.6 dom, events & storage"
+    },
+    {
+      "label": "DOM \u2014 page \u091c\u0940\u0935\u093f\u0924 objects \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage_dom_page_\u091c_\u0935_\u0924_objects_\u0915_\u0930_\u092a_\u092e",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "dom \u2014 page \u091c\u0940\u0935\u093f\u0924 objects \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902"
+    },
+    {
+      "label": "Events \u2014 \u0907\u0902\u0924\u091c\u093c\u093e\u0930 \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u093e code",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage_events_\u0907_\u0924\u091c_\u0930_\u0915\u0930\u0928_\u0935_\u0932_code",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "events \u2014 \u0907\u0902\u0924\u091c\u093e\u0930 \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u093e code"
+    },
+    {
+      "label": "localStorage \u2014 browser \u0915\u094b \u092f\u093e\u0926 \u0930\u0939\u0924\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage_localstorage_browser_\u0915_\u092f_\u0926_\u0930\u0939\u0924_\u0939",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "localstorage \u2014 browser \u0915\u094b \u092f\u093e\u0926 \u0930\u0939\u0924\u093e \u0939\u0948"
+    },
+    {
+      "label": "sessionStorage \u2014 \u0935\u0939\u0940 drawer, \u092a\u0930 tab \u092d\u0942\u0932 \u091c\u093e\u0924\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage_sessionstorage_\u0935\u0939_drawer_\u092a\u0930_tab_\u092d_\u0932_\u091c_\u0924_\u0939",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "sessionstorage \u2014 \u0935\u0939\u0940 drawer, \u092a\u0930 tab \u092d\u0942\u0932 \u091c\u093e\u0924\u093e \u0939\u0948"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "site_hi_javascript_06_dom_events_storage_hands_on_predict_run_compare",
+      "community": 98,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "hi/javascript/07-async-apis.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_07_async_apis",
+      "community": 102,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "hi/javascript/07-async-apis.md"
+    },
+    {
+      "label": "2.7 Async & APIs",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_07_async_apis_2_7_async_apis",
+      "community": 102,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "2.7 async & apis"
+    },
+    {
+      "label": "\u090f\u0915 API \u2014 \u0926\u0942\u0938\u0930\u0947 computer \u0938\u0947 data \u092e\u093e\u0901\u0917\u0928\u093e",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_07_async_apis_\u090f\u0915_api_\u0926_\u0938\u0930_computer_\u0938_data_\u092e_\u0917\u0928",
+      "community": 102,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "\u090f\u0915 api \u2014 \u0926\u0942\u0938\u0930\u0947 computer \u0938\u0947 data \u092e\u093e\u0901\u0917\u0928\u093e"
+    },
+    {
+      "label": "fetch + async/await \u2014 \u092a\u0942\u091b\u094b, \u092b\u093f\u0930 \u0907\u0902\u0924\u091c\u093c\u093e\u0930 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "site_hi_javascript_07_async_apis_fetch_async_await_\u092a_\u091b_\u092b_\u0930_\u0907_\u0924\u091c_\u0930_\u0915\u0930",
+      "community": 102,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "fetch + async/await \u2014 \u092a\u0942\u091b\u094b, \u092b\u093f\u0930 \u0907\u0902\u0924\u091c\u093e\u0930 \u0915\u0930\u094b"
+    },
+    {
+      "label": "try/catch \u2014 \u091c\u092c request \u092b\u0947\u0932 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "site_hi_javascript_07_async_apis_try_catch_\u091c\u092c_request_\u092b_\u0932_\u0939",
+      "community": 102,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "try/catch \u2014 \u091c\u092c request \u092b\u0947\u0932 \u0939\u094b"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "site_hi_javascript_07_async_apis_hands_on_predict_run_compare",
+      "community": 102,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "hi/javascript/08-project-calculator.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_08_project_calculator",
+      "community": 103,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "hi/javascript/08-project-calculator.md"
+    },
+    {
+      "label": "2.8 Project \u2014 Calculator",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_08_project_calculator_2_8_project_calculator",
+      "community": 103,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "2.8 project \u2014 calculator"
+    },
+    {
+      "label": "\u0906\u092a \u0915\u094d\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_08_project_calculator_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "community": 103,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "\u0906\u092a \u0915\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 AI \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u094d\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "site_hi_javascript_08_project_calculator_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "community": 103,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 ai \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "site_hi_javascript_08_project_calculator_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "community": 103,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "site_hi_javascript_08_project_calculator_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "community": 103,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b"
+    },
+    {
+      "label": "hi/javascript/09-project-todo-list.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_09_project_todo_list",
+      "community": 104,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "hi/javascript/09-project-todo-list.md"
+    },
+    {
+      "label": "2.9 Project \u2014 To-Do List",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "community": 104,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "2.9 project \u2014 to-do list"
+    },
+    {
+      "label": "\u0906\u092a \u0915\u094d\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_09_project_todo_list_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "community": 104,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "\u0906\u092a \u0915\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 AI \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u094d\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "site_hi_javascript_09_project_todo_list_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "community": 104,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 ai \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "site_hi_javascript_09_project_todo_list_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "community": 104,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "site_hi_javascript_09_project_todo_list_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "community": 104,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b"
+    },
+    {
+      "label": "hi/javascript/10-project-weather-app.md",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "hi/javascript/10-project-weather-app.md"
+    },
+    {
+      "label": "2.10 Project \u2014 Weather App",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "2.10 project \u2014 weather app"
+    },
+    {
+      "label": "\u0906\u092a \u0915\u094d\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "\u0906\u092a \u0915\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 AI \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u094d\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 ai \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b"
+    },
+    {
+      "label": "\u092a\u0942\u0930\u093e module \u090f\u0915 \u0938\u093e\u0901\u0938 \u092e\u0947\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_\u092a_\u0930_module_\u090f\u0915_\u0938_\u0938_\u092e",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "\u092a\u0942\u0930\u093e module \u090f\u0915 \u0938\u093e\u0901\u0938 \u092e\u0947\u0902"
+    },
+    {
+      "label": "\u0916\u0941\u0926 \u0915\u094b \u091c\u093e\u0901\u091a\u094b \u2014 \u092a\u0942\u0930\u093e module",
+      "file_type": "document",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "site_hi_javascript_10_project_weather_app_\u0916_\u0926_\u0915_\u091c_\u091a_\u092a_\u0930_module",
+      "community": 96,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "\u0916\u0941\u0926 \u0915\u094b \u091c\u093e\u0901\u091a\u094b \u2014 \u092a\u0942\u0930\u093e module"
     }
   ],
   "links": [
@@ -19789,6 +20526,72 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_03_css_and_tailwind",
+      "target": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "target": "site_hi_html_css_03_css_and_tailwind_css_actually_\u0915\u0930\u0924_\u0915_\u092f_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "target": "site_hi_html_css_03_css_and_tailwind_hands_on_\u0905\u092a\u0928_portfolio_\u0926_\u092c_\u0930_restyle_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "target": "site_hi_html_css_03_css_and_tailwind_responsiveness_\u091c\u0939_tailwind_\u091a\u092e\u0915\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "target": "site_hi_html_css_03_css_and_tailwind_tailwind_css_\u091c_framework_\u0939\u092e_use_\u0915\u0930\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/html-css/03-css-and-tailwind.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_html_css_03_css_and_tailwind_1_3_css_and_tailwind_css",
+      "target": "site_hi_html_css_03_css_and_tailwind_tailwind_\u0915_core_\u0939_\u0938_\u0938",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/hi/index.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -19829,8 +20632,558 @@
       "source": "site_hi_index_curosai_intern_training",
       "target": "site_hi_index_learning_approach_short_mein",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_01_start_here",
+      "target": "site_hi_javascript_01_start_here_2_1_start_here",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_01_start_here_2_1_start_here",
+      "target": "site_hi_javascript_01_start_here_javascript_actually_\u0915\u0930\u0924_\u0915_\u092f_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_01_start_here_2_1_start_here",
+      "target": "site_hi_javascript_01_start_here_\u0905\u092d_\u0907\u0938_\u0935\u0915_\u0924_\u0906\u091c_\u092e_\u0913_browser_console",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/01-start-here.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_01_start_here_2_1_start_here",
+      "target": "site_hi_javascript_01_start_here_\u092a_\u0930_module_\u0915_\u090f\u0915_method_\u092a\u0939\u0932_predict_\u0915\u0930_\u092b_\u0930_run_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_02_variables_types_operators",
+      "target": "site_hi_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_hi_javascript_02_variables_types_operators_data_types_\u0930_\u091c_\u0915_\u092a_\u091a_\u0936\u0915_\u0932",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_hi_javascript_02_variables_types_operators_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_hi_javascript_02_variables_types_operators_operators_\u0930_\u091c_\u0915_\u091a_\u0932",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/02-variables-types-operators.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_hi_javascript_02_variables_types_operators_variables_let_\u0914\u0930_const",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_03_arrays_objects",
+      "target": "site_hi_javascript_03_arrays_objects_2_3_arrays_objects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_03_arrays_objects_2_3_arrays_objects",
+      "target": "site_hi_javascript_03_arrays_objects_arrays_\u0928_\u092c\u0930_\u0935_\u0932_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_03_arrays_objects_2_3_arrays_objects",
+      "target": "site_hi_javascript_03_arrays_objects_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_03_arrays_objects_2_3_arrays_objects",
+      "target": "site_hi_javascript_03_arrays_objects_map_filter_find_\u0924_\u0928_\u0930_\u091c_\u0935_\u0932_methods",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/03-arrays-objects.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_03_arrays_objects_2_3_arrays_objects",
+      "target": "site_hi_javascript_03_arrays_objects_objects_\u0928_\u092e_\u0935_\u0932_\u0921\u092c_\u092c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_04_conditions_loops",
+      "target": "site_hi_javascript_04_conditions_loops_2_4_conditions_loops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_04_conditions_loops_2_4_conditions_loops",
+      "target": "site_hi_javascript_04_conditions_loops_conditions_if_else",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_04_conditions_loops_2_4_conditions_loops",
+      "target": "site_hi_javascript_04_conditions_loops_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/04-conditions-loops.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_04_conditions_loops_2_4_conditions_loops",
+      "target": "site_hi_javascript_04_conditions_loops_loops_for_for_of_foreach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_05_functions_es6_modules",
+      "target": "site_hi_javascript_05_functions_es6_modules_2_5_functions_es6_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_05_functions_es6_modules_2_5_functions_es6_modules",
+      "target": "site_hi_javascript_05_functions_es6_modules_es6_modules_code_\u0915_files_\u092e_\u092c_\u091f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_05_functions_es6_modules_2_5_functions_es6_modules",
+      "target": "site_hi_javascript_05_functions_es6_modules_functions_\u0915_\u092e_\u0915_\u0928_\u092e_\u0926_\u0926",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/05-functions-es6-modules.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_05_functions_es6_modules_2_5_functions_es6_modules",
+      "target": "site_hi_javascript_05_functions_es6_modules_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_06_dom_events_storage",
+      "target": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_hi_javascript_06_dom_events_storage_dom_page_\u091c_\u0935_\u0924_objects_\u0915_\u0930_\u092a_\u092e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_hi_javascript_06_dom_events_storage_events_\u0907_\u0924\u091c_\u0930_\u0915\u0930\u0928_\u0935_\u0932_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_hi_javascript_06_dom_events_storage_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_hi_javascript_06_dom_events_storage_localstorage_browser_\u0915_\u092f_\u0926_\u0930\u0939\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/06-dom-events-storage.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_hi_javascript_06_dom_events_storage_sessionstorage_\u0935\u0939_drawer_\u092a\u0930_tab_\u092d_\u0932_\u091c_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_07_async_apis",
+      "target": "site_hi_javascript_07_async_apis_2_7_async_apis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_hi_javascript_07_async_apis_fetch_async_await_\u092a_\u091b_\u092b_\u0930_\u0907_\u0924\u091c_\u0930_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_hi_javascript_07_async_apis_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_hi_javascript_07_async_apis_try_catch_\u091c\u092c_request_\u092b_\u0932_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/07-async-apis.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_hi_javascript_07_async_apis_\u090f\u0915_api_\u0926_\u0938\u0930_computer_\u0938_data_\u092e_\u0917\u0928",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_08_project_calculator",
+      "target": "site_hi_javascript_08_project_calculator_2_8_project_calculator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_hi_javascript_08_project_calculator_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_hi_javascript_08_project_calculator_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_hi_javascript_08_project_calculator_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/08-project-calculator.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_hi_javascript_08_project_calculator_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_09_project_todo_list",
+      "target": "site_hi_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_hi_javascript_09_project_todo_list_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_hi_javascript_09_project_todo_list_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_hi_javascript_09_project_todo_list_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/09-project-todo-list.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_hi_javascript_09_project_todo_list_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_\u0916_\u0926_\u0915_\u091c_\u091a_\u092a_\u0930_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/javascript/10-project-weather-app.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_hi_javascript_10_project_weather_app_\u092a_\u0930_module_\u090f\u0915_\u0938_\u0938_\u092e",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a1ab8a6b2c1231be69cc8d2c74ee056e4a510b35"
+  "built_at_commit": "ce8c5f6c65313d1fd7ea458c4658122e61f87138"
 }

@@ -543,5 +543,60 @@
     "mtime": 1791208215.6813307,
     "ast_hash": "f06288dba560c73e78f9fe7cd74feeb7",
     "semantic_hash": ""
+  },
+  "site/hi/html-css/03-css-and-tailwind.md": {
+    "mtime": 1791209689.7254765,
+    "ast_hash": "1857b24e4d943d6f825714823f063197",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/01-start-here.md": {
+    "mtime": 1791209729.170324,
+    "ast_hash": "6bcef083955313aff68621988e8446a9",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/02-variables-types-operators.md": {
+    "mtime": 1791209787.6425164,
+    "ast_hash": "715ed401919986d5bff3d84d1e674fcc",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/03-arrays-objects.md": {
+    "mtime": 1791209840.715659,
+    "ast_hash": "ad145cb7b9f7b9e89b8f3bdcdaaf6b94",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/04-conditions-loops.md": {
+    "mtime": 1791209888.0056856,
+    "ast_hash": "def9f1ef6a97ce946a46f213446d0966",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/05-functions-es6-modules.md": {
+    "mtime": 1791209938.3361394,
+    "ast_hash": "38af4c22b55a16b1ab1f0ef8c5ef5376",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/06-dom-events-storage.md": {
+    "mtime": 1791209998.1132114,
+    "ast_hash": "b6056696a953d6f1a62a06ab9b2e2a70",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/07-async-apis.md": {
+    "mtime": 1791210053.7154877,
+    "ast_hash": "39fca18539b9326a4786142a30a0401b",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/08-project-calculator.md": {
+    "mtime": 1791210110.962608,
+    "ast_hash": "a389b2b47bb7e61b95a8463d594e4fd8",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/09-project-todo-list.md": {
+    "mtime": 1791210161.6758475,
+    "ast_hash": "39decbd2b202d3a3b584c2aa20c5c4d2",
+    "semantic_hash": ""
+  },
+  "site/hi/javascript/10-project-weather-app.md": {
+    "mtime": 1791210217.4725592,
+    "ast_hash": "bc4091000e403a3f9af941c4d92d8aee",
+    "semantic_hash": ""
   }
 }

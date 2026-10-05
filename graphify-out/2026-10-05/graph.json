@@ -1341,8 +1341,8 @@
       "source_location": "L164",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_style_is_dark_primary",
-      "community": 86,
-      "community_name": "_resolve_color_mode",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "_style_is_dark_primary()"
     },
     {
@@ -1352,8 +1352,8 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_query_wants_dark",
-      "community": 86,
-      "community_name": "_resolve_color_mode",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "_query_wants_dark()"
     },
     {
@@ -1363,8 +1363,8 @@
       "source_location": "L186",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_resolve_color_mode",
-      "community": 86,
-      "community_name": "_resolve_color_mode",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "_resolve_color_mode()"
     },
     {
@@ -1594,8 +1594,8 @@
       "source_location": "L791",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 96,
+      "community_name": "generate_design_system",
       "norm_label": "format_markdown()"
     },
     {
@@ -1605,8 +1605,8 @@
       "source_location": "L919",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 96,
+      "community_name": "generate_design_system",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1748,8 +1748,8 @@
       "source_location": "L165",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_165",
-      "community": 86,
-      "community_name": "_resolve_color_mode",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "true when a styles.csv row describes itself as dark-first."
     },
     {
@@ -1759,8 +1759,8 @@
       "source_location": "L181",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_181",
-      "community": 86,
-      "community_name": "_resolve_color_mode",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "true when the query explicitly asks for a dark theme."
     },
     {
@@ -1770,8 +1770,8 @@
       "source_location": "L187",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_187",
-      "community": 86,
-      "community_name": "_resolve_color_mode",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "resolve the mode the rest of the output has to agree with."
     },
     {
@@ -1946,8 +1946,8 @@
       "source_location": "L792",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 96,
+      "community_name": "generate_design_system",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1957,8 +1957,8 @@
       "source_location": "L923",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 96,
+      "community_name": "generate_design_system",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -8710,6 +8710,226 @@
       "community": 93,
       "community_name": "2.7 Async & APIs",
       "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "08-project-calculator.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_08_project_calculator",
+      "community": 94,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "08-project-calculator.md"
+    },
+    {
+      "label": "2.8 Project \u2014 Calculator",
+      "file_type": "document",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_08_project_calculator_2_8_project_calculator",
+      "community": 94,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "2.8 project \u2014 calculator"
+    },
+    {
+      "label": "What you build",
+      "file_type": "document",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_08_project_calculator_what_you_build",
+      "community": 94,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "what you build"
+    },
+    {
+      "label": "How to build it \u2014 AI drives, you navigate",
+      "file_type": "document",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "site_en_javascript_08_project_calculator_how_to_build_it_ai_drives_you_navigate",
+      "community": 94,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "how to build it \u2014 ai drives, you navigate"
+    },
+    {
+      "label": "The changes you direct",
+      "file_type": "document",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "site_en_javascript_08_project_calculator_the_changes_you_direct",
+      "community": 94,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "the changes you direct"
+    },
+    {
+      "label": "Know it, do not copy it",
+      "file_type": "document",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "site_en_javascript_08_project_calculator_know_it_do_not_copy_it",
+      "community": 94,
+      "community_name": "2.8 Project \u2014 Calculator",
+      "norm_label": "know it, do not copy it"
+    },
+    {
+      "label": "09-project-todo-list.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_09_project_todo_list",
+      "community": 95,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "09-project-todo-list.md"
+    },
+    {
+      "label": "2.9 Project \u2014 To-Do List",
+      "file_type": "document",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "community": 95,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "2.9 project \u2014 to-do list"
+    },
+    {
+      "label": "What you build",
+      "file_type": "document",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_09_project_todo_list_what_you_build",
+      "community": 95,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "what you build"
+    },
+    {
+      "label": "How to build it \u2014 AI drives, you navigate",
+      "file_type": "document",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "site_en_javascript_09_project_todo_list_how_to_build_it_ai_drives_you_navigate",
+      "community": 95,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "how to build it \u2014 ai drives, you navigate"
+    },
+    {
+      "label": "The changes you direct",
+      "file_type": "document",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "site_en_javascript_09_project_todo_list_the_changes_you_direct",
+      "community": 95,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "the changes you direct"
+    },
+    {
+      "label": "Know it, do not copy it",
+      "file_type": "document",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "site_en_javascript_09_project_todo_list_know_it_do_not_copy_it",
+      "community": 95,
+      "community_name": "2.9 Project \u2014 To-Do List",
+      "norm_label": "know it, do not copy it"
+    },
+    {
+      "label": "10-project-weather-app.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "10-project-weather-app.md"
+    },
+    {
+      "label": "2.10 Project \u2014 Weather App",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "2.10 project \u2014 weather app"
+    },
+    {
+      "label": "What you build",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_what_you_build",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "what you build"
+    },
+    {
+      "label": "How to build it \u2014 AI drives, you navigate",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_how_to_build_it_ai_drives_you_navigate",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "how to build it \u2014 ai drives, you navigate"
+    },
+    {
+      "label": "The changes you direct",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_the_changes_you_direct",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "the changes you direct"
+    },
+    {
+      "label": "Know it, do not copy it",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_know_it_do_not_copy_it",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "know it, do not copy it"
+    },
+    {
+      "label": "The module in one breath",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_the_module_in_one_breath",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "the module in one breath"
+    },
+    {
+      "label": "Test Yourself \u2014 the whole module",
+      "file_type": "document",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "site_en_javascript_10_project_weather_app_test_yourself_the_whole_module",
+      "community": 86,
+      "community_name": "2.10 Project \u2014 Weather App",
+      "norm_label": "test yourself \u2014 the whole module"
     },
     {
       "label": "hi/html-css/01-start-here.md",
@@ -19283,6 +19503,193 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_08_project_calculator",
+      "target": "site_en_javascript_08_project_calculator_2_8_project_calculator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_en_javascript_08_project_calculator_how_to_build_it_ai_drives_you_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_en_javascript_08_project_calculator_know_it_do_not_copy_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_en_javascript_08_project_calculator_the_changes_you_direct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/08-project-calculator.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_08_project_calculator_2_8_project_calculator",
+      "target": "site_en_javascript_08_project_calculator_what_you_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_09_project_todo_list",
+      "target": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_en_javascript_09_project_todo_list_how_to_build_it_ai_drives_you_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_en_javascript_09_project_todo_list_know_it_do_not_copy_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_en_javascript_09_project_todo_list_the_changes_you_direct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/09-project-todo-list.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
+      "target": "site_en_javascript_09_project_todo_list_what_you_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_how_to_build_it_ai_drives_you_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_know_it_do_not_copy_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_test_yourself_the_whole_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_the_changes_you_direct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_the_module_in_one_breath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/10-project-weather-app.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
+      "target": "site_en_javascript_10_project_weather_app_what_you_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/01-start-here.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -19425,5 +19832,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "22309e4c8330d79e5a7c0d197bba3d34df54df35"
+  "built_at_commit": "a1ab8a6b2c1231be69cc8d2c74ee056e4a510b35"
 }

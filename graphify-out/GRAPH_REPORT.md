@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 102 files · ~179,308 words
+- 113 files · ~190,054 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 824 nodes · 950 edges · 97 communities (88 shown, 9 thin omitted)
+- 891 nodes · 1006 edges · 108 communities (99 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a1ab8a6b`
+- Built from commit: `ce8c5f6c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -95,7 +95,18 @@
 - 2.7 Async & APIs
 - 2.8 Project — Calculator
 - 2.9 Project — To-Do List
-- generate_design_system
+- 2.10 Project — Weather App
+- 1.3 CSS and Tailwind CSS
+- 2.6 DOM, Events & Storage
+- _resolve_color_mode
+- 2.2 Variables, Types & Operators
+- 2.3 Arrays & Objects
+- 2.7 Async & APIs
+- 2.8 Project — Calculator
+- 2.9 Project — To-Do List
+- 2.1 Start Here
+- 2.4 Conditions & Loops
+- 2.5 Functions & ES6 Modules
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -124,7 +135,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (97 total, 9 thin omitted)
+## Communities (108 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -175,8 +186,8 @@ Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
 ### Community 12 - "design_system.py"
-Cohesion: 0.18
-Nodes (14): ansi_ljust(), format_ascii_box(), hex_to_ansi(), _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
+Cohesion: 0.22
+Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -410,12 +421,56 @@ Nodes (5): 2.8 Project — Calculator, How to build it — AI drives, you naviga
 Cohesion: 0.33
 Nodes (5): 2.9 Project — To-Do List, How to build it — AI drives, you navigate, Know it, do not copy it, The changes you direct, What you build
 
-### Community 96 - "generate_design_system"
-Cohesion: 0.50
-Nodes (4): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation. Args: query: Search query (e.g.,…
+### Community 96 - "2.10 Project — Weather App"
+Cohesion: 0.25
+Nodes (7): 2.10 Project — Weather App, आप क्या बनाते हो, आप जो बदलाव करवाते हो, इसे जानो, copy मत करो, कैसे बनाते हैं — AI चलाता है, आप रास्ता दिखाते हो, खुद को जाँचो — पूरा module, पूरा module एक साँस में
+
+### Community 97 - "1.3 CSS and Tailwind CSS"
+Cohesion: 0.29
+Nodes (6): 1.3 CSS and Tailwind CSS, CSS actually करता क्या है, Hands-on — अपना portfolio दो बार restyle करो, Responsiveness — जहाँ Tailwind चमकता है, Tailwind CSS — जो framework हम use करते हैं, Tailwind के core हिस्से
+
+### Community 98 - "2.6 DOM, Events & Storage"
+Cohesion: 0.29
+Nodes (6): 2.6 DOM, Events & Storage, DOM — page जीवित objects के रूप में, Events — इंतज़ार करने वाला code, Hands-on — predict, run, compare, localStorage — browser को याद रहता है, sessionStorage — वही drawer, पर tab भूल जाता है
+
+### Community 99 - "_resolve_color_mode"
+Cohesion: 0.33
+Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary()
+
+### Community 100 - "2.2 Variables, Types & Operators"
+Cohesion: 0.33
+Nodes (5): 2.2 Variables, Types & Operators, Data types — रोज़ के पाँच शक्लें, Hands-on — predict, run, compare, Operators — रोज़ की चालें, Variables — let और const
+
+### Community 101 - "2.3 Arrays & Objects"
+Cohesion: 0.33
+Nodes (5): 2.3 Arrays & Objects, Arrays — नंबर वाली list, Hands-on — predict, run, compare, map, filter, find — तीन रोज़ वाले methods, Objects — नाम वाला डब्बा
+
+### Community 102 - "2.7 Async & APIs"
+Cohesion: 0.33
+Nodes (5): 2.7 Async & APIs, fetch + async/await — पूछो, फिर इंतज़ार करो, Hands-on — predict, run, compare, try/catch — जब request फेल हो, एक API — दूसरे computer से data माँगना
+
+### Community 103 - "2.8 Project — Calculator"
+Cohesion: 0.33
+Nodes (5): 2.8 Project — Calculator, आप क्या बनाते हो, आप जो बदलाव करवाते हो, इसे जानो, copy मत करो, कैसे बनाते हैं — AI चलाता है, आप रास्ता दिखाते हो
+
+### Community 104 - "2.9 Project — To-Do List"
+Cohesion: 0.33
+Nodes (5): 2.9 Project — To-Do List, आप क्या बनाते हो, आप जो बदलाव करवाते हो, इसे जानो, copy मत करो, कैसे बनाते हैं — AI चलाता है, आप रास्ता दिखाते हो
+
+### Community 105 - "2.1 Start Here"
+Cohesion: 0.40
+Nodes (4): 2.1 Start Here, JavaScript actually करता क्या है, अभी, इसी वक़्त आज़माओ — browser console, पूरे module का एक method — पहले predict करो, फिर run करो
+
+### Community 106 - "2.4 Conditions & Loops"
+Cohesion: 0.40
+Nodes (4): 2.4 Conditions & Loops, Conditions — if, else, Hands-on — predict, run, compare, Loops — for, for...of, forEach
+
+### Community 107 - "2.5 Functions & ES6 Modules"
+Cohesion: 0.40
+Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules — code को files में बाँटो, Functions — काम को नाम दे दो, Hands-on — predict, run, compare
 
 ## Knowledge Gaps
-- **440 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+435 more)
+- **485 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+480 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -423,13 +478,13 @@ Nodes (4): format_markdown(), generate_design_system(), Format design system as 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `generate_design_system`, `._apply_reasoning`, `design_system.py`, `.generate`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _440 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _485 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

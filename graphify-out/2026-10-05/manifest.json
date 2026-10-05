@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791206019.535009,
-    "ast_hash": "0e0c965d52ef21471c75d4fdecd0883d",
+    "mtime": 1791208207.503345,
+    "ast_hash": "a99c4bb8d160c6329a92addadfeed1f0",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -527,6 +527,21 @@
   "site/en/javascript/07-async-apis.md": {
     "mtime": 1791206676.3359966,
     "ast_hash": "b18be74d9c3fdaf4fe82424f6a31142e",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/08-project-calculator.md": {
+    "mtime": 1791207364.2077854,
+    "ast_hash": "9faae3d13f8dd878f333594e2207658f",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/09-project-todo-list.md": {
+    "mtime": 1791207498.000783,
+    "ast_hash": "d11698eb90b8c9ce6a50e7bb56793a92",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/10-project-weather-app.md": {
+    "mtime": 1791208215.6813307,
+    "ast_hash": "f06288dba560c73e78f9fe7cd74feeb7",
     "semantic_hash": ""
   }
 }
