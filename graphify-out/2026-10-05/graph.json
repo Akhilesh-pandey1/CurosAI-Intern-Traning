@@ -8228,7 +8228,7 @@
       "norm_label": "en/index.md"
     },
     {
-      "label": "Curosai Intern Training",
+      "label": "CurosAI Intern Training",
       "file_type": "document",
       "source_file": "site/en/index.md",
       "source_location": "L1",
@@ -8270,6 +8270,182 @@
       "community": 48,
       "community_name": "Curosai Intern Training",
       "norm_label": "what you will build"
+    },
+    {
+      "label": "javascript/01-start-here.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_01_start_here",
+      "community": 88,
+      "community_name": "2.1 Start Here",
+      "norm_label": "javascript/01-start-here.md"
+    },
+    {
+      "label": "2.1 Start Here",
+      "file_type": "document",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_01_start_here_2_1_start_here",
+      "community": 88,
+      "community_name": "2.1 Start Here",
+      "norm_label": "2.1 start here"
+    },
+    {
+      "label": "What JavaScript actually does",
+      "file_type": "document",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_01_start_here_what_javascript_actually_does",
+      "community": 88,
+      "community_name": "2.1 Start Here",
+      "norm_label": "what javascript actually does"
+    },
+    {
+      "label": "The one method of this whole module \u2014 predict, then run",
+      "file_type": "document",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "site_en_javascript_01_start_here_the_one_method_of_this_whole_module_predict_then_run",
+      "community": 88,
+      "community_name": "2.1 Start Here",
+      "norm_label": "the one method of this whole module \u2014 predict, then run"
+    },
+    {
+      "label": "Try it right now \u2014 the browser console",
+      "file_type": "document",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "site_en_javascript_01_start_here_try_it_right_now_the_browser_console",
+      "community": 88,
+      "community_name": "2.1 Start Here",
+      "norm_label": "try it right now \u2014 the browser console"
+    },
+    {
+      "label": "02-variables-types-operators.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_02_variables_types_operators",
+      "community": 87,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "02-variables-types-operators.md"
+    },
+    {
+      "label": "2.2 Variables, Types & Operators",
+      "file_type": "document",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "community": 87,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "2.2 variables, types & operators"
+    },
+    {
+      "label": "Variables \u2014 let and const",
+      "file_type": "document",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_02_variables_types_operators_variables_let_and_const",
+      "community": 87,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "variables \u2014 let and const"
+    },
+    {
+      "label": "Data types \u2014 the five everyday shapes",
+      "file_type": "document",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "site_en_javascript_02_variables_types_operators_data_types_the_five_everyday_shapes",
+      "community": 87,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "data types \u2014 the five everyday shapes"
+    },
+    {
+      "label": "Operators \u2014 the everyday moves",
+      "file_type": "document",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "site_en_javascript_02_variables_types_operators_operators_the_everyday_moves",
+      "community": 87,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "operators \u2014 the everyday moves"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "site_en_javascript_02_variables_types_operators_hands_on_predict_run_compare",
+      "community": 87,
+      "community_name": "2.2 Variables, Types & Operators",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
+      "label": "03-conditions-loops.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_03_conditions_loops",
+      "community": 89,
+      "community_name": "2.3 Conditions & Loops",
+      "norm_label": "03-conditions-loops.md"
+    },
+    {
+      "label": "2.3 Conditions & Loops",
+      "file_type": "document",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_03_conditions_loops_2_3_conditions_loops",
+      "community": 89,
+      "community_name": "2.3 Conditions & Loops",
+      "norm_label": "2.3 conditions & loops"
+    },
+    {
+      "label": "Conditions \u2014 if, else",
+      "file_type": "document",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_03_conditions_loops_conditions_if_else",
+      "community": 89,
+      "community_name": "2.3 Conditions & Loops",
+      "norm_label": "conditions \u2014 if, else"
+    },
+    {
+      "label": "Loops \u2014 for, for...of, forEach",
+      "file_type": "document",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "site_en_javascript_03_conditions_loops_loops_for_for_of_foreach",
+      "community": 89,
+      "community_name": "2.3 Conditions & Loops",
+      "norm_label": "loops \u2014 for, for...of, foreach"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "site_en_javascript_03_conditions_loops_hands_on_predict_run_compare",
+      "community": 89,
+      "community_name": "2.3 Conditions & Loops",
+      "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
       "label": "hi/html-css/01-start-here.md",
@@ -8404,7 +8580,7 @@
       "norm_label": "hi/index.md"
     },
     {
-      "label": "Curosai Intern Training",
+      "label": "CurosAI Intern Training",
       "file_type": "document",
       "source_file": "site/hi/index.md",
       "source_location": "L1",
@@ -18480,6 +18656,149 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_01_start_here",
+      "target": "site_en_javascript_01_start_here_2_1_start_here",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_01_start_here_2_1_start_here",
+      "target": "site_en_javascript_01_start_here_the_one_method_of_this_whole_module_predict_then_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_01_start_here_2_1_start_here",
+      "target": "site_en_javascript_01_start_here_try_it_right_now_the_browser_console",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/01-start-here.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_01_start_here_2_1_start_here",
+      "target": "site_en_javascript_01_start_here_what_javascript_actually_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_02_variables_types_operators",
+      "target": "site_en_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_en_javascript_02_variables_types_operators_data_types_the_five_everyday_shapes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_en_javascript_02_variables_types_operators_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_en_javascript_02_variables_types_operators_operators_the_everyday_moves",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/02-variables-types-operators.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_02_variables_types_operators_2_2_variables_types_operators",
+      "target": "site_en_javascript_02_variables_types_operators_variables_let_and_const",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_03_conditions_loops",
+      "target": "site_en_javascript_03_conditions_loops_2_3_conditions_loops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_03_conditions_loops_2_3_conditions_loops",
+      "target": "site_en_javascript_03_conditions_loops_conditions_if_else",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_03_conditions_loops_2_3_conditions_loops",
+      "target": "site_en_javascript_03_conditions_loops_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/03-conditions-loops.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_03_conditions_loops_2_3_conditions_loops",
+      "target": "site_en_javascript_03_conditions_loops_loops_for_for_of_foreach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/01-start-here.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -18622,5 +18941,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ffa369358c62a99a8dc209b24e0b2fae78fa8f56"
+  "built_at_commit": "6b82859649b495d7f36dbf632ee892e22d9e46f5"
 }

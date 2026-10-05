@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 95 files · ~172,586 words
+- 96 files · ~173,423 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 780 nodes · 913 edges · 90 communities (81 shown, 9 thin omitted)
+- 785 nodes · 917 edges · 91 communities (82 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6b828596`
+- Built from commit: `7a786563`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -89,6 +89,7 @@
 - 2.2 Variables, Types & Operators
 - 2.1 Start Here
 - 2.3 Conditions & Loops
+- 2.4 Functions & ES6 Modules
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -117,7 +118,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (90 total, 9 thin omitted)
+## Communities (91 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -379,8 +380,12 @@ Nodes (4): 2.1 Start Here, The one method of this whole module — predict, then
 Cohesion: 0.40
 Nodes (4): 2.3 Conditions & Loops, Conditions — if, else, Hands-on — predict, run, compare, Loops — for, for...of, forEach
 
+### Community 90 - "2.4 Functions & ES6 Modules"
+Cohesion: 0.40
+Nodes (4): 2.4 Functions & ES6 Modules, ES6 Modules — split code across files, Functions — name a piece of work, Hands-on — predict, run, compare
+
 ## Knowledge Gaps
-- **410 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+405 more)
+- **413 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+408 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -394,7 +399,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _410 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _413 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

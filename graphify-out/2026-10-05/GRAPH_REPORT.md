@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 92 files · ~170,295 words
+- 95 files · ~172,586 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 764 nodes · 900 edges · 87 communities (78 shown, 9 thin omitted)
+- 780 nodes · 913 edges · 90 communities (81 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ffa36935`
+- Built from commit: `6b828596`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -86,6 +86,9 @@
 - 1.3 CSS and Tailwind CSS
 - ContinueButton.vue
 - generate_design_system
+- 2.2 Variables, Types & Operators
+- 2.1 Start Here
+- 2.3 Conditions & Loops
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -114,7 +117,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (87 total, 9 thin omitted)
+## Communities (90 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -310,11 +313,11 @@ Nodes (4): ADDED Requirements, Purpose, Requirement: <!-- requirement name -->, 
 
 ### Community 48 - "Curosai Intern Training"
 Cohesion: 0.40
-Nodes (4): Curosai Intern Training, How to use this site, The learning approach in short, What you will build
+Nodes (4): CurosAI Intern Training, How to use this site, The learning approach in short, What you will build
 
 ### Community 49 - "Curosai Intern Training"
 Cohesion: 0.40
-Nodes (4): Aap kya banoge, Curosai Intern Training, Is site ko kaise use karein, Learning approach — short mein
+Nodes (4): Aap kya banoge, CurosAI Intern Training, Is site ko kaise use karein, Learning approach — short mein
 
 ### Community 50 - "useProgress.js"
 Cohesion: 0.27
@@ -364,8 +367,20 @@ Nodes (6): buttonLabel, { findNextUnfinishedPagePath }, hasUnfinishedPages, { pi
 Cohesion: 0.50
 Nodes (4): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation. Args: query: Search query (e.g.,…
 
+### Community 87 - "2.2 Variables, Types & Operators"
+Cohesion: 0.33
+Nodes (5): 2.2 Variables, Types & Operators, Data types — the five everyday shapes, Hands-on — predict, run, compare, Operators — the everyday moves, Variables — let and const
+
+### Community 88 - "2.1 Start Here"
+Cohesion: 0.40
+Nodes (4): 2.1 Start Here, The one method of this whole module — predict, then run, Try it right now — the browser console, What JavaScript actually does
+
+### Community 89 - "2.3 Conditions & Loops"
+Cohesion: 0.40
+Nodes (4): 2.3 Conditions & Loops, Conditions — if, else, Hands-on — predict, run, compare, Loops — for, for...of, forEach
+
 ## Knowledge Gaps
-- **400 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+395 more)
+- **410 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+405 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -373,13 +388,13 @@ Nodes (4): format_markdown(), generate_design_system(), Format design system as 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `generate_design_system`, `.generate`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _400 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _410 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

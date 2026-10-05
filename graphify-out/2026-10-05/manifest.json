@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/config.mjs": {
-    "mtime": 1790861763.2864473,
-    "ast_hash": "6dbbcffa9861c2e1221db6c5a9a6aaf9",
+    "mtime": 1791187106.6889591,
+    "ast_hash": "e53a916c293285c4aff5de8b6d5190ae",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/ContinueButton.vue": {
@@ -450,8 +450,8 @@
     "semantic_hash": ""
   },
   "site/en/index.md": {
-    "mtime": 1790860295.2867184,
-    "ast_hash": "1574beebd2db5ab54e9c0af03ee8bca5",
+    "mtime": 1791187116.9700038,
+    "ast_hash": "8778d55019d0b8f917e98b91fa237282",
     "semantic_hash": ""
   },
   "site/hi/html-css/01-start-here.md": {
@@ -465,13 +465,13 @@
     "semantic_hash": ""
   },
   "site/hi/index.md": {
-    "mtime": 1790860295.6485538,
-    "ast_hash": "e8099ef25977bb8c1d609ca6edea4b27",
+    "mtime": 1791187122.5313294,
+    "ast_hash": "5582016084d038c8d044b287e056ae45",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1790931896.294021,
-    "ast_hash": "421a878f92250704bd8707eddd964f04",
+    "mtime": 1791187659.341665,
+    "ast_hash": "5c5eb0863fa29807b57b35081789b543",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -490,8 +490,23 @@
     "semantic_hash": ""
   },
   "site/en/html-css/03-css-and-tailwind.md": {
-    "mtime": 1790932749.5913143,
-    "ast_hash": "a5e94d8f8f18fa2e86b174342fc872dc",
+    "mtime": 1791197938.7737541,
+    "ast_hash": "3c4e2c8383c90a39b4176f88a121f689",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/01-start-here.md": {
+    "mtime": 1791186897.9737935,
+    "ast_hash": "8541138a6edc38e8627dad7282c2f811",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/02-variables-types-operators.md": {
+    "mtime": 1791197914.8463182,
+    "ast_hash": "c53190f57a6b08523558fab5dce543b5",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/03-conditions-loops.md": {
+    "mtime": 1791197899.3497925,
+    "ast_hash": "08d7d55f6f25ddba5a612f094b50f7d7",
     "semantic_hash": ""
   }
 }
