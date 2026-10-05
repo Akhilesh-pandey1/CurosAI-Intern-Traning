@@ -11,6 +11,11 @@ export const MODULES = [
         path: '/html-css/02-html-essentials',
         enTitle: 'HTML Essentials',
         hiTitle: 'HTML Ki Basics'
+      },
+      {
+        path: '/html-css/03-css-and-tailwind',
+        enTitle: 'CSS and Tailwind CSS',
+        hiTitle: 'CSS Aur Tailwind CSS'
       }
     ]
   },
