@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1790860132.4193807,
-    "ast_hash": "eea9c1d5340f062eea7f689388dca0ca",
+    "mtime": 1790931896.294021,
+    "ast_hash": "421a878f92250704bd8707eddd964f04",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -487,6 +487,11 @@
   "site/public/audience-clapping.mp3": {
     "mtime": 1790862135.737982,
     "ast_hash": "c9987cee479f83082a82e72e8b14a170",
+    "semantic_hash": ""
+  },
+  "site/en/html-css/03-css-and-tailwind.md": {
+    "mtime": 1790932749.5913143,
+    "ast_hash": "a5e94d8f8f18fa2e86b174342fc872dc",
     "semantic_hash": ""
   }
 }

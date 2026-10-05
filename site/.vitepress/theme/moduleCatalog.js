@@ -19,7 +19,23 @@ export const MODULES = [
       }
     ]
   },
-  { title: 'JavaScript', pages: [] },
+  { title: 'JavaScript', pages: [
+      {
+        path: '/javascript/01-start-here',
+        enTitle: 'Start Here',
+        hiTitle: 'JS Yahan Se Shuru Karein'
+      },
+      {
+        path: '/javascript/02-variables-types-operators',
+        enTitle: 'Variables, Types & Operators',
+        hiTitle: 'Variables, Types Aur Operators'
+      },
+      {
+        path: '/javascript/03-conditions-loops',
+        enTitle: 'Conditions & Loops',
+        hiTitle: 'Conditions Aur Loops'
+      }
+    ] },
   { title: 'React', pages: [] },
   { title: 'Python/Flask', pages: [] },
   { title: 'Database', pages: [] },

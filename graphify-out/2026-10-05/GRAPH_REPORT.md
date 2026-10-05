@@ -1,16 +1,16 @@
-# Graph Report - Intern-Training  (2026-10-02)
+# Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 91 files · ~169,034 words
+- 92 files · ~170,295 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 757 nodes · 894 edges · 86 communities (77 shown, 9 thin omitted)
+- 764 nodes · 900 edges · 87 communities (78 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5c1fa7f6`
+- Built from commit: `ffa36935`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -83,8 +83,9 @@
 - extraction-spec.md
 - write-tickets/SKILL.md
 - QuizBlock.vue
+- 1.3 CSS and Tailwind CSS
 - ContinueButton.vue
-- _resolve_color_mode
+- generate_design_system
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -113,7 +114,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (86 total, 9 thin omitted)
+## Communities (87 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -164,8 +165,8 @@ Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
 ### Community 12 - "design_system.py"
-Cohesion: 0.22
-Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
+Cohesion: 0.18
+Nodes (14): ansi_ljust(), format_ascii_box(), hex_to_ansi(), _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -351,16 +352,20 @@ Nodes (3): **Project 1 – Registration Form**, **Project 2 – Personal Portfol
 Cohesion: 0.25
 Nodes (8): blockTitle, handleAnswerToggle(), hideAnswerLabel, isAnswerVisible(), { pickSiteText }, props, showAnswerLabel, visibleAnswerIndexes
 
+### Community 84 - "1.3 CSS and Tailwind CSS"
+Cohesion: 0.29
+Nodes (6): 1.3 CSS and Tailwind CSS, Hands-on — restyle your portfolio, twice, Responsiveness — where Tailwind shines, Tailwind CSS — the framework we use, The core parts of Tailwind, What CSS actually does
+
 ### Community 85 - "ContinueButton.vue"
 Cohesion: 0.25
 Nodes (6): buttonLabel, { findNextUnfinishedPagePath }, hasUnfinishedPages, { pickSiteText, localePrefix }, router, targetPagePath
 
-### Community 86 - "_resolve_color_mode"
-Cohesion: 0.33
-Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary()
+### Community 86 - "generate_design_system"
+Cohesion: 0.50
+Nodes (4): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation. Args: query: Search query (e.g.,…
 
 ## Knowledge Gaps
-- **395 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+390 more)
+- **400 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+395 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -369,12 +374,12 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `generate_design_system`, `.generate`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _395 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _400 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

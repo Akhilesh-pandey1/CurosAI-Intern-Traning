@@ -117,10 +117,10 @@ Take the portfolio page you built on the previous page. It is plain HTML right n
   :questions="[
     { question: 'Do you need to memorize Tailwind classes?', answer: 'No. Nobody memorizes them. You need the groups — spacing, colors, text, layout, states — so you can recognize what a class does, and you search or ask AI for the rest.' },
     { question: 'Every CSS rule, in any tool, has the same two-part shape. What is it?', answer: 'Pick an element, change its properties. Plain CSS, Tailwind, anything else — it all ends up doing exactly this.' },
-    { question: 'In bg-blue-500, what does each part tell you?', answer: 'bg — what gets changed (background). blue — which color. 500 — how strong a shade. The same what-which-how-much pattern runs through all Tailwind classes.' },
+    { question: 'In the class bg-green-700, what does each part tell you?', answer: 'bg — what gets changed (background). green — which color. 700 — how dark a shade. The same what-which-how-much pattern runs through all Tailwind classes.' },
     { question: 'Riya styles the button in a separate .css file, Arjun puts Tailwind classes on the button tag. Whose button can you fully understand without opening a second file?', answer: 'Arjun’s. Tailwind keeps the look on the element itself, so the whole story of the button sits in one place.' },
-    { question: 'What does md:flex-row mean?', answer: 'From medium (tablet) screen size up, lay items in a row. Below that size, the normal classes apply — that is how one page reshapes itself for phone and desktop.' },
-    { question: 'You delete px-5 py-3 from the button. What changes?', answer: 'The button loses its inner space — the text touches the edges. Padding was doing that job.' },
+    { question: 'You see lg:grid-cols-3 on an element. What does the lg: prefix mean?', answer: 'From large screens up, arrange the items in three columns. Below that size, the normal classes apply — that is how one page reshapes itself for phone and desktop.' },
+    { question: 'A card has rounded-lg. You delete it and add rounded-full. What happens?', answer: 'The corners go from slightly rounded to fully round. Each class does one small job — swap it and only that job changes.' },
     { question: 'Next year your team drops Tailwind for a new framework. What should you keep strong so it does not hurt?', answer: 'The CSS concepts — pick an element, change properties, padding vs margin, screen sizes. Frameworks change again and again; the concepts under them do not.' }
   ]"
 />
