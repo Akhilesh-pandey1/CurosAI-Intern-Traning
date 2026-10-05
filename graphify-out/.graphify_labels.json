@@ -85,12 +85,15 @@
   "83": "QuizBlock.vue",
   "84": "1.3 CSS and Tailwind CSS",
   "85": "ContinueButton.vue",
-  "86": "_resolve_color_mode",
+  "86": "2.10 Project — Weather App",
   "87": "2.2 Variables, Types & Operators",
   "88": "2.1 Start Here",
   "89": "2.3 Arrays & Objects",
   "90": "2.4 Conditions & Loops",
   "91": "2.5 Functions & ES6 Modules",
   "92": "2.6 DOM, Events & Storage",
-  "93": "2.7 Async & APIs"
+  "93": "2.7 Async & APIs",
+  "94": "2.8 Project — Calculator",
+  "95": "2.9 Project — To-Do List",
+  "96": "generate_design_system"
 }

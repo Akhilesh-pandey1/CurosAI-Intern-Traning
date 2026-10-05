@@ -54,6 +54,21 @@ export const MODULES = [
         path: '/javascript/07-async-apis',
         enTitle: 'Async & APIs',
         hiTitle: 'Async & APIs'
+      },
+      {
+        path: '/javascript/08-project-calculator',
+        enTitle: 'Project — Calculator',
+        hiTitle: 'Project — Calculator'
+      },
+      {
+        path: '/javascript/09-project-todo-list',
+        enTitle: 'Project — To-Do List',
+        hiTitle: 'Project — To-Do List'
+      },
+      {
+        path: '/javascript/10-project-weather-app',
+        enTitle: 'Project — Weather App',
+        hiTitle: 'Project — Weather App'
       }
     ] },
   { title: 'React', pages: [] },

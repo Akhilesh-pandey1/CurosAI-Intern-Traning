@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 98 files · ~175,399 words
+- 99 files · ~176,358 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 798 nodes · 928 edges · 93 communities (84 shown, 9 thin omitted)
+- 804 nodes · 933 edges · 94 communities (85 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3838e86b`
+- Built from commit: `22309e4c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -92,6 +92,7 @@
 - 2.4 Conditions & Loops
 - 2.5 Functions & ES6 Modules
 - 2.6 DOM, Events & Storage
+- 2.7 Async & APIs
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -120,7 +121,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (93 total, 9 thin omitted)
+## Communities (94 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -394,8 +395,12 @@ Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules — split code across files,
 Cohesion: 0.29
 Nodes (6): 2.6 DOM, Events & Storage, Events — code that waits, Hands-on — predict, run, compare, localStorage — the browser remembers, sessionStorage — the same drawer, but the tab forgets, The DOM — the page as live objects
 
+### Community 93 - "2.7 Async & APIs"
+Cohesion: 0.33
+Nodes (5): 2.7 Async & APIs, An API — asking another computer for data, fetch + async/await — ask, then wait, Hands-on — predict, run, compare, try/catch — when the request fails
+
 ## Knowledge Gaps
-- **422 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+417 more)
+- **426 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+421 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -409,7 +414,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _422 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _426 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**
