@@ -28,12 +28,12 @@ export const MODULES = [
       {
         path: '/javascript/02-variables-types-operators',
         enTitle: 'Variables, Types & Operators',
-        hiTitle: 'Variables, Types Aur Operators'
+        hiTitle: 'Variables, Types & Operators'
       },
       {
         path: '/javascript/03-arrays-objects',
         enTitle: 'Arrays & Objects',
-        hiTitle: 'Arrays Aur Objects'
+        hiTitle: 'Arrays & Objects'
       },
       {
         path: '/javascript/04-conditions-loops',
@@ -44,6 +44,11 @@ export const MODULES = [
         path: '/javascript/05-functions-es6-modules',
         enTitle: 'Functions & ES6 Modules',
         hiTitle: 'Functions & ES6 Modules'
+      },
+      {
+        path: '/javascript/06-dom-events-storage',
+        enTitle: 'DOM, Events & Storage',
+        hiTitle: 'DOM, Events & Storage'
       }
     ] },
   { title: 'React', pages: [] },

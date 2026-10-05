@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 96 files · ~173,423 words
+- 97 files · ~174,375 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 785 nodes · 917 edges · 91 communities (82 shown, 9 thin omitted)
+- 791 nodes · 922 edges · 92 communities (83 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7a786563`
+- Built from commit: `bca49731`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,11 +85,12 @@
 - QuizBlock.vue
 - 1.3 CSS and Tailwind CSS
 - ContinueButton.vue
-- generate_design_system
+- _resolve_color_mode
 - 2.2 Variables, Types & Operators
 - 2.1 Start Here
-- 2.3 Conditions & Loops
-- 2.4 Functions & ES6 Modules
+- 2.3 Arrays & Objects
+- 2.4 Conditions & Loops
+- 2.5 Functions & ES6 Modules
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -118,7 +119,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (91 total, 9 thin omitted)
+## Communities (92 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -169,8 +170,8 @@ Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
 ### Community 12 - "design_system.py"
-Cohesion: 0.18
-Nodes (14): ansi_ljust(), format_ascii_box(), hex_to_ansi(), _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
+Cohesion: 0.22
+Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -364,9 +365,9 @@ Nodes (6): 1.3 CSS and Tailwind CSS, Hands-on — restyle your portfolio, twice,
 Cohesion: 0.25
 Nodes (6): buttonLabel, { findNextUnfinishedPagePath }, hasUnfinishedPages, { pickSiteText, localePrefix }, router, targetPagePath
 
-### Community 86 - "generate_design_system"
-Cohesion: 0.50
-Nodes (4): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation. Args: query: Search query (e.g.,…
+### Community 86 - "_resolve_color_mode"
+Cohesion: 0.33
+Nodes (6): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary()
 
 ### Community 87 - "2.2 Variables, Types & Operators"
 Cohesion: 0.33
@@ -376,16 +377,20 @@ Nodes (5): 2.2 Variables, Types & Operators, Data types — the five everyday sh
 Cohesion: 0.40
 Nodes (4): 2.1 Start Here, The one method of this whole module — predict, then run, Try it right now — the browser console, What JavaScript actually does
 
-### Community 89 - "2.3 Conditions & Loops"
-Cohesion: 0.40
-Nodes (4): 2.3 Conditions & Loops, Conditions — if, else, Hands-on — predict, run, compare, Loops — for, for...of, forEach
+### Community 89 - "2.3 Arrays & Objects"
+Cohesion: 0.33
+Nodes (5): 2.3 Arrays & Objects, Arrays — a numbered list, Hands-on — predict, run, compare, map, filter, find — the three daily methods, Objects — a labeled box
 
-### Community 90 - "2.4 Functions & ES6 Modules"
+### Community 90 - "2.4 Conditions & Loops"
 Cohesion: 0.40
-Nodes (4): 2.4 Functions & ES6 Modules, ES6 Modules — split code across files, Functions — name a piece of work, Hands-on — predict, run, compare
+Nodes (4): 2.4 Conditions & Loops, Conditions — if, else, Hands-on — predict, run, compare, Loops — for, for...of, forEach
+
+### Community 91 - "2.5 Functions & ES6 Modules"
+Cohesion: 0.40
+Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules — split code across files, Functions — name a piece of work, Hands-on — predict, run, compare
 
 ## Knowledge Gaps
-- **413 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+408 more)
+- **417 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+412 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -394,12 +399,12 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `generate_design_system`, `.generate`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _413 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _417 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

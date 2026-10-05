@@ -85,9 +85,10 @@
   "83": "QuizBlock.vue",
   "84": "1.3 CSS and Tailwind CSS",
   "85": "ContinueButton.vue",
-  "86": "generate_design_system",
+  "86": "_resolve_color_mode",
   "87": "2.2 Variables, Types & Operators",
   "88": "2.1 Start Here",
-  "89": "2.3 Conditions & Loops",
-  "90": "2.4 Functions & ES6 Modules"
+  "89": "2.3 Arrays & Objects",
+  "90": "2.4 Conditions & Loops",
+  "91": "2.5 Functions & ES6 Modules"
 }

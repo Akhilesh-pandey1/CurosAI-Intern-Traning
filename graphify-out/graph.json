@@ -8569,6 +8569,83 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
+      "label": "06-dom-events-storage.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "06-dom-events-storage.md"
+    },
+    {
+      "label": "2.6 DOM, Events & Storage",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "2.6 dom, events & storage"
+    },
+    {
+      "label": "The DOM \u2014 the page as live objects",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage_the_dom_the_page_as_live_objects",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "the dom \u2014 the page as live objects"
+    },
+    {
+      "label": "Events \u2014 code that waits",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage_events_code_that_waits",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "events \u2014 code that waits"
+    },
+    {
+      "label": "localStorage \u2014 the browser remembers",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage_localstorage_the_browser_remembers",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "localstorage \u2014 the browser remembers"
+    },
+    {
+      "label": "sessionStorage \u2014 the same drawer, but the tab forgets",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage_sessionstorage_the_same_drawer_but_the_tab_forgets",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "sessionstorage \u2014 the same drawer, but the tab forgets"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "site_en_javascript_06_dom_events_storage_hands_on_predict_run_compare",
+      "community": 92,
+      "community_name": "2.6 DOM, Events & Storage",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
       "label": "hi/html-css/01-start-here.md",
       "file_type": "document",
       "source_file": "site/hi/html-css/01-start-here.md",
@@ -19019,6 +19096,72 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_06_dom_events_storage",
+      "target": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_en_javascript_06_dom_events_storage_events_code_that_waits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_en_javascript_06_dom_events_storage_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_en_javascript_06_dom_events_storage_localstorage_the_browser_remembers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_en_javascript_06_dom_events_storage_sessionstorage_the_same_drawer_but_the_tab_forgets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/06-dom-events-storage.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_06_dom_events_storage_2_6_dom_events_storage",
+      "target": "site_en_javascript_06_dom_events_storage_the_dom_the_page_as_live_objects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/01-start-here.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -19161,5 +19304,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bca49731b4f67d5e4d642907ac17cbba945ed988"
+  "built_at_commit": "3838e86bf9866ff5a6fa34aa82f2257c5847c48d"
 }

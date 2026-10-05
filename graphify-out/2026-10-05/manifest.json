@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791199759.3834367,
-    "ast_hash": "b664962170aaeb4f2e88d905dab1e168",
+    "mtime": 1791203095.7772386,
+    "ast_hash": "da4d7a680523ce944d2414088b85a078",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -504,14 +504,19 @@
     "ast_hash": "c53190f57a6b08523558fab5dce543b5",
     "semantic_hash": ""
   },
-  "site/en/javascript/03-conditions-loops.md": {
-    "mtime": 1791197899.3497925,
-    "ast_hash": "08d7d55f6f25ddba5a612f094b50f7d7",
+  "site/en/javascript/03-arrays-objects.md": {
+    "mtime": 1791204168.911383,
+    "ast_hash": "b78c69f54f3ad891cdd21e206d84e2e6",
     "semantic_hash": ""
   },
-  "site/en/javascript/04-functions-es6-modules.md": {
-    "mtime": 1791200676.3703141,
-    "ast_hash": "dde645d4a91c77e62c0b477ae5fcaf9b",
+  "site/en/javascript/04-conditions-loops.md": {
+    "mtime": 1791203125.1342568,
+    "ast_hash": "4e477544a21f219f72e27e3e383aea2b",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/05-functions-es6-modules.md": {
+    "mtime": 1791203067.1893635,
+    "ast_hash": "3b50fe63d3691273f37ba871a0484c3b",
     "semantic_hash": ""
   }
 }
