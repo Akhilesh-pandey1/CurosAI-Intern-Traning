@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791205553.0401707,
-    "ast_hash": "e4ceaf2d544be4f2db190f495dead59c",
+    "mtime": 1791206019.535009,
+    "ast_hash": "0e0c965d52ef21471c75d4fdecd0883d",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -522,6 +522,11 @@
   "site/en/javascript/06-dom-events-storage.md": {
     "mtime": 1791205512.3159103,
     "ast_hash": "f9a6bc7a5f5de21dd5d5878737a8595c",
+    "semantic_hash": ""
+  },
+  "site/en/javascript/07-async-apis.md": {
+    "mtime": 1791206676.3359966,
+    "ast_hash": "b18be74d9c3fdaf4fe82424f6a31142e",
     "semantic_hash": ""
   }
 }

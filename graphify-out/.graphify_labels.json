@@ -91,5 +91,6 @@
   "89": "2.3 Arrays & Objects",
   "90": "2.4 Conditions & Loops",
   "91": "2.5 Functions & ES6 Modules",
-  "92": "2.6 DOM, Events & Storage"
+  "92": "2.6 DOM, Events & Storage",
+  "93": "2.7 Async & APIs"
 }

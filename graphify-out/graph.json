@@ -8646,6 +8646,72 @@
       "norm_label": "hands-on \u2014 predict, run, compare"
     },
     {
+      "label": "07-async-apis.md",
+      "file_type": "document",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_07_async_apis",
+      "community": 93,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "07-async-apis.md"
+    },
+    {
+      "label": "2.7 Async & APIs",
+      "file_type": "document",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_javascript_07_async_apis_2_7_async_apis",
+      "community": 93,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "2.7 async & apis"
+    },
+    {
+      "label": "An API \u2014 asking another computer for data",
+      "file_type": "document",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_javascript_07_async_apis_an_api_asking_another_computer_for_data",
+      "community": 93,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "an api \u2014 asking another computer for data"
+    },
+    {
+      "label": "fetch + async/await \u2014 ask, then wait",
+      "file_type": "document",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "site_en_javascript_07_async_apis_fetch_async_await_ask_then_wait",
+      "community": 93,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "fetch + async/await \u2014 ask, then wait"
+    },
+    {
+      "label": "try/catch \u2014 when the request fails",
+      "file_type": "document",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "site_en_javascript_07_async_apis_try_catch_when_the_request_fails",
+      "community": 93,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "try/catch \u2014 when the request fails"
+    },
+    {
+      "label": "Hands-on \u2014 predict, run, compare",
+      "file_type": "document",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "site_en_javascript_07_async_apis_hands_on_predict_run_compare",
+      "community": 93,
+      "community_name": "2.7 Async & APIs",
+      "norm_label": "hands-on \u2014 predict, run, compare"
+    },
+    {
       "label": "hi/html-css/01-start-here.md",
       "file_type": "document",
       "source_file": "site/hi/html-css/01-start-here.md",
@@ -19162,6 +19228,61 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_07_async_apis",
+      "target": "site_en_javascript_07_async_apis_2_7_async_apis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_en_javascript_07_async_apis_an_api_asking_another_computer_for_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_en_javascript_07_async_apis_fetch_async_await_ask_then_wait",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_en_javascript_07_async_apis_hands_on_predict_run_compare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/javascript/07-async-apis.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_javascript_07_async_apis_2_7_async_apis",
+      "target": "site_en_javascript_07_async_apis_try_catch_when_the_request_fails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/hi/html-css/01-start-here.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -19304,5 +19425,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3838e86bf9866ff5a6fa34aa82f2257c5847c48d"
+  "built_at_commit": "22309e4c8330d79e5a7c0d197bba3d34df54df35"
 }

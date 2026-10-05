@@ -49,6 +49,11 @@ export const MODULES = [
         path: '/javascript/06-dom-events-storage',
         enTitle: 'DOM, Events & Storage',
         hiTitle: 'DOM, Events & Storage'
+      },
+      {
+        path: '/javascript/07-async-apis',
+        enTitle: 'Async & APIs',
+        hiTitle: 'Async & APIs'
       }
     ] },
   { title: 'React', pages: [] },

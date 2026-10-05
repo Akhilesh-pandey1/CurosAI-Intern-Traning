@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 97 files · ~174,375 words
+- 98 files · ~175,399 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 791 nodes · 922 edges · 92 communities (83 shown, 9 thin omitted)
+- 798 nodes · 928 edges · 93 communities (84 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bca49731`
+- Built from commit: `3838e86b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -91,6 +91,7 @@
 - 2.3 Arrays & Objects
 - 2.4 Conditions & Loops
 - 2.5 Functions & ES6 Modules
+- 2.6 DOM, Events & Storage
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -119,7 +120,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (92 total, 9 thin omitted)
+## Communities (93 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -389,8 +390,12 @@ Nodes (4): 2.4 Conditions & Loops, Conditions — if, else, Hands-on — predict
 Cohesion: 0.40
 Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules — split code across files, Functions — name a piece of work, Hands-on — predict, run, compare
 
+### Community 92 - "2.6 DOM, Events & Storage"
+Cohesion: 0.29
+Nodes (6): 2.6 DOM, Events & Storage, Events — code that waits, Hands-on — predict, run, compare, localStorage — the browser remembers, sessionStorage — the same drawer, but the tab forgets, The DOM — the page as live objects
+
 ## Knowledge Gaps
-- **417 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+412 more)
+- **422 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+417 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -404,7 +409,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _417 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _422 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**
