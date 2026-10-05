@@ -34,6 +34,11 @@ export const MODULES = [
         path: '/javascript/03-conditions-loops',
         enTitle: 'Conditions & Loops',
         hiTitle: 'Conditions Aur Loops'
+      },
+      {
+        path: '/javascript/04-functions-es6-modules',
+        enTitle: 'Functions & ES6 Modules',
+        hiTitle: 'Functions Aur ES6 Modules'
       }
     ] },
   { title: 'React', pages: [] },
