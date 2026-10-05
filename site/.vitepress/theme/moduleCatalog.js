@@ -31,14 +31,19 @@ export const MODULES = [
         hiTitle: 'Variables, Types Aur Operators'
       },
       {
-        path: '/javascript/03-conditions-loops',
-        enTitle: 'Conditions & Loops',
-        hiTitle: 'Conditions Aur Loops'
+        path: '/javascript/03-arrays-objects',
+        enTitle: 'Arrays & Objects',
+        hiTitle: 'Arrays Aur Objects'
       },
       {
-        path: '/javascript/04-functions-es6-modules',
+        path: '/javascript/04-conditions-loops',
+        enTitle: 'Conditions & Loops',
+        hiTitle: 'Conditions & Loops'
+      },
+      {
+        path: '/javascript/05-functions-es6-modules',
         enTitle: 'Functions & ES6 Modules',
-        hiTitle: 'Functions Aur ES6 Modules'
+        hiTitle: 'Functions & ES6 Modules'
       }
     ] },
   { title: 'React', pages: [] },

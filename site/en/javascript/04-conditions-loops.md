@@ -1,10 +1,10 @@
-# 2.3 Conditions & Loops
+# 2.4 Conditions & Loops
 
 Two ideas turn a page from a script into a brain: **conditions** let code decide, **loops** let code repeat. Same method — predict first, run after, memorize nothing.
 
 ## Conditions — if, else
 
-A condition is a question with a true or false answer — exactly what the comparison operators from the last page gave you. The code inside runs only when the answer is true:
+A condition is a question with a true or false answer — exactly what the comparison operators from the variables page gave you. The code inside runs only when the answer is true:
 
 ```js
 const marks = 72

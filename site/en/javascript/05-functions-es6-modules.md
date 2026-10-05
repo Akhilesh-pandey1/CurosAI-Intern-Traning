@@ -1,4 +1,4 @@
-# 2.4 Functions & ES6 Modules
+# 2.5 Functions & ES6 Modules
 
 You can already make JavaScript decide and repeat. This page teaches it to **remember a piece of work** — write the work once, give it a name, and call it whenever you need it. Then modules: how real projects split code across many files.
 
