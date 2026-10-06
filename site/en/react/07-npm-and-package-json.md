@@ -56,6 +56,8 @@ One folder, huge by design: every package you use, and every package's own packa
 - Never edit anything inside.
 - Never copy or share it — `npm install` rebuilds the whole thing any time.
 
+<VideoSlot link="https://youtu.be/nSFe1-kpfbQ" topic="npm, package.json and package-lock.json — watch once" />
+
 ## The tour — three files that matter
 
 - `index.html` — the only real HTML page, holding one empty `<div>`. React fills it.
@@ -92,7 +94,7 @@ import { toTitleCase } from "./formatTools.js"
 
 The React convention: **one component per file, as the default export** — helpers travel as named exports.
 
-<VideoSlot topic="npm, package.json and package-lock.json — watch once" />
+<VideoSlot link="https://www.youtube.com/watch?v=BjU-Y2cRsMQ" topic="Import and export — default vs named, watch once" />
 
 ## Hands-on — read your own project
 

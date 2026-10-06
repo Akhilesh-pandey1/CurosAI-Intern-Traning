@@ -108,19 +108,24 @@ export const MODULES = [
         hiTitle: 'npm Aur package.json'
       },
       {
-        path: '/react/06-project-password-manager',
+        path: '/react/08-react-router',
+        enTitle: 'React Router',
+        hiTitle: 'React Router'
+      },
+      {
+        path: '/react/09-npm-packages-we-use',
+        enTitle: 'npm Packages We Use',
+        hiTitle: 'npm Packages Jo Hum Use Karte Hain'
+      },
+      {
+        path: '/react/10-project-password-manager',
         enTitle: 'Project — Password Manager',
         hiTitle: 'Project — Password Manager'
       },
       {
-        path: '/react/07-project-weather-dashboard',
+        path: '/react/11-project-weather-dashboard',
         enTitle: 'Project — Weather Dashboard',
         hiTitle: 'Project — Weather Dashboard'
-      },
-      {
-        path: '/react/08-wrap-test-yourself',
-        enTitle: 'Wrap & Test Yourself',
-        hiTitle: 'Wrap Aur Test Yourself'
       }
     ] },
   { title: 'Python/Flask', pages: [] },

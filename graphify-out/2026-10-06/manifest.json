@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791285922.9817264,
-    "ast_hash": "3fd9a8dfcf016788ac452b8eeb404a50",
+    "mtime": 1791208207.503345,
+    "ast_hash": "a99c4bb8d160c6329a92addadfeed1f0",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -597,61 +597,6 @@
   "site/hi/javascript/10-project-weather-app.md": {
     "mtime": 1791210217.4725592,
     "ast_hash": "bc4091000e403a3f9af941c4d92d8aee",
-    "semantic_hash": ""
-  },
-  "site/en/react/01-start-here.md": {
-    "mtime": 1791278716.2202578,
-    "ast_hash": "3ad4b6b12840706e8505f4cce9bd1e19",
-    "semantic_hash": ""
-  },
-  "site/en/react/02-components-and-props.md": {
-    "mtime": 1791266251.371288,
-    "ast_hash": "e54546a517d7ddfdf7c0ad6dd3b110aa",
-    "semantic_hash": ""
-  },
-  "site/en/react/03-conditional-rendering-and-lists.md": {
-    "mtime": 1791266252.1810813,
-    "ast_hash": "9ea2eb70657b316df39737fbc331a76c",
-    "semantic_hash": ""
-  },
-  "site/en/react/04-hooks-usestate-useref.md": {
-    "mtime": 1791274272.9000864,
-    "ast_hash": "731eaaabbabf4a883e8893a7dfd66bf7",
-    "semantic_hash": ""
-  },
-  "site/en/react/05-hooks-useeffect.md": {
-    "mtime": 1791280576.3689094,
-    "ast_hash": "1b2fa49b5dbe964e14902f9e4d0afd6e",
-    "semantic_hash": ""
-  },
-  "site/en/react/06-more-hooks-state-management.md": {
-    "mtime": 1791280734.5933654,
-    "ast_hash": "2a7b2360647da5cb478f98c1facf0453",
-    "semantic_hash": ""
-  },
-  "site/en/react/07-npm-and-package-json.md": {
-    "mtime": 1791282338.3874257,
-    "ast_hash": "40e187e061c5bb4b945bd74604543890",
-    "semantic_hash": ""
-  },
-  "site/en/react/08-react-router.md": {
-    "mtime": 1791283012.957711,
-    "ast_hash": "503329abc6d327a04aec7f34130ecda1",
-    "semantic_hash": ""
-  },
-  "site/en/react/09-npm-packages-we-use.md": {
-    "mtime": 1791283979.2615228,
-    "ast_hash": "73b192d9ea12c6bbe3a2c442c8fe9d42",
-    "semantic_hash": ""
-  },
-  "site/en/react/10-project-password-manager.md": {
-    "mtime": 1791287409.9892673,
-    "ast_hash": "83f760b8af518ab21a46297eff9f390a",
-    "semantic_hash": ""
-  },
-  "site/en/react/11-project-weather-dashboard.md": {
-    "mtime": 1791287421.8888655,
-    "ast_hash": "18ac1133346b63f9e6d7b9100878a680",
     "semantic_hash": ""
   }
 }

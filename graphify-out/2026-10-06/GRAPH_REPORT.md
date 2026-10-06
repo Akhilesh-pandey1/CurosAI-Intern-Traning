@@ -1,16 +1,16 @@
-# Graph Report - Intern-Training  (2026-10-06)
+# Graph Report - Intern-Training  (2026-10-05)
 
 ## Corpus Check
-- 124 files · ~198,979 words
+- 113 files · ~190,054 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 959 nodes · 1063 edges · 119 communities (110 shown, 9 thin omitted)
+- 891 nodes · 1006 edges · 108 communities (99 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fc5b1d6e`
+- Built from commit: `ce8c5f6c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -107,17 +107,6 @@
 - 2.1 Start Here
 - 2.4 Conditions & Loops
 - 2.5 Functions & ES6 Modules
-- 3.7 npm & package.json
-- 3.6 More Hooks
-- 3.9 npm Packages We Use
-- 3.2 Components & Props
-- 3.4 Hooks — useState & useRef
-- 3.8 React Router
-- 3.10 Project — Password Manager
-- 3.11 Project — Weather Dashboard
-- 3.1 Start Here
-- 3.3 Conditional Rendering & Lists
-- 3.5 Hooks — useEffect
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -146,7 +135,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (119 total, 9 thin omitted)
+## Communities (108 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -480,52 +469,8 @@ Nodes (4): 2.4 Conditions & Loops, Conditions — if, else, Hands-on — predict
 Cohesion: 0.40
 Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules — code को files में बाँटो, Functions — काम को नाम दे दो, Hands-on — predict, run, compare
 
-### Community 108 - "3.7 npm & package.json"
-Cohesion: 0.22
-Nodes (8): 3.7 npm & package.json, Every file is a module, Hands-on — read your own project, node_modules — where the downloads live, npm — the package manager, package.json — the project's ID card, package-lock.json — the exact receipt, The tour — three files that matter
-
-### Community 109 - "3.6 More Hooks"
-Cohesion: 0.29
-Nodes (6): 3.6 More Hooks, State management — when even context is not enough, The problem — props through five floors, useCallback — meet it, park it, useContext — one value, every floor, useMemo — meet it, park it
-
-### Community 110 - "3.9 npm Packages We Use"
-Cohesion: 0.29
-Nodes (6): 3.9 npm Packages We Use, AI drives, you navigate, Axios — fetch with less work, Hands-on — both packages, hands on the wheel, The habit — ask before you build, Zustand — the state store
-
-### Community 111 - "3.2 Components & Props"
-Cohesion: 0.33
-Nodes (5): 3.2 Components & Props, A component is a function that returns JSX, Hands-on — one card, three people, Props — data you pass in, What JSX is
-
-### Community 112 - "3.4 Hooks — useState & useRef"
-Cohesion: 0.33
-Nodes (5): 3.4 Hooks — useState & useRef, Hands-on — feel the difference, useRef — like useState, but the screen stays quiet, useState — memory that moves the screen, Why hooks exist
-
-### Community 113 - "3.8 React Router"
-Cohesion: 0.33
-Nodes (5): 3.8 React Router, Dynamic routes — one Route, many pages, Hands-on — give the app an address bar, Routes — the map of the app, The big idea — routing without the server
-
-### Community 114 - "3.10 Project — Password Manager"
-Cohesion: 0.33
-Nodes (5): 3.10 Project — Password Manager, How to build it — AI drives, you navigate, Know it, do not copy it, The changes you direct, What you build
-
-### Community 115 - "3.11 Project — Weather Dashboard"
-Cohesion: 0.33
-Nodes (5): 3.11 Project — Weather Dashboard, How to build it — AI drives, you navigate, Know it, do not copy it, Make it eye-catching — you direct the design, What you build
-
-### Community 116 - "3.1 Start Here"
-Cohesion: 0.40
-Nodes (4): 3.1 Start Here, Hands-on — make the app yours, The problem React solves, Your first React app — ten minutes
-
-### Community 117 - "3.3 Conditional Rendering & Lists"
-Cohesion: 0.40
-Nodes (4): 3.3 Conditional Rendering & Lists, Hands-on — a list that knows its state, Lists — map, not loops, Three ways to show something only sometimes
-
-### Community 118 - "3.5 Hooks — useEffect"
-Cohesion: 0.40
-Nodes (4): 3.5 Hooks — useEffect, Hands-on — data from outside, The dependency array — the whole hook in one line, useEffect — after the render that matters
-
 ## Knowledge Gaps
-- **531 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+526 more)
+- **485 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+480 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -533,13 +478,13 @@ Nodes (4): 3.5 Hooks — useEffect, Hands-on — data from outside, The dependen
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `allow` connect `allow` to `deny`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _531 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _485 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

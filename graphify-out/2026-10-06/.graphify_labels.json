@@ -106,16 +106,5 @@
   "104": "2.9 Project — To-Do List",
   "105": "2.1 Start Here",
   "106": "2.4 Conditions & Loops",
-  "107": "2.5 Functions & ES6 Modules",
-  "108": "3.7 npm & package.json",
-  "109": "3.6 More Hooks",
-  "110": "3.9 npm Packages We Use",
-  "111": "3.2 Components & Props",
-  "112": "3.4 Hooks — useState & useRef",
-  "113": "3.8 React Router",
-  "114": "3.10 Project — Password Manager",
-  "115": "3.11 Project — Weather Dashboard",
-  "116": "3.1 Start Here",
-  "117": "3.3 Conditional Rendering & Lists",
-  "118": "3.5 Hooks — useEffect"
+  "107": "2.5 Functions & ES6 Modules"
 }
