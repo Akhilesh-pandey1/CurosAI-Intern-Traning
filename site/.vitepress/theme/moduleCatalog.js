@@ -130,7 +130,28 @@ export const MODULES = [
     ] },
   { title: 'Python/Flask', pages: [] },
   { title: 'Database', pages: [] },
-  { title: 'CLI (Terminal)', pages: [] },
+  { title: 'CLI (Terminal)', pages: [
+      {
+        path: '/cli/01-gui-vs-terminal',
+        enTitle: 'GUI vs Terminal',
+        hiTitle: 'GUI vs Terminal'
+      },
+      {
+        path: '/cli/02-essential-commands',
+        enTitle: 'Essential Commands',
+        hiTitle: 'Zaroori Commands'
+      },
+      {
+        path: '/cli/03-running-things',
+        enTitle: 'Running Things',
+        hiTitle: 'Cheezein Run Karna'
+      },
+      {
+        path: '/cli/04-practice-challenges',
+        enTitle: 'Practice Challenges',
+        hiTitle: 'Practice Challenges'
+      }
+    ] },
   { title: 'Git', pages: [] },
   { title: 'Agent Coding', pages: [] },
   { title: 'API Design', pages: [] },
