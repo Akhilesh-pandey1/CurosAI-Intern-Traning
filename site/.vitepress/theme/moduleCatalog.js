@@ -71,7 +71,58 @@ export const MODULES = [
         hiTitle: 'Project — Weather App'
       }
     ] },
-  { title: 'React', pages: [] },
+  { title: 'React', pages: [
+      {
+        path: '/react/01-start-here',
+        enTitle: 'Start Here',
+        hiTitle: 'React Yahan Se Shuru Karein'
+      },
+      {
+        path: '/react/02-components-and-props',
+        enTitle: 'Components & Props',
+        hiTitle: 'Components Aur Props'
+      },
+      {
+        path: '/react/03-conditional-rendering-and-lists',
+        enTitle: 'Conditional Rendering & Lists',
+        hiTitle: 'Conditional Rendering Aur Lists'
+      },
+      {
+        path: '/react/04-hooks-usestate-useref',
+        enTitle: 'Hooks — useState & useRef',
+        hiTitle: 'Hooks — useState Aur useRef'
+      },
+      {
+        path: '/react/05-hooks-useeffect',
+        enTitle: 'Hooks — useEffect',
+        hiTitle: 'Hooks — useEffect'
+      },
+      {
+        path: '/react/06-more-hooks-state-management',
+        enTitle: 'More Hooks',
+        hiTitle: 'More Hooks'
+      },
+      {
+        path: '/react/07-npm-and-package-json',
+        enTitle: 'npm & package.json',
+        hiTitle: 'npm Aur package.json'
+      },
+      {
+        path: '/react/06-project-password-manager',
+        enTitle: 'Project — Password Manager',
+        hiTitle: 'Project — Password Manager'
+      },
+      {
+        path: '/react/07-project-weather-dashboard',
+        enTitle: 'Project — Weather Dashboard',
+        hiTitle: 'Project — Weather Dashboard'
+      },
+      {
+        path: '/react/08-wrap-test-yourself',
+        enTitle: 'Wrap & Test Yourself',
+        hiTitle: 'Wrap Aur Test Yourself'
+      }
+    ] },
   { title: 'Python/Flask', pages: [] },
   { title: 'Database', pages: [] },
   { title: 'CLI (Terminal)', pages: [] },
