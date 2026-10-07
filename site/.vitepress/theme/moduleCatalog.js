@@ -140,16 +140,6 @@ export const MODULES = [
         path: '/cli/02-essential-commands',
         enTitle: 'Essential Commands',
         hiTitle: 'Zaroori Commands'
-      },
-      {
-        path: '/cli/03-running-things',
-        enTitle: 'Running Things',
-        hiTitle: 'Cheezein Run Karna'
-      },
-      {
-        path: '/cli/04-practice-challenges',
-        enTitle: 'Practice Challenges',
-        hiTitle: 'Practice Challenges'
       }
     ] },
   { title: 'Git', pages: [] },

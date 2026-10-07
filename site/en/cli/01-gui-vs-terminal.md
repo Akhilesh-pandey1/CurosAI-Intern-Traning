@@ -32,10 +32,16 @@ The horror stories all come from one place: typing a delete command without read
 
 **Predict, then press Enter.** Before every command, say what you expect to happen. Then run. Surprised? Ask AI why — that surprise was a free lesson.
 
+## Nothing to memorize
+
+One fear is left, and it is quieter: the fear of forgetting. **You will not memorize anything in this module.** No developer does — looking up commands is normal work, and AI remembers every exact word for you, forever. What stays with you is smaller and worth more: knowing *what the CLI can do* and *when it saves you time*. The exact words? Ask AI when you need them.
+
+And the CLI is not a rule either. Nobody works only in the Terminal — the mouse stays your friend. The CLI earns its place in two moments: when it saves you time (ten folders, one line) and when it is the only door — npm, git, servers and AI coding tools all live there. You reach for it out of need, not out of force.
+
 ## Hands-on — your first CLI magic (Windows)
 
 1. Make a folder anywhere: open File Explorer, go to Downloads (or anywhere you like), right-click → New → Folder, name it `cli-training`. With the mouse — enjoy it, it is the last folder you will make that way.
-2. Now the magic door: click once in the File Explorer **address bar** (the bar at the top showing the folder path), type `powershell`, press Enter. A terminal window opens — already standing inside `cli-training`. No searching, no navigating. Remember this trick; developers use it daily.
+2. Now the magic door: right-click inside the `cli-training` folder → click **Open in Terminal**. A terminal window opens — already standing inside `cli-training`. No searching, no navigating. Remember this trick; developers use it daily. No such option in the menu (older Windows)? Click once in the address bar at the top, type `wt`, press Enter — same door. Still stuck? Ask AI: "how do I open a terminal in this folder on Windows?"
 3. Look down: `pwd` — the path on screen is your folder. The GUI folder and the CLI are the same place, seen two ways.
 4. Make the playground and step inside: `mkdir cli`, then `cd cli`. Now the first trick — ten folders, one command:
 
@@ -52,7 +58,7 @@ The horror stories all come from one place: typing a delete command without read
 
    Your words, printed in green. Try Yellow, Red, Cyan — the computer obeys every time. That is the whole CLI idea in one trick: you tell, it does.
 6. **Copy-paste like a developer:** select any command on this page, copy it, then right-click inside the terminal — it pastes. From today, long commands travel by paste, not by typing.
-7. The other door — opening it by hand: a terminal opened from the Start menu starts in your user folder, not yours to choose. No problem: type `cd`, add a space, paste your folder path — copy it from the File Explorer address bar first — and Enter. That is `cd` doing its job: walk to the path you name.
+7. The other door — opening it by hand: open the Terminal from the Start menu (just type `terminal` there and Enter) and it starts in your user folder, not yours to choose. No problem: type `cd`, add a space, paste your folder path — copy it from the File Explorer address bar first — and Enter. That is `cd` doing its job: walk to the path you name.
 8. On Mac or Linux? Same flow, different door — make the folder, then ask AI: "how do I open a terminal inside this folder on Mac?" The commands above are already the same words.
 
 <QuizBlock
@@ -64,7 +70,8 @@ The horror stories all come from one place: typing a delete command without read
     { question: 'Why does a developer need the terminal if the GUI can do the same things?', answer: 'Some tools exist only there, commands work the same on every machine, and servers have no mouse at all.' },
     { question: 'What is the one real danger of the terminal?', answer: 'Delete commands skip the Recycle Bin — removed means gone. So read twice before Enter on anything that deletes.' },
     { question: 'What habit replaces fear of the terminal?', answer: 'Predict, then press Enter. Say what you expect first — and if the result surprises you, ask why.' },
-    { question: 'Can you break your computer by looking around in the terminal?', answer: 'No. Looking commands like ls and pwd touch nothing. Only typing and running a command changes anything.' }
+    { question: 'Can you break your computer by looking around in the terminal?', answer: 'No. Looking commands like ls and pwd touch nothing. Only typing and running a command changes anything.' },
+    { question: 'Do you have to memorize the commands?', answer: 'No — know what the CLI can do and when it saves time. AI remembers the exact words; senior developers look up commands every day.' }
   ]"
 />
 
