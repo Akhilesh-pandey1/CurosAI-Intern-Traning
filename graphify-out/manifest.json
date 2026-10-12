@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791285922.9817264,
-    "ast_hash": "3fd9a8dfcf016788ac452b8eeb404a50",
+    "mtime": 1791800627.722387,
+    "ast_hash": "5a51d9403fa2c5fb1d0db61c7aa634a5",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -652,6 +652,91 @@
   "site/en/react/11-project-weather-dashboard.md": {
     "mtime": 1791287421.8888655,
     "ast_hash": "18ac1133346b63f9e6d7b9100878a680",
+    "semantic_hash": ""
+  },
+  "site/en/cli/01-gui-vs-terminal.md": {
+    "mtime": 1791293664.1223786,
+    "ast_hash": "40d4d52eea66bd4cce755eec12683555",
+    "semantic_hash": ""
+  },
+  "site/en/cli/02-essential-commands.md": {
+    "mtime": 1791304805.5526626,
+    "ast_hash": "5af4316e599547fd1b3b6bdeec3c229c",
+    "semantic_hash": ""
+  },
+  "site/en/git/01-what-git-actually-is.md": {
+    "mtime": 1791804420.4182527,
+    "ast_hash": "dafe123184de67dd5d94f7d0218e0c4b",
+    "semantic_hash": ""
+  },
+  "site/en/git/02-everyday-git.md": {
+    "mtime": 1791807214.912137,
+    "ast_hash": "c5164ae61b1b201b1f0774f220e98958",
+    "semantic_hash": ""
+  },
+  "site/en/git/03-remote-github.md": {
+    "mtime": 1791807726.8760588,
+    "ast_hash": "5528da9d06cbc62f030b43ecb179f9d2",
+    "semantic_hash": ""
+  },
+  "site/en/git/04-branches-and-wrap.md": {
+    "mtime": 1791809211.2713323,
+    "ast_hash": "b7a7c280cf8fa70b5edb1a4302a4d918",
+    "semantic_hash": ""
+  },
+  "site/hi/react/01-start-here.md": {
+    "mtime": 1791289924.317614,
+    "ast_hash": "37218af964620c60aeb1eb816f399903",
+    "semantic_hash": ""
+  },
+  "site/hi/react/02-components-and-props.md": {
+    "mtime": 1791289962.1811614,
+    "ast_hash": "102ebcf6cbb7dc392bea19a8c203cda1",
+    "semantic_hash": ""
+  },
+  "site/hi/react/03-conditional-rendering-and-lists.md": {
+    "mtime": 1791290003.302683,
+    "ast_hash": "a65c676a4adb0dcadd6ebb0bca9f947d",
+    "semantic_hash": ""
+  },
+  "site/hi/react/04-hooks-usestate-useref.md": {
+    "mtime": 1791290053.9855645,
+    "ast_hash": "4c2a37641e9b4fd923f457a1edc65266",
+    "semantic_hash": ""
+  },
+  "site/hi/react/05-hooks-useeffect.md": {
+    "mtime": 1791290094.338477,
+    "ast_hash": "f3b7f4709b709e059bb7f49d77c47843",
+    "semantic_hash": ""
+  },
+  "site/hi/react/06-more-hooks-state-management.md": {
+    "mtime": 1791290142.3792987,
+    "ast_hash": "72d0d5760824347d4779e39b187a051b",
+    "semantic_hash": ""
+  },
+  "site/hi/react/07-npm-and-package-json.md": {
+    "mtime": 1791290200.9980278,
+    "ast_hash": "47ccaaf363083a46ac05dbb3e0fc9d0e",
+    "semantic_hash": ""
+  },
+  "site/hi/react/08-react-router.md": {
+    "mtime": 1791290252.1776402,
+    "ast_hash": "14b21882847c3aea97ecae257776622d",
+    "semantic_hash": ""
+  },
+  "site/hi/react/09-npm-packages-we-use.md": {
+    "mtime": 1791290324.806358,
+    "ast_hash": "07140bbfd24abd5831cddc496cf87f3a",
+    "semantic_hash": ""
+  },
+  "site/hi/react/10-project-password-manager.md": {
+    "mtime": 1791290372.2130108,
+    "ast_hash": "e5323401b97ab3cac09a30574169eca5",
+    "semantic_hash": ""
+  },
+  "site/hi/react/11-project-weather-dashboard.md": {
+    "mtime": 1791290428.538833,
+    "ast_hash": "4926b9df30ccc3b6eed34a9af058c92d",
     "semantic_hash": ""
   }
 }

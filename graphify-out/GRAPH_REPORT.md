@@ -1,16 +1,16 @@
-# Graph Report - Intern-Training  (2026-10-06)
+# Graph Report - Intern-Training  (2026-10-12)
 
 ## Corpus Check
-- 124 files · ~198,979 words
+- 141 files · ~214,959 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 959 nodes · 1063 edges · 119 communities (110 shown, 9 thin omitted)
+- 1075 nodes · 1162 edges · 136 communities (127 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fc5b1d6e`
+- Built from commit: `c2be18de`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -118,6 +118,23 @@
 - 3.1 Start Here
 - 3.3 Conditional Rendering & Lists
 - 3.5 Hooks — useEffect
+- 6.2 Essential Commands
+- 7.2 Everyday Git
+- 7.4 Branches at a Glance
+- 3.7 npm & package.json
+- 6.1 GUI vs Terminal
+- 7.3 Remote & GitHub
+- 3.6 More Hooks
+- 3.9 npm Packages We Use
+- 7.1 What Git Actually Is
+- 3.2 Components & Props
+- 3.4 Hooks — useState & useRef
+- 3.8 React Router
+- 3.10 Project — Password Manager
+- 3.11 Project — Weather Dashboard
+- 3.1 Start Here
+- 3.3 Conditional Rendering & Lists
+- 3.5 Hooks — useEffect
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -146,7 +163,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (119 total, 9 thin omitted)
+## Communities (136 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -524,22 +541,90 @@ Nodes (4): 3.3 Conditional Rendering & Lists, Hands-on — a list that knows its
 Cohesion: 0.40
 Nodes (4): 3.5 Hooks — useEffect, Hands-on — data from outside, The dependency array — the whole hook in one line, useEffect — after the render that matters
 
+### Community 119 - "6.2 Essential Commands"
+Cohesion: 0.20
+Nodes (9): 6.2 Essential Commands, Delete — rm (read twice), Find your feet — pwd, ls, cd, Hands-on — build a small world, then take it down, Look inside — cat, Make things — mkdir, touch, echo, Move, copy, rename — mv and cp, Test Yourself (+1 more)
+
+### Community 120 - "7.2 Everyday Git"
+Cohesion: 0.22
+Nodes (8): 7.2 Everyday Git, add — call into the frame, commit — the click, Hands-on — a repo with a real history, log — flip the album, Not everything belongs in the photo, status — ask before everything, The three places a change can live
+
+### Community 121 - "7.4 Branches at a Glance"
+Cohesion: 0.22
+Nodes (8): 7.4 Branches at a Glance, A branch is a parallel timeline, git worktree — one repo, many folders, Half-done? Branch it and push anyway, Test Yourself, The default line — main, The Git summary — the module on one table, Where you stand
+
+### Community 122 - "3.7 npm & package.json"
+Cohesion: 0.22
+Nodes (8): 3.7 npm & package.json, Hands-on — अपना project खुद पढ़ो, node_modules — downloads का घर, npm — package manager, package.json — project का ID card, package-lock.json — ठीक-ठीक receipt, एक बार घुमाओ — तीन files जो matter करती हैं, हर file एक module है
+
+### Community 123 - "6.1 GUI vs Terminal"
+Cohesion: 0.29
+Nodes (6): 6.1 GUI vs Terminal, Hands-on — your first CLI magic (Windows), Nothing to fear, Nothing to memorize, Two ways to talk to your computer, Why developers live here
+
+### Community 124 - "7.3 Remote & GitHub"
+Cohesion: 0.29
+Nodes (6): 7.3 Remote & GitHub, clone — take a whole repo home, Git vs GitHub — two names, two things, Hands-on — your code leaves the laptop, push and pull — the sync, The remote — a repo with an address
+
+### Community 125 - "3.6 More Hooks"
+Cohesion: 0.29
+Nodes (6): 3.6 More Hooks, Problem — props पाँच मंज़िल नीचे तक, State management — जब context भी कम पड़ जाए, useCallback — मिल लो, आगे बढ़ो, useContext — एक value, हर मंज़िल, useMemo — मिल लो, आगे बढ़ो
+
+### Community 126 - "3.9 npm Packages We Use"
+Cohesion: 0.29
+Nodes (6): 3.9 npm Packages We Use, AI चलाता है, आप रास्ता दिखाते हो, Axios — fetch, कम मेहनत में, Hands-on — दोनों packages, पहिया आपके हाथ, Zustand — state का store, आदत — बनाने से पहले पूछो
+
+### Community 127 - "7.1 What Git Actually Is"
+Cohesion: 0.33
+Nodes (5): 7.1 What Git Actually Is, Hands-on — first contact, Install git on your machine, The problem it solves, What a repo is
+
+### Community 128 - "3.2 Components & Props"
+Cohesion: 0.33
+Nodes (5): 3.2 Components & Props, Component एक function है जो JSX लौटाता है, Hands-on — एक card, तीन लोग, JSX actually है क्या, Props — अंदर भेजा गया data
+
+### Community 129 - "3.4 Hooks — useState & useRef"
+Cohesion: 0.33
+Nodes (5): 3.4 Hooks — useState & useRef, Hands-on — फ़र्क़ महसूस करो, Hooks exist क्यों करते हैं, useRef — useState जैसा, पर screen चुप रहती है, useState — वो याददाश्त जो screen हिलाती है
+
+### Community 130 - "3.8 React Router"
+Cohesion: 0.33
+Nodes (5): 3.8 React Router, Dynamic routes — एक Route, कई pages, Hands-on — app को address bar दो, Routes — app का नक्शा, बड़ा idea — server के बिना routing
+
+### Community 131 - "3.10 Project — Password Manager"
+Cohesion: 0.33
+Nodes (5): 3.10 Project — Password Manager, आप क्या बनाते हो, आप जो बदलाव करवाते हो, इसे जानो, copy मत करो, कैसे बनाते हैं — AI चलाता है, आप रास्ता दिखाते हो
+
+### Community 132 - "3.11 Project — Weather Dashboard"
+Cohesion: 0.33
+Nodes (5): 3.11 Project — Weather Dashboard, आप क्या बनाते हो, इसे जानो, copy मत करो, कैसे बनाते हैं — AI चलाता है, आप रास्ता दिखाते हो, दिखने में चट करने वाला बनाओ — design आप direct करो
+
+### Community 133 - "3.1 Start Here"
+Cohesion: 0.40
+Nodes (4): 3.1 Start Here, Hands-on — app को अपना बनाओ, React कौन सी problem सुलझाता है, आपका पहला React app — दस मिनट
+
+### Community 134 - "3.3 Conditional Rendering & Lists"
+Cohesion: 0.40
+Nodes (4): 3.3 Conditional Rendering & Lists, Hands-on — एक list जो अपना हाल जानती है, Lists — loops नहीं, map, तीन तरीके — कभी-कभी दिखाओ
+
+### Community 135 - "3.5 Hooks — useEffect"
+Cohesion: 0.40
+Nodes (4): 3.5 Hooks — useEffect, Dependency array — पूरा hook एक line में, Hands-on — बाहर से आया data, useEffect — जो render matter करता है, उसके बाद
+
 ## Knowledge Gaps
-- **531 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+526 more)
+- **613 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+608 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **Why does `allow` connect `allow` to `deny`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `apply_decision_rules()` connect `._apply_reasoning` to `design_system.py`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _531 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _613 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

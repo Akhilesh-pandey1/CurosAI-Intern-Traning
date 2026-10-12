@@ -142,7 +142,28 @@ export const MODULES = [
         hiTitle: 'Zaroori Commands'
       }
     ] },
-  { title: 'Git', pages: [] },
+  { title: 'Git', pages: [
+      {
+        path: '/git/01-what-git-actually-is',
+        enTitle: 'What Git Actually Is',
+        hiTitle: 'Git Asal Mein Kya Hai'
+      },
+      {
+        path: '/git/02-everyday-git',
+        enTitle: 'Everyday Git',
+        hiTitle: 'Rozana Git'
+      },
+      {
+        path: '/git/03-remote-github',
+        enTitle: 'Remote & GitHub',
+        hiTitle: 'Remote Aur GitHub'
+      },
+      {
+        path: '/git/04-branches-and-wrap',
+        enTitle: 'Branches at a Glance',
+        hiTitle: 'Branches Ek Nazar Mein'
+      }
+    ] },
   { title: 'Agent Coding', pages: [] },
   { title: 'API Design', pages: [] },
   { title: 'Frontend UI Design', pages: [] },

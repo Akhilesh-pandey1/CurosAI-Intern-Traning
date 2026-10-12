@@ -8019,6 +8019,534 @@
       "norm_label": "testing approach"
     },
     {
+      "label": "01-gui-vs-terminal.md",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "01-gui-vs-terminal.md"
+    },
+    {
+      "label": "6.1 GUI vs Terminal",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "6.1 gui vs terminal"
+    },
+    {
+      "label": "Two ways to talk to your computer",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal_two_ways_to_talk_to_your_computer",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "two ways to talk to your computer"
+    },
+    {
+      "label": "Why developers live here",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal_why_developers_live_here",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "why developers live here"
+    },
+    {
+      "label": "Nothing to fear",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal_nothing_to_fear",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "nothing to fear"
+    },
+    {
+      "label": "Nothing to memorize",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal_nothing_to_memorize",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "nothing to memorize"
+    },
+    {
+      "label": "Hands-on \u2014 your first CLI magic (Windows)",
+      "file_type": "document",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "site_en_cli_01_gui_vs_terminal_hands_on_your_first_cli_magic_windows",
+      "community": 123,
+      "community_name": "6.1 GUI vs Terminal",
+      "norm_label": "hands-on \u2014 your first cli magic (windows)"
+    },
+    {
+      "label": "02-essential-commands.md",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "02-essential-commands.md"
+    },
+    {
+      "label": "6.2 Essential Commands",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "6.2 essential commands"
+    },
+    {
+      "label": "Find your feet \u2014 pwd, ls, cd",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_find_your_feet_pwd_ls_cd",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "find your feet \u2014 pwd, ls, cd"
+    },
+    {
+      "label": "Make things \u2014 mkdir, touch, echo",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_make_things_mkdir_touch_echo",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "make things \u2014 mkdir, touch, echo"
+    },
+    {
+      "label": "Look inside \u2014 cat",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_look_inside_cat",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "look inside \u2014 cat"
+    },
+    {
+      "label": "Move, copy, rename \u2014 mv and cp",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_move_copy_rename_mv_and_cp",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "move, copy, rename \u2014 mv and cp"
+    },
+    {
+      "label": "Delete \u2014 rm (read twice)",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_delete_rm_read_twice",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "delete \u2014 rm (read twice)"
+    },
+    {
+      "label": "The command summary",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_the_command_summary",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "the command summary"
+    },
+    {
+      "label": "Hands-on \u2014 build a small world, then take it down",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_hands_on_build_a_small_world_then_take_it_down",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "hands-on \u2014 build a small world, then take it down"
+    },
+    {
+      "label": "Test Yourself",
+      "file_type": "document",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "site_en_cli_02_essential_commands_test_yourself",
+      "community": 119,
+      "community_name": "6.2 Essential Commands",
+      "norm_label": "test yourself"
+    },
+    {
+      "label": "01-what-git-actually-is.md",
+      "file_type": "document",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_01_what_git_actually_is",
+      "community": 127,
+      "community_name": "7.1 What Git Actually Is",
+      "norm_label": "01-what-git-actually-is.md"
+    },
+    {
+      "label": "7.1 What Git Actually Is",
+      "file_type": "document",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "community": 127,
+      "community_name": "7.1 What Git Actually Is",
+      "norm_label": "7.1 what git actually is"
+    },
+    {
+      "label": "The problem it solves",
+      "file_type": "document",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_git_01_what_git_actually_is_the_problem_it_solves",
+      "community": 127,
+      "community_name": "7.1 What Git Actually Is",
+      "norm_label": "the problem it solves"
+    },
+    {
+      "label": "What a repo is",
+      "file_type": "document",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "site_en_git_01_what_git_actually_is_what_a_repo_is",
+      "community": 127,
+      "community_name": "7.1 What Git Actually Is",
+      "norm_label": "what a repo is"
+    },
+    {
+      "label": "Install git on your machine",
+      "file_type": "document",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "site_en_git_01_what_git_actually_is_install_git_on_your_machine",
+      "community": 127,
+      "community_name": "7.1 What Git Actually Is",
+      "norm_label": "install git on your machine"
+    },
+    {
+      "label": "Hands-on \u2014 first contact",
+      "file_type": "document",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "site_en_git_01_what_git_actually_is_hands_on_first_contact",
+      "community": 127,
+      "community_name": "7.1 What Git Actually Is",
+      "norm_label": "hands-on \u2014 first contact"
+    },
+    {
+      "label": "02-everyday-git.md",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "02-everyday-git.md"
+    },
+    {
+      "label": "7.2 Everyday Git",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "7.2 everyday git"
+    },
+    {
+      "label": "The three places a change can live",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_the_three_places_a_change_can_live",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "the three places a change can live"
+    },
+    {
+      "label": "status \u2014 ask before everything",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_status_ask_before_everything",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "status \u2014 ask before everything"
+    },
+    {
+      "label": "add \u2014 call into the frame",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_add_call_into_the_frame",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "add \u2014 call into the frame"
+    },
+    {
+      "label": "commit \u2014 the click",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_commit_the_click",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "commit \u2014 the click"
+    },
+    {
+      "label": "log \u2014 flip the album",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_log_flip_the_album",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "log \u2014 flip the album"
+    },
+    {
+      "label": "Not everything belongs in the photo",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_not_everything_belongs_in_the_photo",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "not everything belongs in the photo"
+    },
+    {
+      "label": "Hands-on \u2014 a repo with a real history",
+      "file_type": "document",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "site_en_git_02_everyday_git_hands_on_a_repo_with_a_real_history",
+      "community": 120,
+      "community_name": "7.2 Everyday Git",
+      "norm_label": "hands-on \u2014 a repo with a real history"
+    },
+    {
+      "label": "03-remote-github.md",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "03-remote-github.md"
+    },
+    {
+      "label": "7.3 Remote & GitHub",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github_7_3_remote_github",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "7.3 remote & github"
+    },
+    {
+      "label": "Git vs GitHub \u2014 two names, two things",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github_git_vs_github_two_names_two_things",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "git vs github \u2014 two names, two things"
+    },
+    {
+      "label": "The remote \u2014 a repo with an address",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github_the_remote_a_repo_with_an_address",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "the remote \u2014 a repo with an address"
+    },
+    {
+      "label": "push and pull \u2014 the sync",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github_push_and_pull_the_sync",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "push and pull \u2014 the sync"
+    },
+    {
+      "label": "clone \u2014 take a whole repo home",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github_clone_take_a_whole_repo_home",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "clone \u2014 take a whole repo home"
+    },
+    {
+      "label": "Hands-on \u2014 your code leaves the laptop",
+      "file_type": "document",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "site_en_git_03_remote_github_hands_on_your_code_leaves_the_laptop",
+      "community": 124,
+      "community_name": "7.3 Remote & GitHub",
+      "norm_label": "hands-on \u2014 your code leaves the laptop"
+    },
+    {
+      "label": "04-branches-and-wrap.md",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "04-branches-and-wrap.md"
+    },
+    {
+      "label": "7.4 Branches at a Glance",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "7.4 branches at a glance"
+    },
+    {
+      "label": "The default line \u2014 main",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_the_default_line_main",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "the default line \u2014 main"
+    },
+    {
+      "label": "A branch is a parallel timeline",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_a_branch_is_a_parallel_timeline",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "a branch is a parallel timeline"
+    },
+    {
+      "label": "git worktree \u2014 one repo, many folders",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_git_worktree_one_repo_many_folders",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "git worktree \u2014 one repo, many folders"
+    },
+    {
+      "label": "Half-done? Branch it and push anyway",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_half_done_branch_it_and_push_anyway",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "half-done? branch it and push anyway"
+    },
+    {
+      "label": "The Git summary \u2014 the module on one table",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_the_git_summary_the_module_on_one_table",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "the git summary \u2014 the module on one table"
+    },
+    {
+      "label": "Where you stand",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_where_you_stand",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "where you stand"
+    },
+    {
+      "label": "Test Yourself",
+      "file_type": "document",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "site_en_git_04_branches_and_wrap_test_yourself",
+      "community": 121,
+      "community_name": "7.4 Branches at a Glance",
+      "norm_label": "test yourself"
+    },
+    {
       "label": "en/html-css/01-start-here.md",
       "file_type": "document",
       "source_file": "site/en/html-css/01-start-here.md",
@@ -8932,7 +9460,7 @@
       "norm_label": "test yourself \u2014 the whole module"
     },
     {
-      "label": "react/01-start-here.md",
+      "label": "en/react/01-start-here.md",
       "file_type": "document",
       "source_file": "site/en/react/01-start-here.md",
       "source_location": "L1",
@@ -8940,7 +9468,7 @@
       "id": "site_en_react_01_start_here",
       "community": 116,
       "community_name": "3.1 Start Here",
-      "norm_label": "react/01-start-here.md"
+      "norm_label": "en/react/01-start-here.md"
     },
     {
       "label": "3.1 Start Here",
@@ -8987,7 +9515,7 @@
       "norm_label": "hands-on \u2014 make the app yours"
     },
     {
-      "label": "02-components-and-props.md",
+      "label": "en/react/02-components-and-props.md",
       "file_type": "document",
       "source_file": "site/en/react/02-components-and-props.md",
       "source_location": "L1",
@@ -8995,7 +9523,7 @@
       "id": "site_en_react_02_components_and_props",
       "community": 111,
       "community_name": "3.2 Components & Props",
-      "norm_label": "02-components-and-props.md"
+      "norm_label": "en/react/02-components-and-props.md"
     },
     {
       "label": "3.2 Components & Props",
@@ -9053,7 +9581,7 @@
       "norm_label": "hands-on \u2014 one card, three people"
     },
     {
-      "label": "03-conditional-rendering-and-lists.md",
+      "label": "en/react/03-conditional-rendering-and-lists.md",
       "file_type": "document",
       "source_file": "site/en/react/03-conditional-rendering-and-lists.md",
       "source_location": "L1",
@@ -9061,7 +9589,7 @@
       "id": "site_en_react_03_conditional_rendering_and_lists",
       "community": 117,
       "community_name": "3.3 Conditional Rendering & Lists",
-      "norm_label": "03-conditional-rendering-and-lists.md"
+      "norm_label": "en/react/03-conditional-rendering-and-lists.md"
     },
     {
       "label": "3.3 Conditional Rendering & Lists",
@@ -9108,7 +9636,7 @@
       "norm_label": "hands-on \u2014 a list that knows its state"
     },
     {
-      "label": "04-hooks-usestate-useref.md",
+      "label": "en/react/04-hooks-usestate-useref.md",
       "file_type": "document",
       "source_file": "site/en/react/04-hooks-usestate-useref.md",
       "source_location": "L1",
@@ -9116,7 +9644,7 @@
       "id": "site_en_react_04_hooks_usestate_useref",
       "community": 112,
       "community_name": "3.4 Hooks \u2014 useState & useRef",
-      "norm_label": "04-hooks-usestate-useref.md"
+      "norm_label": "en/react/04-hooks-usestate-useref.md"
     },
     {
       "label": "3.4 Hooks \u2014 useState & useRef",
@@ -9174,7 +9702,7 @@
       "norm_label": "hands-on \u2014 feel the difference"
     },
     {
-      "label": "05-hooks-useeffect.md",
+      "label": "en/react/05-hooks-useeffect.md",
       "file_type": "document",
       "source_file": "site/en/react/05-hooks-useeffect.md",
       "source_location": "L1",
@@ -9182,7 +9710,7 @@
       "id": "site_en_react_05_hooks_useeffect",
       "community": 118,
       "community_name": "3.5 Hooks \u2014 useEffect",
-      "norm_label": "05-hooks-useeffect.md"
+      "norm_label": "en/react/05-hooks-useeffect.md"
     },
     {
       "label": "3.5 Hooks \u2014 useEffect",
@@ -9229,7 +9757,7 @@
       "norm_label": "hands-on \u2014 data from outside"
     },
     {
-      "label": "06-more-hooks-state-management.md",
+      "label": "en/react/06-more-hooks-state-management.md",
       "file_type": "document",
       "source_file": "site/en/react/06-more-hooks-state-management.md",
       "source_location": "L1",
@@ -9237,7 +9765,7 @@
       "id": "site_en_react_06_more_hooks_state_management",
       "community": 109,
       "community_name": "3.6 More Hooks",
-      "norm_label": "06-more-hooks-state-management.md"
+      "norm_label": "en/react/06-more-hooks-state-management.md"
     },
     {
       "label": "3.6 More Hooks",
@@ -9306,7 +9834,7 @@
       "norm_label": "usecallback \u2014 meet it, park it"
     },
     {
-      "label": "07-npm-and-package-json.md",
+      "label": "en/react/07-npm-and-package-json.md",
       "file_type": "document",
       "source_file": "site/en/react/07-npm-and-package-json.md",
       "source_location": "L1",
@@ -9314,7 +9842,7 @@
       "id": "site_en_react_07_npm_and_package_json",
       "community": 108,
       "community_name": "3.7 npm & package.json",
-      "norm_label": "07-npm-and-package-json.md"
+      "norm_label": "en/react/07-npm-and-package-json.md"
     },
     {
       "label": "3.7 npm & package.json",
@@ -9405,7 +9933,7 @@
       "norm_label": "hands-on \u2014 read your own project"
     },
     {
-      "label": "08-react-router.md",
+      "label": "en/react/08-react-router.md",
       "file_type": "document",
       "source_file": "site/en/react/08-react-router.md",
       "source_location": "L1",
@@ -9413,7 +9941,7 @@
       "id": "site_en_react_08_react_router",
       "community": 113,
       "community_name": "3.8 React Router",
-      "norm_label": "08-react-router.md"
+      "norm_label": "en/react/08-react-router.md"
     },
     {
       "label": "3.8 React Router",
@@ -9471,7 +9999,7 @@
       "norm_label": "hands-on \u2014 give the app an address bar"
     },
     {
-      "label": "09-npm-packages-we-use.md",
+      "label": "en/react/09-npm-packages-we-use.md",
       "file_type": "document",
       "source_file": "site/en/react/09-npm-packages-we-use.md",
       "source_location": "L1",
@@ -9479,7 +10007,7 @@
       "id": "site_en_react_09_npm_packages_we_use",
       "community": 110,
       "community_name": "3.9 npm Packages We Use",
-      "norm_label": "09-npm-packages-we-use.md"
+      "norm_label": "en/react/09-npm-packages-we-use.md"
     },
     {
       "label": "3.9 npm Packages We Use",
@@ -9548,7 +10076,7 @@
       "norm_label": "hands-on \u2014 both packages, hands on the wheel"
     },
     {
-      "label": "10-project-password-manager.md",
+      "label": "en/react/10-project-password-manager.md",
       "file_type": "document",
       "source_file": "site/en/react/10-project-password-manager.md",
       "source_location": "L1",
@@ -9556,7 +10084,7 @@
       "id": "site_en_react_10_project_password_manager",
       "community": 114,
       "community_name": "3.10 Project \u2014 Password Manager",
-      "norm_label": "10-project-password-manager.md"
+      "norm_label": "en/react/10-project-password-manager.md"
     },
     {
       "label": "3.10 Project \u2014 Password Manager",
@@ -9614,7 +10142,7 @@
       "norm_label": "know it, do not copy it"
     },
     {
-      "label": "11-project-weather-dashboard.md",
+      "label": "en/react/11-project-weather-dashboard.md",
       "file_type": "document",
       "source_file": "site/en/react/11-project-weather-dashboard.md",
       "source_location": "L1",
@@ -9622,7 +10150,7 @@
       "id": "site_en_react_11_project_weather_dashboard",
       "community": 115,
       "community_name": "3.11 Project \u2014 Weather Dashboard",
-      "norm_label": "11-project-weather-dashboard.md"
+      "norm_label": "en/react/11-project-weather-dashboard.md"
     },
     {
       "label": "3.11 Project \u2014 Weather Dashboard",
@@ -10591,6 +11119,754 @@
       "community": 96,
       "community_name": "2.10 Project \u2014 Weather App",
       "norm_label": "\u0916\u0941\u0926 \u0915\u094b \u091c\u093e\u0901\u091a\u094b \u2014 \u092a\u0942\u0930\u093e module"
+    },
+    {
+      "label": "hi/react/01-start-here.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_01_start_here",
+      "community": 133,
+      "community_name": "3.1 Start Here",
+      "norm_label": "hi/react/01-start-here.md"
+    },
+    {
+      "label": "3.1 Start Here",
+      "file_type": "document",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_01_start_here_3_1_start_here",
+      "community": 133,
+      "community_name": "3.1 Start Here",
+      "norm_label": "3.1 start here"
+    },
+    {
+      "label": "React \u0915\u094c\u0928 \u0938\u0940 problem \u0938\u0941\u0932\u091d\u093e\u0924\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_01_start_here_react_\u0915_\u0928_\u0938_problem_\u0938_\u0932\u091d_\u0924_\u0939",
+      "community": 133,
+      "community_name": "3.1 Start Here",
+      "norm_label": "react \u0915\u094c\u0928 \u0938\u0940 problem \u0938\u0941\u0932\u091d\u093e\u0924\u093e \u0939\u0948"
+    },
+    {
+      "label": "\u0906\u092a\u0915\u093e \u092a\u0939\u0932\u093e React app \u2014 \u0926\u0938 \u092e\u093f\u0928\u091f",
+      "file_type": "document",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "site_hi_react_01_start_here_\u0906\u092a\u0915_\u092a\u0939\u0932_react_app_\u0926\u0938_\u092e_\u0928\u091f",
+      "community": 133,
+      "community_name": "3.1 Start Here",
+      "norm_label": "\u0906\u092a\u0915\u093e \u092a\u0939\u0932\u093e react app \u2014 \u0926\u0938 \u092e\u093f\u0928\u091f"
+    },
+    {
+      "label": "Hands-on \u2014 app \u0915\u094b \u0905\u092a\u0928\u093e \u092c\u0928\u093e\u0913",
+      "file_type": "document",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "site_hi_react_01_start_here_hands_on_app_\u0915_\u0905\u092a\u0928_\u092c\u0928_\u0913",
+      "community": 133,
+      "community_name": "3.1 Start Here",
+      "norm_label": "hands-on \u2014 app \u0915\u094b \u0905\u092a\u0928\u093e \u092c\u0928\u093e\u0913"
+    },
+    {
+      "label": "hi/react/02-components-and-props.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_02_components_and_props",
+      "community": 128,
+      "community_name": "3.2 Components & Props",
+      "norm_label": "hi/react/02-components-and-props.md"
+    },
+    {
+      "label": "3.2 Components & Props",
+      "file_type": "document",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_02_components_and_props_3_2_components_props",
+      "community": 128,
+      "community_name": "3.2 Components & Props",
+      "norm_label": "3.2 components & props"
+    },
+    {
+      "label": "JSX actually \u0939\u0948 \u0915\u094d\u092f\u093e",
+      "file_type": "document",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_02_components_and_props_jsx_actually_\u0939_\u0915_\u092f",
+      "community": 128,
+      "community_name": "3.2 Components & Props",
+      "norm_label": "jsx actually \u0939\u0948 \u0915\u092f\u093e"
+    },
+    {
+      "label": "Component \u090f\u0915 function \u0939\u0948 \u091c\u094b JSX \u0932\u094c\u091f\u093e\u0924\u093e \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "site_hi_react_02_components_and_props_component_\u090f\u0915_function_\u0939_\u091c_jsx_\u0932_\u091f_\u0924_\u0939",
+      "community": 128,
+      "community_name": "3.2 Components & Props",
+      "norm_label": "component \u090f\u0915 function \u0939\u0948 \u091c\u094b jsx \u0932\u094c\u091f\u093e\u0924\u093e \u0939\u0948"
+    },
+    {
+      "label": "Props \u2014 \u0905\u0902\u0926\u0930 \u092d\u0947\u091c\u093e \u0917\u092f\u093e data",
+      "file_type": "document",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "site_hi_react_02_components_and_props_props_\u0905_\u0926\u0930_\u092d_\u091c_\u0917\u092f_data",
+      "community": 128,
+      "community_name": "3.2 Components & Props",
+      "norm_label": "props \u2014 \u0905\u0902\u0926\u0930 \u092d\u0947\u091c\u093e \u0917\u092f\u093e data"
+    },
+    {
+      "label": "Hands-on \u2014 \u090f\u0915 card, \u0924\u0940\u0928 \u0932\u094b\u0917",
+      "file_type": "document",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "site_hi_react_02_components_and_props_hands_on_\u090f\u0915_card_\u0924_\u0928_\u0932_\u0917",
+      "community": 128,
+      "community_name": "3.2 Components & Props",
+      "norm_label": "hands-on \u2014 \u090f\u0915 card, \u0924\u0940\u0928 \u0932\u094b\u0917"
+    },
+    {
+      "label": "hi/react/03-conditional-rendering-and-lists.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_03_conditional_rendering_and_lists",
+      "community": 134,
+      "community_name": "3.3 Conditional Rendering & Lists",
+      "norm_label": "hi/react/03-conditional-rendering-and-lists.md"
+    },
+    {
+      "label": "3.3 Conditional Rendering & Lists",
+      "file_type": "document",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_03_conditional_rendering_and_lists_3_3_conditional_rendering_lists",
+      "community": 134,
+      "community_name": "3.3 Conditional Rendering & Lists",
+      "norm_label": "3.3 conditional rendering & lists"
+    },
+    {
+      "label": "\u0924\u0940\u0928 \u0924\u0930\u0940\u0915\u0947 \u2014 \u0915\u092d\u0940-\u0915\u092d\u0940 \u0926\u093f\u0916\u093e\u0913",
+      "file_type": "document",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_03_conditional_rendering_and_lists_\u0924_\u0928_\u0924\u0930_\u0915_\u0915\u092d_\u0915\u092d_\u0926_\u0916_\u0913",
+      "community": 134,
+      "community_name": "3.3 Conditional Rendering & Lists",
+      "norm_label": "\u0924\u0940\u0928 \u0924\u0930\u0940\u0915\u0947 \u2014 \u0915\u092d\u0940-\u0915\u092d\u0940 \u0926\u093f\u0916\u093e\u0913"
+    },
+    {
+      "label": "Lists \u2014 loops \u0928\u0939\u0940\u0902, map",
+      "file_type": "document",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "site_hi_react_03_conditional_rendering_and_lists_lists_loops_\u0928\u0939_map",
+      "community": 134,
+      "community_name": "3.3 Conditional Rendering & Lists",
+      "norm_label": "lists \u2014 loops \u0928\u0939\u0940\u0902, map"
+    },
+    {
+      "label": "Hands-on \u2014 \u090f\u0915 list \u091c\u094b \u0905\u092a\u0928\u093e \u0939\u093e\u0932 \u091c\u093e\u0928\u0924\u0940 \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "site_hi_react_03_conditional_rendering_and_lists_hands_on_\u090f\u0915_list_\u091c_\u0905\u092a\u0928_\u0939_\u0932_\u091c_\u0928\u0924_\u0939",
+      "community": 134,
+      "community_name": "3.3 Conditional Rendering & Lists",
+      "norm_label": "hands-on \u2014 \u090f\u0915 list \u091c\u094b \u0905\u092a\u0928\u093e \u0939\u093e\u0932 \u091c\u093e\u0928\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "label": "hi/react/04-hooks-usestate-useref.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_04_hooks_usestate_useref",
+      "community": 129,
+      "community_name": "3.4 Hooks \u2014 useState & useRef",
+      "norm_label": "hi/react/04-hooks-usestate-useref.md"
+    },
+    {
+      "label": "3.4 Hooks \u2014 useState & useRef",
+      "file_type": "document",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_04_hooks_usestate_useref_3_4_hooks_usestate_useref",
+      "community": 129,
+      "community_name": "3.4 Hooks \u2014 useState & useRef",
+      "norm_label": "3.4 hooks \u2014 usestate & useref"
+    },
+    {
+      "label": "Hooks exist \u0915\u094d\u092f\u094b\u0902 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_04_hooks_usestate_useref_hooks_exist_\u0915_\u092f_\u0915\u0930\u0924_\u0939",
+      "community": 129,
+      "community_name": "3.4 Hooks \u2014 useState & useRef",
+      "norm_label": "hooks exist \u0915\u092f\u094b\u0902 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902"
+    },
+    {
+      "label": "useState \u2014 \u0935\u094b \u092f\u093e\u0926\u0926\u093e\u0936\u094d\u0924 \u091c\u094b screen \u0939\u093f\u0932\u093e\u0924\u0940 \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "site_hi_react_04_hooks_usestate_useref_usestate_\u0935_\u092f_\u0926\u0926_\u0936_\u0924_\u091c_screen_\u0939_\u0932_\u0924_\u0939",
+      "community": 129,
+      "community_name": "3.4 Hooks \u2014 useState & useRef",
+      "norm_label": "usestate \u2014 \u0935\u094b \u092f\u093e\u0926\u0926\u093e\u0936\u0924 \u091c\u094b screen \u0939\u093f\u0932\u093e\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "label": "useRef \u2014 useState \u091c\u0948\u0938\u093e, \u092a\u0930 screen \u091a\u0941\u092a \u0930\u0939\u0924\u0940 \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "site_hi_react_04_hooks_usestate_useref_useref_usestate_\u091c_\u0938_\u092a\u0930_screen_\u091a_\u092a_\u0930\u0939\u0924_\u0939",
+      "community": 129,
+      "community_name": "3.4 Hooks \u2014 useState & useRef",
+      "norm_label": "useref \u2014 usestate \u091c\u0948\u0938\u093e, \u092a\u0930 screen \u091a\u0941\u092a \u0930\u0939\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "label": "Hands-on \u2014 \u092b\u093c\u0930\u094d\u0915\u093c \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "site_hi_react_04_hooks_usestate_useref_hands_on_\u092b_\u0930_\u0915_\u092e\u0939\u0938_\u0938_\u0915\u0930",
+      "community": 129,
+      "community_name": "3.4 Hooks \u2014 useState & useRef",
+      "norm_label": "hands-on \u2014 \u092b\u0930\u0915 \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u094b"
+    },
+    {
+      "label": "hi/react/05-hooks-useeffect.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_05_hooks_useeffect",
+      "community": 135,
+      "community_name": "3.5 Hooks \u2014 useEffect",
+      "norm_label": "hi/react/05-hooks-useeffect.md"
+    },
+    {
+      "label": "3.5 Hooks \u2014 useEffect",
+      "file_type": "document",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_05_hooks_useeffect_3_5_hooks_useeffect",
+      "community": 135,
+      "community_name": "3.5 Hooks \u2014 useEffect",
+      "norm_label": "3.5 hooks \u2014 useeffect"
+    },
+    {
+      "label": "useEffect \u2014 \u091c\u094b render matter \u0915\u0930\u0924\u093e \u0939\u0948, \u0909\u0938\u0915\u0947 \u092c\u093e\u0926",
+      "file_type": "document",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_05_hooks_useeffect_useeffect_\u091c_render_matter_\u0915\u0930\u0924_\u0939_\u0909\u0938\u0915_\u092c_\u0926",
+      "community": 135,
+      "community_name": "3.5 Hooks \u2014 useEffect",
+      "norm_label": "useeffect \u2014 \u091c\u094b render matter \u0915\u0930\u0924\u093e \u0939\u0948, \u0909\u0938\u0915\u0947 \u092c\u093e\u0926"
+    },
+    {
+      "label": "Dependency array \u2014 \u092a\u0942\u0930\u093e hook \u090f\u0915 line \u092e\u0947\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "site_hi_react_05_hooks_useeffect_dependency_array_\u092a_\u0930_hook_\u090f\u0915_line_\u092e",
+      "community": 135,
+      "community_name": "3.5 Hooks \u2014 useEffect",
+      "norm_label": "dependency array \u2014 \u092a\u0942\u0930\u093e hook \u090f\u0915 line \u092e\u0947\u0902"
+    },
+    {
+      "label": "Hands-on \u2014 \u092c\u093e\u0939\u0930 \u0938\u0947 \u0906\u092f\u093e data",
+      "file_type": "document",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "site_hi_react_05_hooks_useeffect_hands_on_\u092c_\u0939\u0930_\u0938_\u0906\u092f_data",
+      "community": 135,
+      "community_name": "3.5 Hooks \u2014 useEffect",
+      "norm_label": "hands-on \u2014 \u092c\u093e\u0939\u0930 \u0938\u0947 \u0906\u092f\u093e data"
+    },
+    {
+      "label": "hi/react/06-more-hooks-state-management.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "hi/react/06-more-hooks-state-management.md"
+    },
+    {
+      "label": "3.6 More Hooks",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "3.6 more hooks"
+    },
+    {
+      "label": "Problem \u2014 props \u092a\u093e\u0901\u091a \u092e\u0902\u091c\u093c\u093f\u0932 \u0928\u0940\u091a\u0947 \u0924\u0915",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management_problem_props_\u092a_\u091a_\u092e_\u091c_\u0932_\u0928_\u091a_\u0924\u0915",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "problem \u2014 props \u092a\u093e\u0901\u091a \u092e\u0902\u091c\u093f\u0932 \u0928\u0940\u091a\u0947 \u0924\u0915"
+    },
+    {
+      "label": "useContext \u2014 \u090f\u0915 value, \u0939\u0930 \u092e\u0902\u091c\u093c\u093f\u0932",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management_usecontext_\u090f\u0915_value_\u0939\u0930_\u092e_\u091c_\u0932",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "usecontext \u2014 \u090f\u0915 value, \u0939\u0930 \u092e\u0902\u091c\u093f\u0932"
+    },
+    {
+      "label": "State management \u2014 \u091c\u092c context \u092d\u0940 \u0915\u092e \u092a\u0921\u093c \u091c\u093e\u090f",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management_state_management_\u091c\u092c_context_\u092d_\u0915\u092e_\u092a\u0921_\u091c_\u090f",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "state management \u2014 \u091c\u092c context \u092d\u0940 \u0915\u092e \u092a\u0921 \u091c\u093e\u090f"
+    },
+    {
+      "label": "useMemo \u2014 \u092e\u093f\u0932 \u0932\u094b, \u0906\u0917\u0947 \u092c\u0922\u093c\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management_usememo_\u092e_\u0932_\u0932_\u0906\u0917_\u092c\u0922",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "usememo \u2014 \u092e\u093f\u0932 \u0932\u094b, \u0906\u0917\u0947 \u092c\u0922\u094b"
+    },
+    {
+      "label": "useCallback \u2014 \u092e\u093f\u0932 \u0932\u094b, \u0906\u0917\u0947 \u092c\u0922\u093c\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "site_hi_react_06_more_hooks_state_management_usecallback_\u092e_\u0932_\u0932_\u0906\u0917_\u092c\u0922",
+      "community": 125,
+      "community_name": "3.6 More Hooks",
+      "norm_label": "usecallback \u2014 \u092e\u093f\u0932 \u0932\u094b, \u0906\u0917\u0947 \u092c\u0922\u094b"
+    },
+    {
+      "label": "hi/react/07-npm-and-package-json.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "hi/react/07-npm-and-package-json.md"
+    },
+    {
+      "label": "3.7 npm & package.json",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "3.7 npm & package.json"
+    },
+    {
+      "label": "npm \u2014 package manager",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_npm_package_manager",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "npm \u2014 package manager"
+    },
+    {
+      "label": "package.json \u2014 project \u0915\u093e ID card",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_package_json_project_\u0915_id_card",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "package.json \u2014 project \u0915\u093e id card"
+    },
+    {
+      "label": "package-lock.json \u2014 \u0920\u0940\u0915-\u0920\u0940\u0915 receipt",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_package_lock_json_\u0920_\u0915_\u0920_\u0915_receipt",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "package-lock.json \u2014 \u0920\u0940\u0915-\u0920\u0940\u0915 receipt"
+    },
+    {
+      "label": "node_modules \u2014 downloads \u0915\u093e \u0918\u0930",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_node_modules_downloads_\u0915_\u0918\u0930",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "node_modules \u2014 downloads \u0915\u093e \u0918\u0930"
+    },
+    {
+      "label": "\u090f\u0915 \u092c\u093e\u0930 \u0918\u0941\u092e\u093e\u0913 \u2014 \u0924\u0940\u0928 files \u091c\u094b matter \u0915\u0930\u0924\u0940 \u0939\u0948\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_\u090f\u0915_\u092c_\u0930_\u0918_\u092e_\u0913_\u0924_\u0928_files_\u091c_matter_\u0915\u0930\u0924_\u0939",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "\u090f\u0915 \u092c\u093e\u0930 \u0918\u0941\u092e\u093e\u0913 \u2014 \u0924\u0940\u0928 files \u091c\u094b matter \u0915\u0930\u0924\u0940 \u0939\u0948\u0902"
+    },
+    {
+      "label": "\u0939\u0930 file \u090f\u0915 module \u0939\u0948",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_\u0939\u0930_file_\u090f\u0915_module_\u0939",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "\u0939\u0930 file \u090f\u0915 module \u0939\u0948"
+    },
+    {
+      "label": "Hands-on \u2014 \u0905\u092a\u0928\u093e project \u0916\u0941\u0926 \u092a\u0922\u093c\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "site_hi_react_07_npm_and_package_json_hands_on_\u0905\u092a\u0928_project_\u0916_\u0926_\u092a\u0922",
+      "community": 122,
+      "community_name": "3.7 npm & package.json",
+      "norm_label": "hands-on \u2014 \u0905\u092a\u0928\u093e project \u0916\u0941\u0926 \u092a\u0922\u094b"
+    },
+    {
+      "label": "hi/react/08-react-router.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_08_react_router",
+      "community": 130,
+      "community_name": "3.8 React Router",
+      "norm_label": "hi/react/08-react-router.md"
+    },
+    {
+      "label": "3.8 React Router",
+      "file_type": "document",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_08_react_router_3_8_react_router",
+      "community": 130,
+      "community_name": "3.8 React Router",
+      "norm_label": "3.8 react router"
+    },
+    {
+      "label": "\u092c\u0921\u093c\u093e idea \u2014 server \u0915\u0947 \u092c\u093f\u0928\u093e routing",
+      "file_type": "document",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_08_react_router_\u092c\u0921_idea_server_\u0915_\u092c_\u0928_routing",
+      "community": 130,
+      "community_name": "3.8 React Router",
+      "norm_label": "\u092c\u0921\u093e idea \u2014 server \u0915\u0947 \u092c\u093f\u0928\u093e routing"
+    },
+    {
+      "label": "Routes \u2014 app \u0915\u093e \u0928\u0915\u094d\u0936\u093e",
+      "file_type": "document",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "site_hi_react_08_react_router_routes_app_\u0915_\u0928\u0915_\u0936",
+      "community": 130,
+      "community_name": "3.8 React Router",
+      "norm_label": "routes \u2014 app \u0915\u093e \u0928\u0915\u0936\u093e"
+    },
+    {
+      "label": "Dynamic routes \u2014 \u090f\u0915 Route, \u0915\u0908 pages",
+      "file_type": "document",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "site_hi_react_08_react_router_dynamic_routes_\u090f\u0915_route_\u0915\u0908_pages",
+      "community": 130,
+      "community_name": "3.8 React Router",
+      "norm_label": "dynamic routes \u2014 \u090f\u0915 route, \u0915\u0908 pages"
+    },
+    {
+      "label": "Hands-on \u2014 app \u0915\u094b address bar \u0926\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "site_hi_react_08_react_router_hands_on_app_\u0915_address_bar_\u0926",
+      "community": 130,
+      "community_name": "3.8 React Router",
+      "norm_label": "hands-on \u2014 app \u0915\u094b address bar \u0926\u094b"
+    },
+    {
+      "label": "hi/react/09-npm-packages-we-use.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "hi/react/09-npm-packages-we-use.md"
+    },
+    {
+      "label": "3.9 npm Packages We Use",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "3.9 npm packages we use"
+    },
+    {
+      "label": "\u0906\u0926\u0924 \u2014 \u092c\u0928\u093e\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u092a\u0942\u091b\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use_\u0906\u0926\u0924_\u092c\u0928_\u0928_\u0938_\u092a\u0939\u0932_\u092a_\u091b",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "\u0906\u0926\u0924 \u2014 \u092c\u0928\u093e\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u092a\u0942\u091b\u094b"
+    },
+    {
+      "label": "Zustand \u2014 state \u0915\u093e store",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use_zustand_state_\u0915_store",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "zustand \u2014 state \u0915\u093e store"
+    },
+    {
+      "label": "Axios \u2014 fetch, \u0915\u092e \u092e\u0947\u0939\u0928\u0924 \u092e\u0947\u0902",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use_axios_fetch_\u0915\u092e_\u092e_\u0939\u0928\u0924_\u092e",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "axios \u2014 fetch, \u0915\u092e \u092e\u0947\u0939\u0928\u0924 \u092e\u0947\u0902"
+    },
+    {
+      "label": "AI \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u094d\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "ai \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "Hands-on \u2014 \u0926\u094b\u0928\u094b\u0902 packages, \u092a\u0939\u093f\u092f\u093e \u0906\u092a\u0915\u0947 \u0939\u093e\u0925",
+      "file_type": "document",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "site_hi_react_09_npm_packages_we_use_hands_on_\u0926_\u0928_packages_\u092a\u0939_\u092f_\u0906\u092a\u0915_\u0939_\u0925",
+      "community": 126,
+      "community_name": "3.9 npm Packages We Use",
+      "norm_label": "hands-on \u2014 \u0926\u094b\u0928\u094b\u0902 packages, \u092a\u0939\u093f\u092f\u093e \u0906\u092a\u0915\u0947 \u0939\u093e\u0925"
+    },
+    {
+      "label": "hi/react/10-project-password-manager.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_10_project_password_manager",
+      "community": 131,
+      "community_name": "3.10 Project \u2014 Password Manager",
+      "norm_label": "hi/react/10-project-password-manager.md"
+    },
+    {
+      "label": "3.10 Project \u2014 Password Manager",
+      "file_type": "document",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_10_project_password_manager_3_10_project_password_manager",
+      "community": 131,
+      "community_name": "3.10 Project \u2014 Password Manager",
+      "norm_label": "3.10 project \u2014 password manager"
+    },
+    {
+      "label": "\u0906\u092a \u0915\u094d\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_10_project_password_manager_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "community": 131,
+      "community_name": "3.10 Project \u2014 Password Manager",
+      "norm_label": "\u0906\u092a \u0915\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 AI \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u094d\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "site_hi_react_10_project_password_manager_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "community": 131,
+      "community_name": "3.10 Project \u2014 Password Manager",
+      "norm_label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 ai \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "site_hi_react_10_project_password_manager_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "community": 131,
+      "community_name": "3.10 Project \u2014 Password Manager",
+      "norm_label": "\u0906\u092a \u091c\u094b \u092c\u0926\u0932\u093e\u0935 \u0915\u0930\u0935\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "site_hi_react_10_project_password_manager_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "community": 131,
+      "community_name": "3.10 Project \u2014 Password Manager",
+      "norm_label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b"
+    },
+    {
+      "label": "hi/react/11-project-weather-dashboard.md",
+      "file_type": "document",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_11_project_weather_dashboard",
+      "community": 132,
+      "community_name": "3.11 Project \u2014 Weather Dashboard",
+      "norm_label": "hi/react/11-project-weather-dashboard.md"
+    },
+    {
+      "label": "3.11 Project \u2014 Weather Dashboard",
+      "file_type": "document",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_hi_react_11_project_weather_dashboard_3_11_project_weather_dashboard",
+      "community": 132,
+      "community_name": "3.11 Project \u2014 Weather Dashboard",
+      "norm_label": "3.11 project \u2014 weather dashboard"
+    },
+    {
+      "label": "\u0906\u092a \u0915\u094d\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "site_hi_react_11_project_weather_dashboard_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "community": 132,
+      "community_name": "3.11 Project \u2014 Weather Dashboard",
+      "norm_label": "\u0906\u092a \u0915\u092f\u093e \u092c\u0928\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 AI \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u094d\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "site_hi_react_11_project_weather_dashboard_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "community": 132,
+      "community_name": "3.11 Project \u2014 Weather Dashboard",
+      "norm_label": "\u0915\u0948\u0938\u0947 \u092c\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u2014 ai \u091a\u0932\u093e\u0924\u093e \u0939\u0948, \u0906\u092a \u0930\u093e\u0938\u0924\u093e \u0926\u093f\u0916\u093e\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "label": "\u0926\u093f\u0916\u0928\u0947 \u092e\u0947\u0902 \u091a\u091f \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u093e \u092c\u0928\u093e\u0913 \u2014 design \u0906\u092a direct \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "site_hi_react_11_project_weather_dashboard_\u0926_\u0916\u0928_\u092e_\u091a\u091f_\u0915\u0930\u0928_\u0935_\u0932_\u092c\u0928_\u0913_design_\u0906\u092a_direct_\u0915\u0930",
+      "community": 132,
+      "community_name": "3.11 Project \u2014 Weather Dashboard",
+      "norm_label": "\u0926\u093f\u0916\u0928\u0947 \u092e\u0947\u0902 \u091a\u091f \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u093e \u092c\u0928\u093e\u0913 \u2014 design \u0906\u092a direct \u0915\u0930\u094b"
+    },
+    {
+      "label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b",
+      "file_type": "document",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "site_hi_react_11_project_weather_dashboard_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "community": 132,
+      "community_name": "3.11 Project \u2014 Weather Dashboard",
+      "norm_label": "\u0907\u0938\u0947 \u091c\u093e\u0928\u094b, copy \u092e\u0924 \u0915\u0930\u094b"
     }
   ],
   "links": [
@@ -20416,6 +21692,468 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_01_gui_vs_terminal",
+      "target": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "target": "site_en_cli_01_gui_vs_terminal_hands_on_your_first_cli_magic_windows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "target": "site_en_cli_01_gui_vs_terminal_nothing_to_fear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "target": "site_en_cli_01_gui_vs_terminal_nothing_to_memorize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "target": "site_en_cli_01_gui_vs_terminal_two_ways_to_talk_to_your_computer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/01-gui-vs-terminal.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_01_gui_vs_terminal_6_1_gui_vs_terminal",
+      "target": "site_en_cli_01_gui_vs_terminal_why_developers_live_here",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands",
+      "target": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_delete_rm_read_twice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_find_your_feet_pwd_ls_cd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_hands_on_build_a_small_world_then_take_it_down",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_look_inside_cat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_make_things_mkdir_touch_echo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_move_copy_rename_mv_and_cp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_test_yourself",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/cli/02-essential-commands.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_cli_02_essential_commands_6_2_essential_commands",
+      "target": "site_en_cli_02_essential_commands_the_command_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_01_what_git_actually_is",
+      "target": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "target": "site_en_git_01_what_git_actually_is_hands_on_first_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "target": "site_en_git_01_what_git_actually_is_install_git_on_your_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "target": "site_en_git_01_what_git_actually_is_the_problem_it_solves",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/01-what-git-actually-is.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "target": "site_en_git_01_what_git_actually_is_what_a_repo_is",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git",
+      "target": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_add_call_into_the_frame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_commit_the_click",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_hands_on_a_repo_with_a_real_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_log_flip_the_album",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_not_everything_belongs_in_the_photo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_status_ask_before_everything",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/02-everyday-git.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_02_everyday_git_7_2_everyday_git",
+      "target": "site_en_git_02_everyday_git_the_three_places_a_change_can_live",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_03_remote_github",
+      "target": "site_en_git_03_remote_github_7_3_remote_github",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_03_remote_github_7_3_remote_github",
+      "target": "site_en_git_03_remote_github_clone_take_a_whole_repo_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_03_remote_github_7_3_remote_github",
+      "target": "site_en_git_03_remote_github_git_vs_github_two_names_two_things",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_03_remote_github_7_3_remote_github",
+      "target": "site_en_git_03_remote_github_hands_on_your_code_leaves_the_laptop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_03_remote_github_7_3_remote_github",
+      "target": "site_en_git_03_remote_github_push_and_pull_the_sync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/03-remote-github.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_03_remote_github_7_3_remote_github",
+      "target": "site_en_git_03_remote_github_the_remote_a_repo_with_an_address",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap",
+      "target": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_a_branch_is_a_parallel_timeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_git_worktree_one_repo_many_folders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_half_done_branch_it_and_push_anyway",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_test_yourself",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_the_default_line_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_the_git_summary_the_module_on_one_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/en/git/04-branches-and-wrap.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_where_you_stand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/en/html-css/01-start-here.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -22557,8 +24295,635 @@
       "source": "site_hi_javascript_10_project_weather_app_2_10_project_weather_app",
       "target": "site_hi_javascript_10_project_weather_app_\u092a_\u0930_module_\u090f\u0915_\u0938_\u0938_\u092e",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_01_start_here",
+      "target": "site_hi_react_01_start_here_3_1_start_here",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_01_start_here_3_1_start_here",
+      "target": "site_hi_react_01_start_here_hands_on_app_\u0915_\u0905\u092a\u0928_\u092c\u0928_\u0913",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_01_start_here_3_1_start_here",
+      "target": "site_hi_react_01_start_here_react_\u0915_\u0928_\u0938_problem_\u0938_\u0932\u091d_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/01-start-here.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_01_start_here_3_1_start_here",
+      "target": "site_hi_react_01_start_here_\u0906\u092a\u0915_\u092a\u0939\u0932_react_app_\u0926\u0938_\u092e_\u0928\u091f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_02_components_and_props",
+      "target": "site_hi_react_02_components_and_props_3_2_components_props",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_02_components_and_props_3_2_components_props",
+      "target": "site_hi_react_02_components_and_props_component_\u090f\u0915_function_\u0939_\u091c_jsx_\u0932_\u091f_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_02_components_and_props_3_2_components_props",
+      "target": "site_hi_react_02_components_and_props_hands_on_\u090f\u0915_card_\u0924_\u0928_\u0932_\u0917",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_02_components_and_props_3_2_components_props",
+      "target": "site_hi_react_02_components_and_props_jsx_actually_\u0939_\u0915_\u092f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/02-components-and-props.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_02_components_and_props_3_2_components_props",
+      "target": "site_hi_react_02_components_and_props_props_\u0905_\u0926\u0930_\u092d_\u091c_\u0917\u092f_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_03_conditional_rendering_and_lists",
+      "target": "site_hi_react_03_conditional_rendering_and_lists_3_3_conditional_rendering_lists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_03_conditional_rendering_and_lists_3_3_conditional_rendering_lists",
+      "target": "site_hi_react_03_conditional_rendering_and_lists_hands_on_\u090f\u0915_list_\u091c_\u0905\u092a\u0928_\u0939_\u0932_\u091c_\u0928\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_03_conditional_rendering_and_lists_3_3_conditional_rendering_lists",
+      "target": "site_hi_react_03_conditional_rendering_and_lists_lists_loops_\u0928\u0939_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/03-conditional-rendering-and-lists.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_03_conditional_rendering_and_lists_3_3_conditional_rendering_lists",
+      "target": "site_hi_react_03_conditional_rendering_and_lists_\u0924_\u0928_\u0924\u0930_\u0915_\u0915\u092d_\u0915\u092d_\u0926_\u0916_\u0913",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_04_hooks_usestate_useref",
+      "target": "site_hi_react_04_hooks_usestate_useref_3_4_hooks_usestate_useref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_04_hooks_usestate_useref_3_4_hooks_usestate_useref",
+      "target": "site_hi_react_04_hooks_usestate_useref_hands_on_\u092b_\u0930_\u0915_\u092e\u0939\u0938_\u0938_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_04_hooks_usestate_useref_3_4_hooks_usestate_useref",
+      "target": "site_hi_react_04_hooks_usestate_useref_hooks_exist_\u0915_\u092f_\u0915\u0930\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_04_hooks_usestate_useref_3_4_hooks_usestate_useref",
+      "target": "site_hi_react_04_hooks_usestate_useref_useref_usestate_\u091c_\u0938_\u092a\u0930_screen_\u091a_\u092a_\u0930\u0939\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/04-hooks-usestate-useref.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_04_hooks_usestate_useref_3_4_hooks_usestate_useref",
+      "target": "site_hi_react_04_hooks_usestate_useref_usestate_\u0935_\u092f_\u0926\u0926_\u0936_\u0924_\u091c_screen_\u0939_\u0932_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_05_hooks_useeffect",
+      "target": "site_hi_react_05_hooks_useeffect_3_5_hooks_useeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_05_hooks_useeffect_3_5_hooks_useeffect",
+      "target": "site_hi_react_05_hooks_useeffect_dependency_array_\u092a_\u0930_hook_\u090f\u0915_line_\u092e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_05_hooks_useeffect_3_5_hooks_useeffect",
+      "target": "site_hi_react_05_hooks_useeffect_hands_on_\u092c_\u0939\u0930_\u0938_\u0906\u092f_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/05-hooks-useeffect.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_05_hooks_useeffect_3_5_hooks_useeffect",
+      "target": "site_hi_react_05_hooks_useeffect_useeffect_\u091c_render_matter_\u0915\u0930\u0924_\u0939_\u0909\u0938\u0915_\u092c_\u0926",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_06_more_hooks_state_management",
+      "target": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "target": "site_hi_react_06_more_hooks_state_management_problem_props_\u092a_\u091a_\u092e_\u091c_\u0932_\u0928_\u091a_\u0924\u0915",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "target": "site_hi_react_06_more_hooks_state_management_state_management_\u091c\u092c_context_\u092d_\u0915\u092e_\u092a\u0921_\u091c_\u090f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "target": "site_hi_react_06_more_hooks_state_management_usecallback_\u092e_\u0932_\u0932_\u0906\u0917_\u092c\u0922",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "target": "site_hi_react_06_more_hooks_state_management_usecontext_\u090f\u0915_value_\u0939\u0930_\u092e_\u091c_\u0932",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/06-more-hooks-state-management.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_06_more_hooks_state_management_3_6_more_hooks",
+      "target": "site_hi_react_06_more_hooks_state_management_usememo_\u092e_\u0932_\u0932_\u0906\u0917_\u092c\u0922",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_hands_on_\u0905\u092a\u0928_project_\u0916_\u0926_\u092a\u0922",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_node_modules_downloads_\u0915_\u0918\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_npm_package_manager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_package_json_project_\u0915_id_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_package_lock_json_\u0920_\u0915_\u0920_\u0915_receipt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_\u090f\u0915_\u092c_\u0930_\u0918_\u092e_\u0913_\u0924_\u0928_files_\u091c_matter_\u0915\u0930\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/07-npm-and-package-json.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_07_npm_and_package_json_3_7_npm_package_json",
+      "target": "site_hi_react_07_npm_and_package_json_\u0939\u0930_file_\u090f\u0915_module_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_08_react_router",
+      "target": "site_hi_react_08_react_router_3_8_react_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_08_react_router_3_8_react_router",
+      "target": "site_hi_react_08_react_router_dynamic_routes_\u090f\u0915_route_\u0915\u0908_pages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_08_react_router_3_8_react_router",
+      "target": "site_hi_react_08_react_router_hands_on_app_\u0915_address_bar_\u0926",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_08_react_router_3_8_react_router",
+      "target": "site_hi_react_08_react_router_routes_app_\u0915_\u0928\u0915_\u0936",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/08-react-router.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_08_react_router_3_8_react_router",
+      "target": "site_hi_react_08_react_router_\u092c\u0921_idea_server_\u0915_\u092c_\u0928_routing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_09_npm_packages_we_use",
+      "target": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "target": "site_hi_react_09_npm_packages_we_use_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "target": "site_hi_react_09_npm_packages_we_use_axios_fetch_\u0915\u092e_\u092e_\u0939\u0928\u0924_\u092e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "target": "site_hi_react_09_npm_packages_we_use_hands_on_\u0926_\u0928_packages_\u092a\u0939_\u092f_\u0906\u092a\u0915_\u0939_\u0925",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "target": "site_hi_react_09_npm_packages_we_use_zustand_state_\u0915_store",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/09-npm-packages-we-use.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_09_npm_packages_we_use_3_9_npm_packages_we_use",
+      "target": "site_hi_react_09_npm_packages_we_use_\u0906\u0926\u0924_\u092c\u0928_\u0928_\u0938_\u092a\u0939\u0932_\u092a_\u091b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_10_project_password_manager",
+      "target": "site_hi_react_10_project_password_manager_3_10_project_password_manager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_10_project_password_manager_3_10_project_password_manager",
+      "target": "site_hi_react_10_project_password_manager_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_10_project_password_manager_3_10_project_password_manager",
+      "target": "site_hi_react_10_project_password_manager_\u0906\u092a_\u091c_\u092c\u0926\u0932_\u0935_\u0915\u0930\u0935_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_10_project_password_manager_3_10_project_password_manager",
+      "target": "site_hi_react_10_project_password_manager_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/10-project-password-manager.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_10_project_password_manager_3_10_project_password_manager",
+      "target": "site_hi_react_10_project_password_manager_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_11_project_weather_dashboard",
+      "target": "site_hi_react_11_project_weather_dashboard_3_11_project_weather_dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_11_project_weather_dashboard_3_11_project_weather_dashboard",
+      "target": "site_hi_react_11_project_weather_dashboard_\u0906\u092a_\u0915_\u092f_\u092c\u0928_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_11_project_weather_dashboard_3_11_project_weather_dashboard",
+      "target": "site_hi_react_11_project_weather_dashboard_\u0907\u0938_\u091c_\u0928_copy_\u092e\u0924_\u0915\u0930",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_11_project_weather_dashboard_3_11_project_weather_dashboard",
+      "target": "site_hi_react_11_project_weather_dashboard_\u0915_\u0938_\u092c\u0928_\u0924_\u0939_ai_\u091a\u0932_\u0924_\u0939_\u0906\u092a_\u0930_\u0938_\u0924_\u0926_\u0916_\u0924_\u0939",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/hi/react/11-project-weather-dashboard.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "site_hi_react_11_project_weather_dashboard_3_11_project_weather_dashboard",
+      "target": "site_hi_react_11_project_weather_dashboard_\u0926_\u0916\u0928_\u092e_\u091a\u091f_\u0915\u0930\u0928_\u0935_\u0932_\u092c\u0928_\u0913_design_\u0906\u092a_direct_\u0915\u0930",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fc5b1d6ee185a19cbb553ac25e33f11912b93499"
+  "built_at_commit": "c2be18defcc37c831800779f79c18daedf2445ad"
 }

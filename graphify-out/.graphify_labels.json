@@ -117,5 +117,22 @@
   "115": "3.11 Project — Weather Dashboard",
   "116": "3.1 Start Here",
   "117": "3.3 Conditional Rendering & Lists",
-  "118": "3.5 Hooks — useEffect"
+  "118": "3.5 Hooks — useEffect",
+  "119": "6.2 Essential Commands",
+  "120": "7.2 Everyday Git",
+  "121": "7.4 Branches at a Glance",
+  "122": "3.7 npm & package.json",
+  "123": "6.1 GUI vs Terminal",
+  "124": "7.3 Remote & GitHub",
+  "125": "3.6 More Hooks",
+  "126": "3.9 npm Packages We Use",
+  "127": "7.1 What Git Actually Is",
+  "128": "3.2 Components & Props",
+  "129": "3.4 Hooks — useState & useRef",
+  "130": "3.8 React Router",
+  "131": "3.10 Project — Password Manager",
+  "132": "3.11 Project — Weather Dashboard",
+  "133": "3.1 Start Here",
+  "134": "3.3 Conditional Rendering & Lists",
+  "135": "3.5 Hooks — useEffect"
 }
