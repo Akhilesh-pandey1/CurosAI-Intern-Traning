@@ -1,7 +1,7 @@
 # Graph Report - Intern-Training  (2026-10-13)
 
 ## Corpus Check
-- 149 files · ~224,414 words
+- 149 files · ~224,138 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7e67d794`
+- Built from commit: `f23c50b7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,7 @@
 - Before Grill — the problem gate
 - Page Map
 - tickets.mjs
-- design_system.py
+- generate_design_system
 - Steps
 - Test-Driven Development
 - package.json
@@ -35,10 +35,10 @@
 - ._apply_reasoning
 - Python Code Style & Standards
 - _select_palette_for_mode
-- _generate_intelligent_overrides
+- .generate
 - AGENTS.md
 - CLAUDE.md
-- persist_design_system
+- design_system.py
 - graphify reference: extra exports and benchmark
 - helper.js
 - Code Style & Standards
@@ -219,9 +219,9 @@ Nodes (15): 10. Frontend UI Design — 5 pages, 11. Clean Code & Testing — 5 p
 Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
-### Community 12 - "design_system.py"
-Cohesion: 0.18
-Nodes (14): ansi_ljust(), _filter_anti_patterns_for_mode(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
+### Community 12 - "generate_design_system"
+Cohesion: 0.17
+Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -236,8 +236,8 @@ Cohesion: 0.15
 Nodes (12): dependencies, canvas-confetti, devDependencies, vitepress, canvas-confetti, name, private, scripts (+4 more)
 
 ### Community 16 - "DesignSystemGenerator"
-Cohesion: 0.15
-Nodes (9): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Execute searches across multiple domains., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None. (+1 more)
+Cohesion: 0.27
+Nodes (4): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords.
 
 ### Community 17 - "._apply_reasoning"
 Cohesion: 0.24
@@ -251,9 +251,9 @@ Nodes (9): Code Quality, Error & Exception Handling, File Structure, Imports, Li
 Cohesion: 0.22
 Nodes (10): _contrast_ratio(), _derive_dark_palette(), _palette_is_dark(), WCAG relative luminance of a #RRGGBB string, or None if unparseable., True when a colors.csv row's Background is a dark surface., WCAG contrast ratio for two hex colors, or None if either is invalid., Keep product brand tokens while deriving accessible dark surfaces., Pick the highest-ranked palette matching the resolved mode. Only the dark case… (+2 more)
 
-### Community 20 - "_generate_intelligent_overrides"
-Cohesion: 0.33
-Nodes (6): _detect_page_type(), format_page_override_md(), _generate_intelligent_overrides(), Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses…, Detect page type from context and search results.
+### Community 20 - ".generate"
+Cohesion: 0.20
+Nodes (7): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Execute searches across multiple domains., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None., _resolve_dial()
 
 ### Community 21 - "AGENTS.md"
 Cohesion: 0.22
@@ -263,9 +263,9 @@ Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines,
 Cohesion: 0.22
 Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines, Working Directory
 
-### Community 23 - "persist_design_system"
-Cohesion: 0.25
-Nodes (9): format_master_md(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Slugify a name into a single safe path segment. Only [a-z0-9_-] survives; every…, Write fully to a temp file, then publish atomically., Persist design system to design-system/<project>/ folder using Master +…, safe_slug(), _write_persisted_file() (+1 more)
+### Community 23 - "design_system.py"
+Cohesion: 0.18
+Nodes (15): _detect_page_type(), format_master_md(), format_page_override_md(), _generate_intelligent_overrides(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses… (+7 more)
 
 ### Community 24 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
@@ -413,43 +413,43 @@ Nodes (6): buttonLabel, { findNextUnfinishedPagePath }, hasUnfinishedPages, { pi
 
 ### Community 86 - "2.10 Project — Weather App"
 Cohesion: 0.25
-Nodes (7): 2.10 Project — Weather App, How to build it — AI drives, you navigate, Know it, do not copy it, Test Yourself — the whole module, The changes you direct, The module in one breath, What you build
+Nodes (7): 2.10 Project: Weather App, How to build it: AI drives, you navigate, Know it, do not copy it, Test yourself: the whole module, The changes you direct, The module in one breath, What you build
 
 ### Community 87 - "2.2 Variables, Types & Operators"
 Cohesion: 0.33
-Nodes (5): 2.2 Variables, Types & Operators, Data types — the five everyday shapes, Hands-on — predict, run, compare, Operators — the everyday moves, Variables — let and const
+Nodes (5): 2.2 Variables, Types & Operators, Data types: the five everyday shapes, Hands-on: predict, run, compare, Operators: the everyday moves, Variables: let and const
 
 ### Community 88 - "2.1 Start Here"
 Cohesion: 0.40
-Nodes (4): 2.1 Start Here, The one method of this whole module — predict, then run, Try it right now — the browser console, What JavaScript actually does
+Nodes (4): 2.1 Start Here, The one method of this whole module: predict, then run, Try it right now: the browser console, What JavaScript actually does
 
 ### Community 89 - "2.3 Arrays & Objects"
 Cohesion: 0.33
-Nodes (5): 2.3 Arrays & Objects, Arrays — a numbered list, Hands-on — predict, run, compare, map, filter, find — the three daily methods, Objects — a labeled box
+Nodes (5): 2.3 Arrays & Objects, Arrays: a numbered list, Hands-on: predict, run, compare, map, filter, find: the three daily methods, Objects: a labeled box
 
 ### Community 90 - "2.4 Conditions & Loops"
 Cohesion: 0.40
-Nodes (4): 2.4 Conditions & Loops, Conditions — if, else, Hands-on — predict, run, compare, Loops — for, for...of, forEach
+Nodes (4): 2.4 Conditions & Loops, Conditions: if, else, Hands-on: predict, run, compare, Loops: for, for...of, forEach
 
 ### Community 91 - "2.5 Functions & ES6 Modules"
 Cohesion: 0.40
-Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules — split code across files, Functions — name a piece of work, Hands-on — predict, run, compare
+Nodes (4): 2.5 Functions & ES6 Modules, ES6 Modules: split code across files, Functions: name a piece of work, Hands-on: predict, run, compare
 
 ### Community 92 - "2.6 DOM, Events & Storage"
 Cohesion: 0.29
-Nodes (6): 2.6 DOM, Events & Storage, Events — code that waits, Hands-on — predict, run, compare, localStorage — the browser remembers, sessionStorage — the same drawer, but the tab forgets, The DOM — the page as live objects
+Nodes (6): 2.6 DOM, Events & Storage, Events: code that waits, Hands-on: predict, run, compare, localStorage: the browser remembers, sessionStorage: the same drawer, but the tab forgets, The DOM: the page as live objects
 
 ### Community 93 - "2.7 Async & APIs"
 Cohesion: 0.33
-Nodes (5): 2.7 Async & APIs, An API — asking another computer for data, fetch + async/await — ask, then wait, Hands-on — predict, run, compare, try/catch — when the request fails
+Nodes (5): 2.7 Async & APIs, An API: asking another computer for data, fetch + async/await: ask, then wait, Hands-on: predict, run, compare, try/catch: when the request fails
 
 ### Community 94 - "2.8 Project — Calculator"
 Cohesion: 0.33
-Nodes (5): 2.8 Project — Calculator, How to build it — AI drives, you navigate, Know it, do not copy it, The changes you direct, What you build
+Nodes (5): 2.8 Project: Calculator, How to build it: AI drives, you navigate, Know it, do not copy it, The changes you direct, What you build
 
 ### Community 95 - "2.9 Project — To-Do List"
 Cohesion: 0.33
-Nodes (5): 2.9 Project — To-Do List, How to build it — AI drives, you navigate, Know it, do not copy it, The changes you direct, What you build
+Nodes (5): 2.9 Project: To-Do List, How to build it: AI drives, you navigate, Know it, do not copy it, The changes you direct, What you build
 
 ### Community 96 - "2.10 Project — Weather App"
 Cohesion: 0.25
@@ -647,9 +647,9 @@ Nodes (4): 8.4 Skills, A skill is a complete guide, Hands-on, The skills our tea
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `.generate`, `generate_design_system`, `design_system.py`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `search()` connect `core.py` to `DesignSystemGenerator`, `design_system.py`, `_generate_intelligent_overrides`?**
+- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `apply_decision_rules()` connect `._apply_reasoning` to `design_system.py`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._

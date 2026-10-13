@@ -1,4 +1,4 @@
-# 7.4 Branches at a Glance
+# 7.4 Branches and Worktrees
 
 So far your history is one straight line: commit after commit, oldest to newest. Real projects bend the line — this page shows how, then puts the whole module on one table.
 

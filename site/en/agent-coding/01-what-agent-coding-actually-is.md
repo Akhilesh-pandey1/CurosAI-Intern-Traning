@@ -1,4 +1,4 @@
-# 8.1 What Agent Coding Actually Is
+# 8.1 What Is Agent Coding
 
 Welcome to Module 8. Until today you used AI as a chat: it gave you words, you copied them into files, and you ran the commands yourself. This page flips the chair. From here the AI sits inside your project, reads your files, runs your commands, and edits your code, and you sit in the supervisor seat. This is **agent coding**: how this company builds software today, and how you will build your capstone in Module 12.
 

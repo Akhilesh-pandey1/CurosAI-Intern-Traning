@@ -1286,7 +1286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system",
-      "community": 12,
+      "community": 23,
       "community_name": "design_system.py",
       "norm_label": "design_system.py"
     },
@@ -1297,8 +1297,8 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_resolve_dial",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "_resolve_dial()"
     },
     {
@@ -1396,8 +1396,8 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_filter_anti_patterns_for_mode",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "_filter_anti_patterns_for_mode()"
     },
     {
@@ -1484,8 +1484,8 @@
       "source_location": "L319",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_multi_domain_search",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "._multi_domain_search()"
     },
     {
@@ -1528,8 +1528,8 @@
       "source_location": "L445",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_extract_results",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "._extract_results()"
     },
     {
@@ -1539,8 +1539,8 @@
       "source_location": "L449",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_generate",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": ".generate()"
     },
     {
@@ -1551,7 +1551,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_hex_to_ansi",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "hex_to_ansi()"
     },
     {
@@ -1562,7 +1562,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_ansi_ljust",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "ansi_ljust()"
     },
     {
@@ -1573,7 +1573,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_section_header",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "section_header()"
     },
     {
@@ -1584,7 +1584,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_ascii_box",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_ascii_box()"
     },
     {
@@ -1595,7 +1595,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format_markdown()"
     },
     {
@@ -1606,7 +1606,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1617,7 +1617,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_safe_slug",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "safe_slug()"
     },
     {
@@ -1628,7 +1628,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_write_persisted_file",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "_write_persisted_file()"
     },
     {
@@ -1639,7 +1639,7 @@
       "_origin": "ast",
       "id": "path",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "path"
     },
     {
@@ -1650,7 +1650,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_persist_design_system",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist_design_system()"
     },
     {
@@ -1661,7 +1661,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_master_md",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format_master_md()"
     },
     {
@@ -1671,8 +1671,8 @@
       "source_location": "L1381",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_page_override_md",
-      "community": 20,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format_page_override_md()"
     },
     {
@@ -1682,8 +1682,8 @@
       "source_location": "L1490",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_intelligent_overrides",
-      "community": 20,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_generate_intelligent_overrides()"
     },
     {
@@ -1693,8 +1693,8 @@
       "source_location": "L1596",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_detect_page_type",
-      "community": 20,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "_detect_page_type()"
     },
     {
@@ -1704,8 +1704,8 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_91",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "bucket a 1-10 dial value into its tier config. returns none if value is none."
     },
     {
@@ -1803,8 +1803,8 @@
       "source_location": "L247",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_247",
-      "community": 12,
-      "community_name": "design_system.py",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "drop \"avoid dark mode\" advice once dark mode is the resolved answer."
     },
     {
@@ -1836,8 +1836,8 @@
       "source_location": "L321",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_321",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "execute searches across multiple domains."
     },
     {
@@ -1880,8 +1880,8 @@
       "source_location": "L446",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_446",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "extract results list from search result dict."
     },
     {
@@ -1891,8 +1891,8 @@
       "source_location": "L451",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_451",
-      "community": 16,
-      "community_name": "DesignSystemGenerator",
+      "community": 20,
+      "community_name": ".generate",
       "norm_label": "generate complete design system recommendation. variance/motion/density are..."
     },
     {
@@ -1903,7 +1903,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_612",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "convert hex color to ansi true color swatch (\u2588\u2588) with fallback."
     },
     {
@@ -1914,7 +1914,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_626",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "like str.ljust but accounts for zero-width ansi escape sequences."
     },
     {
@@ -1925,7 +1925,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_634",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "create a unicode section separator: \u251c\u2500\u2500\u2500 name \u2500\u2500\u2500...\u2524"
     },
     {
@@ -1936,7 +1936,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_641",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as unicode box with ansi color swatches."
     },
     {
@@ -1947,7 +1947,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1958,7 +1958,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
       "community": 12,
-      "community_name": "design_system.py",
+      "community_name": "generate_design_system",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -1969,7 +1969,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_962",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "slugify a name into a single safe path segment. only [a-z0-9_-] survives; every..."
     },
     {
@@ -1980,7 +1980,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_973",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "write fully to a temp file, then publish atomically."
     },
     {
@@ -1991,7 +1991,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_997",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "persist design system to design-system/<project>/ folder using master +..."
     },
     {
@@ -2002,7 +2002,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1077",
       "community": 23,
-      "community_name": "persist_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format design system as master.md with hierarchical override logic."
     },
     {
@@ -2012,8 +2012,8 @@
       "source_location": "L1382",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1382",
-      "community": 20,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "format a page-specific override file with intelligent ai-generated content."
     },
     {
@@ -2023,8 +2023,8 @@
       "source_location": "L1491",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1491",
-      "community": 20,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "generate intelligent overrides based on page type using layered search. uses..."
     },
     {
@@ -2034,8 +2034,8 @@
       "source_location": "L1597",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1597",
-      "community": 20,
-      "community_name": "_generate_intelligent_overrides",
+      "community": 23,
+      "community_name": "design_system.py",
       "norm_label": "detect page type from context and search results."
     },
     {
@@ -9713,7 +9713,7 @@
       "norm_label": "what javascript actually does"
     },
     {
-      "label": "The one method of this whole module \u2014 predict, then run",
+      "label": "The one method of this whole module: predict, then run",
       "file_type": "document",
       "source_file": "site/en/javascript/01-start-here.md",
       "source_location": "L18",
@@ -9721,10 +9721,10 @@
       "id": "site_en_javascript_01_start_here_the_one_method_of_this_whole_module_predict_then_run",
       "community": 88,
       "community_name": "2.1 Start Here",
-      "norm_label": "the one method of this whole module \u2014 predict, then run"
+      "norm_label": "the one method of this whole module: predict, then run"
     },
     {
-      "label": "Try it right now \u2014 the browser console",
+      "label": "Try it right now: the browser console",
       "file_type": "document",
       "source_file": "site/en/javascript/01-start-here.md",
       "source_location": "L31",
@@ -9732,7 +9732,7 @@
       "id": "site_en_javascript_01_start_here_try_it_right_now_the_browser_console",
       "community": 88,
       "community_name": "2.1 Start Here",
-      "norm_label": "try it right now \u2014 the browser console"
+      "norm_label": "try it right now: the browser console"
     },
     {
       "label": "en/javascript/02-variables-types-operators.md",
@@ -9757,7 +9757,7 @@
       "norm_label": "2.2 variables, types & operators"
     },
     {
-      "label": "Variables \u2014 let and const",
+      "label": "Variables: let and const",
       "file_type": "document",
       "source_file": "site/en/javascript/02-variables-types-operators.md",
       "source_location": "L5",
@@ -9765,10 +9765,10 @@
       "id": "site_en_javascript_02_variables_types_operators_variables_let_and_const",
       "community": 87,
       "community_name": "2.2 Variables, Types & Operators",
-      "norm_label": "variables \u2014 let and const"
+      "norm_label": "variables: let and const"
     },
     {
-      "label": "Data types \u2014 the five everyday shapes",
+      "label": "Data types: the five everyday shapes",
       "file_type": "document",
       "source_file": "site/en/javascript/02-variables-types-operators.md",
       "source_location": "L32",
@@ -9776,10 +9776,10 @@
       "id": "site_en_javascript_02_variables_types_operators_data_types_the_five_everyday_shapes",
       "community": 87,
       "community_name": "2.2 Variables, Types & Operators",
-      "norm_label": "data types \u2014 the five everyday shapes"
+      "norm_label": "data types: the five everyday shapes"
     },
     {
-      "label": "Operators \u2014 the everyday moves",
+      "label": "Operators: the everyday moves",
       "file_type": "document",
       "source_file": "site/en/javascript/02-variables-types-operators.md",
       "source_location": "L56",
@@ -9787,10 +9787,10 @@
       "id": "site_en_javascript_02_variables_types_operators_operators_the_everyday_moves",
       "community": 87,
       "community_name": "2.2 Variables, Types & Operators",
-      "norm_label": "operators \u2014 the everyday moves"
+      "norm_label": "operators: the everyday moves"
     },
     {
-      "label": "Hands-on \u2014 predict, run, compare",
+      "label": "Hands-on: predict, run, compare",
       "file_type": "document",
       "source_file": "site/en/javascript/02-variables-types-operators.md",
       "source_location": "L86",
@@ -9798,7 +9798,7 @@
       "id": "site_en_javascript_02_variables_types_operators_hands_on_predict_run_compare",
       "community": 87,
       "community_name": "2.2 Variables, Types & Operators",
-      "norm_label": "hands-on \u2014 predict, run, compare"
+      "norm_label": "hands-on: predict, run, compare"
     },
     {
       "label": "en/javascript/03-arrays-objects.md",
@@ -9823,7 +9823,7 @@
       "norm_label": "2.3 arrays & objects"
     },
     {
-      "label": "Arrays \u2014 a numbered list",
+      "label": "Arrays: a numbered list",
       "file_type": "document",
       "source_file": "site/en/javascript/03-arrays-objects.md",
       "source_location": "L5",
@@ -9831,10 +9831,10 @@
       "id": "site_en_javascript_03_arrays_objects_arrays_a_numbered_list",
       "community": 89,
       "community_name": "2.3 Arrays & Objects",
-      "norm_label": "arrays \u2014 a numbered list"
+      "norm_label": "arrays: a numbered list"
     },
     {
-      "label": "Objects \u2014 a labeled box",
+      "label": "Objects: a labeled box",
       "file_type": "document",
       "source_file": "site/en/javascript/03-arrays-objects.md",
       "source_location": "L25",
@@ -9842,10 +9842,10 @@
       "id": "site_en_javascript_03_arrays_objects_objects_a_labeled_box",
       "community": 89,
       "community_name": "2.3 Arrays & Objects",
-      "norm_label": "objects \u2014 a labeled box"
+      "norm_label": "objects: a labeled box"
     },
     {
-      "label": "map, filter, find \u2014 the three daily methods",
+      "label": "map, filter, find: the three daily methods",
       "file_type": "document",
       "source_file": "site/en/javascript/03-arrays-objects.md",
       "source_location": "L58",
@@ -9853,10 +9853,10 @@
       "id": "site_en_javascript_03_arrays_objects_map_filter_find_the_three_daily_methods",
       "community": 89,
       "community_name": "2.3 Arrays & Objects",
-      "norm_label": "map, filter, find \u2014 the three daily methods"
+      "norm_label": "map, filter, find: the three daily methods"
     },
     {
-      "label": "Hands-on \u2014 predict, run, compare",
+      "label": "Hands-on: predict, run, compare",
       "file_type": "document",
       "source_file": "site/en/javascript/03-arrays-objects.md",
       "source_location": "L102",
@@ -9864,7 +9864,7 @@
       "id": "site_en_javascript_03_arrays_objects_hands_on_predict_run_compare",
       "community": 89,
       "community_name": "2.3 Arrays & Objects",
-      "norm_label": "hands-on \u2014 predict, run, compare"
+      "norm_label": "hands-on: predict, run, compare"
     },
     {
       "label": "en/javascript/04-conditions-loops.md",
@@ -9889,7 +9889,7 @@
       "norm_label": "2.4 conditions & loops"
     },
     {
-      "label": "Conditions \u2014 if, else",
+      "label": "Conditions: if, else",
       "file_type": "document",
       "source_file": "site/en/javascript/04-conditions-loops.md",
       "source_location": "L5",
@@ -9897,10 +9897,10 @@
       "id": "site_en_javascript_04_conditions_loops_conditions_if_else",
       "community": 90,
       "community_name": "2.4 Conditions & Loops",
-      "norm_label": "conditions \u2014 if, else"
+      "norm_label": "conditions: if, else"
     },
     {
-      "label": "Loops \u2014 for, for...of, forEach",
+      "label": "Loops: for, for...of, forEach",
       "file_type": "document",
       "source_file": "site/en/javascript/04-conditions-loops.md",
       "source_location": "L45",
@@ -9908,10 +9908,10 @@
       "id": "site_en_javascript_04_conditions_loops_loops_for_for_of_foreach",
       "community": 90,
       "community_name": "2.4 Conditions & Loops",
-      "norm_label": "loops \u2014 for, for...of, foreach"
+      "norm_label": "loops: for, for...of, foreach"
     },
     {
-      "label": "Hands-on \u2014 predict, run, compare",
+      "label": "Hands-on: predict, run, compare",
       "file_type": "document",
       "source_file": "site/en/javascript/04-conditions-loops.md",
       "source_location": "L83",
@@ -9919,7 +9919,7 @@
       "id": "site_en_javascript_04_conditions_loops_hands_on_predict_run_compare",
       "community": 90,
       "community_name": "2.4 Conditions & Loops",
-      "norm_label": "hands-on \u2014 predict, run, compare"
+      "norm_label": "hands-on: predict, run, compare"
     },
     {
       "label": "en/javascript/05-functions-es6-modules.md",
@@ -9944,7 +9944,7 @@
       "norm_label": "2.5 functions & es6 modules"
     },
     {
-      "label": "Functions \u2014 name a piece of work",
+      "label": "Functions: name a piece of work",
       "file_type": "document",
       "source_file": "site/en/javascript/05-functions-es6-modules.md",
       "source_location": "L5",
@@ -9952,10 +9952,10 @@
       "id": "site_en_javascript_05_functions_es6_modules_functions_name_a_piece_of_work",
       "community": 91,
       "community_name": "2.5 Functions & ES6 Modules",
-      "norm_label": "functions \u2014 name a piece of work"
+      "norm_label": "functions: name a piece of work"
     },
     {
-      "label": "ES6 Modules \u2014 split code across files",
+      "label": "ES6 Modules: split code across files",
       "file_type": "document",
       "source_file": "site/en/javascript/05-functions-es6-modules.md",
       "source_location": "L39",
@@ -9963,10 +9963,10 @@
       "id": "site_en_javascript_05_functions_es6_modules_es6_modules_split_code_across_files",
       "community": 91,
       "community_name": "2.5 Functions & ES6 Modules",
-      "norm_label": "es6 modules \u2014 split code across files"
+      "norm_label": "es6 modules: split code across files"
     },
     {
-      "label": "Hands-on \u2014 predict, run, compare",
+      "label": "Hands-on: predict, run, compare",
       "file_type": "document",
       "source_file": "site/en/javascript/05-functions-es6-modules.md",
       "source_location": "L66",
@@ -9974,7 +9974,7 @@
       "id": "site_en_javascript_05_functions_es6_modules_hands_on_predict_run_compare",
       "community": 91,
       "community_name": "2.5 Functions & ES6 Modules",
-      "norm_label": "hands-on \u2014 predict, run, compare"
+      "norm_label": "hands-on: predict, run, compare"
     },
     {
       "label": "en/javascript/06-dom-events-storage.md",
@@ -9999,7 +9999,7 @@
       "norm_label": "2.6 dom, events & storage"
     },
     {
-      "label": "The DOM \u2014 the page as live objects",
+      "label": "The DOM: the page as live objects",
       "file_type": "document",
       "source_file": "site/en/javascript/06-dom-events-storage.md",
       "source_location": "L5",
@@ -10007,10 +10007,10 @@
       "id": "site_en_javascript_06_dom_events_storage_the_dom_the_page_as_live_objects",
       "community": 92,
       "community_name": "2.6 DOM, Events & Storage",
-      "norm_label": "the dom \u2014 the page as live objects"
+      "norm_label": "the dom: the page as live objects"
     },
     {
-      "label": "Events \u2014 code that waits",
+      "label": "Events: code that waits",
       "file_type": "document",
       "source_file": "site/en/javascript/06-dom-events-storage.md",
       "source_location": "L25",
@@ -10018,10 +10018,10 @@
       "id": "site_en_javascript_06_dom_events_storage_events_code_that_waits",
       "community": 92,
       "community_name": "2.6 DOM, Events & Storage",
-      "norm_label": "events \u2014 code that waits"
+      "norm_label": "events: code that waits"
     },
     {
-      "label": "localStorage \u2014 the browser remembers",
+      "label": "localStorage: the browser remembers",
       "file_type": "document",
       "source_file": "site/en/javascript/06-dom-events-storage.md",
       "source_location": "L43",
@@ -10029,10 +10029,10 @@
       "id": "site_en_javascript_06_dom_events_storage_localstorage_the_browser_remembers",
       "community": 92,
       "community_name": "2.6 DOM, Events & Storage",
-      "norm_label": "localstorage \u2014 the browser remembers"
+      "norm_label": "localstorage: the browser remembers"
     },
     {
-      "label": "sessionStorage \u2014 the same drawer, but the tab forgets",
+      "label": "sessionStorage: the same drawer, but the tab forgets",
       "file_type": "document",
       "source_file": "site/en/javascript/06-dom-events-storage.md",
       "source_location": "L65",
@@ -10040,10 +10040,10 @@
       "id": "site_en_javascript_06_dom_events_storage_sessionstorage_the_same_drawer_but_the_tab_forgets",
       "community": 92,
       "community_name": "2.6 DOM, Events & Storage",
-      "norm_label": "sessionstorage \u2014 the same drawer, but the tab forgets"
+      "norm_label": "sessionstorage: the same drawer, but the tab forgets"
     },
     {
-      "label": "Hands-on \u2014 predict, run, compare",
+      "label": "Hands-on: predict, run, compare",
       "file_type": "document",
       "source_file": "site/en/javascript/06-dom-events-storage.md",
       "source_location": "L78",
@@ -10051,7 +10051,7 @@
       "id": "site_en_javascript_06_dom_events_storage_hands_on_predict_run_compare",
       "community": 92,
       "community_name": "2.6 DOM, Events & Storage",
-      "norm_label": "hands-on \u2014 predict, run, compare"
+      "norm_label": "hands-on: predict, run, compare"
     },
     {
       "label": "en/javascript/07-async-apis.md",
@@ -10076,7 +10076,7 @@
       "norm_label": "2.7 async & apis"
     },
     {
-      "label": "An API \u2014 asking another computer for data",
+      "label": "An API: asking another computer for data",
       "file_type": "document",
       "source_file": "site/en/javascript/07-async-apis.md",
       "source_location": "L5",
@@ -10084,10 +10084,10 @@
       "id": "site_en_javascript_07_async_apis_an_api_asking_another_computer_for_data",
       "community": 93,
       "community_name": "2.7 Async & APIs",
-      "norm_label": "an api \u2014 asking another computer for data"
+      "norm_label": "an api: asking another computer for data"
     },
     {
-      "label": "fetch + async/await \u2014 ask, then wait",
+      "label": "fetch + async/await: ask, then wait",
       "file_type": "document",
       "source_file": "site/en/javascript/07-async-apis.md",
       "source_location": "L17",
@@ -10095,10 +10095,10 @@
       "id": "site_en_javascript_07_async_apis_fetch_async_await_ask_then_wait",
       "community": 93,
       "community_name": "2.7 Async & APIs",
-      "norm_label": "fetch + async/await \u2014 ask, then wait"
+      "norm_label": "fetch + async/await: ask, then wait"
     },
     {
-      "label": "try/catch \u2014 when the request fails",
+      "label": "try/catch: when the request fails",
       "file_type": "document",
       "source_file": "site/en/javascript/07-async-apis.md",
       "source_location": "L38",
@@ -10106,10 +10106,10 @@
       "id": "site_en_javascript_07_async_apis_try_catch_when_the_request_fails",
       "community": 93,
       "community_name": "2.7 Async & APIs",
-      "norm_label": "try/catch \u2014 when the request fails"
+      "norm_label": "try/catch: when the request fails"
     },
     {
-      "label": "Hands-on \u2014 predict, run, compare",
+      "label": "Hands-on: predict, run, compare",
       "file_type": "document",
       "source_file": "site/en/javascript/07-async-apis.md",
       "source_location": "L58",
@@ -10117,7 +10117,7 @@
       "id": "site_en_javascript_07_async_apis_hands_on_predict_run_compare",
       "community": 93,
       "community_name": "2.7 Async & APIs",
-      "norm_label": "hands-on \u2014 predict, run, compare"
+      "norm_label": "hands-on: predict, run, compare"
     },
     {
       "label": "en/javascript/08-project-calculator.md",
@@ -10131,7 +10131,7 @@
       "norm_label": "en/javascript/08-project-calculator.md"
     },
     {
-      "label": "2.8 Project \u2014 Calculator",
+      "label": "2.8 Project: Calculator",
       "file_type": "document",
       "source_file": "site/en/javascript/08-project-calculator.md",
       "source_location": "L1",
@@ -10139,7 +10139,7 @@
       "id": "site_en_javascript_08_project_calculator_2_8_project_calculator",
       "community": 94,
       "community_name": "2.8 Project \u2014 Calculator",
-      "norm_label": "2.8 project \u2014 calculator"
+      "norm_label": "2.8 project: calculator"
     },
     {
       "label": "What you build",
@@ -10153,7 +10153,7 @@
       "norm_label": "what you build"
     },
     {
-      "label": "How to build it \u2014 AI drives, you navigate",
+      "label": "How to build it: AI drives, you navigate",
       "file_type": "document",
       "source_file": "site/en/javascript/08-project-calculator.md",
       "source_location": "L13",
@@ -10161,7 +10161,7 @@
       "id": "site_en_javascript_08_project_calculator_how_to_build_it_ai_drives_you_navigate",
       "community": 94,
       "community_name": "2.8 Project \u2014 Calculator",
-      "norm_label": "how to build it \u2014 ai drives, you navigate"
+      "norm_label": "how to build it: ai drives, you navigate"
     },
     {
       "label": "The changes you direct",
@@ -10197,7 +10197,7 @@
       "norm_label": "en/javascript/09-project-todo-list.md"
     },
     {
-      "label": "2.9 Project \u2014 To-Do List",
+      "label": "2.9 Project: To-Do List",
       "file_type": "document",
       "source_file": "site/en/javascript/09-project-todo-list.md",
       "source_location": "L1",
@@ -10205,7 +10205,7 @@
       "id": "site_en_javascript_09_project_todo_list_2_9_project_to_do_list",
       "community": 95,
       "community_name": "2.9 Project \u2014 To-Do List",
-      "norm_label": "2.9 project \u2014 to-do list"
+      "norm_label": "2.9 project: to-do list"
     },
     {
       "label": "What you build",
@@ -10219,7 +10219,7 @@
       "norm_label": "what you build"
     },
     {
-      "label": "How to build it \u2014 AI drives, you navigate",
+      "label": "How to build it: AI drives, you navigate",
       "file_type": "document",
       "source_file": "site/en/javascript/09-project-todo-list.md",
       "source_location": "L14",
@@ -10227,7 +10227,7 @@
       "id": "site_en_javascript_09_project_todo_list_how_to_build_it_ai_drives_you_navigate",
       "community": 95,
       "community_name": "2.9 Project \u2014 To-Do List",
-      "norm_label": "how to build it \u2014 ai drives, you navigate"
+      "norm_label": "how to build it: ai drives, you navigate"
     },
     {
       "label": "The changes you direct",
@@ -10263,7 +10263,7 @@
       "norm_label": "en/javascript/10-project-weather-app.md"
     },
     {
-      "label": "2.10 Project \u2014 Weather App",
+      "label": "2.10 Project: Weather App",
       "file_type": "document",
       "source_file": "site/en/javascript/10-project-weather-app.md",
       "source_location": "L1",
@@ -10271,7 +10271,7 @@
       "id": "site_en_javascript_10_project_weather_app_2_10_project_weather_app",
       "community": 86,
       "community_name": "2.10 Project \u2014 Weather App",
-      "norm_label": "2.10 project \u2014 weather app"
+      "norm_label": "2.10 project: weather app"
     },
     {
       "label": "What you build",
@@ -10285,7 +10285,7 @@
       "norm_label": "what you build"
     },
     {
-      "label": "How to build it \u2014 AI drives, you navigate",
+      "label": "How to build it: AI drives, you navigate",
       "file_type": "document",
       "source_file": "site/en/javascript/10-project-weather-app.md",
       "source_location": "L12",
@@ -10293,7 +10293,7 @@
       "id": "site_en_javascript_10_project_weather_app_how_to_build_it_ai_drives_you_navigate",
       "community": 86,
       "community_name": "2.10 Project \u2014 Weather App",
-      "norm_label": "how to build it \u2014 ai drives, you navigate"
+      "norm_label": "how to build it: ai drives, you navigate"
     },
     {
       "label": "The changes you direct",
@@ -10329,7 +10329,7 @@
       "norm_label": "the module in one breath"
     },
     {
-      "label": "Test Yourself \u2014 the whole module",
+      "label": "Test yourself: the whole module",
       "file_type": "document",
       "source_file": "site/en/javascript/10-project-weather-app.md",
       "source_location": "L53",
@@ -10337,7 +10337,7 @@
       "id": "site_en_javascript_10_project_weather_app_test_yourself_the_whole_module",
       "community": 86,
       "community_name": "2.10 Project \u2014 Weather App",
-      "norm_label": "test yourself \u2014 the whole module"
+      "norm_label": "test yourself: the whole module"
     },
     {
       "label": "en/react/01-start-here.md",
@@ -26608,5 +26608,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7e67d79400eb425d9d90edd32d28015c84d95e6d"
+  "built_at_commit": "f23c50b79be145eb5ede8f4fe3613c76f2745aa6"
 }

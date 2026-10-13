@@ -1,4 +1,4 @@
-# 7.1 What Git Actually Is
+# 7.1 What Is Git
 
 Welcome to Module 7. You have built real things by now — a portfolio, a calculator, a to-do list, a password manager. Every one of them lives in a folder on your laptop, and every save replaced the last save. Change one line the wrong way, and yesterday's working version is gone. This module introduces the tool that ends that fear forever: **Git**.
 

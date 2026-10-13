@@ -57,18 +57,18 @@ export const MODULES = [
       },
       {
         path: '/javascript/08-project-calculator',
-        enTitle: 'Project — Calculator',
-        hiTitle: 'Project — Calculator'
+        enTitle: 'Project: Calculator',
+        hiTitle: 'Project: Calculator'
       },
       {
         path: '/javascript/09-project-todo-list',
-        enTitle: 'Project — To-Do List',
-        hiTitle: 'Project — To-Do List'
+        enTitle: 'Project: To-Do List',
+        hiTitle: 'Project: To-Do List'
       },
       {
         path: '/javascript/10-project-weather-app',
-        enTitle: 'Project — Weather App',
-        hiTitle: 'Project — Weather App'
+        enTitle: 'Project: Weather App',
+        hiTitle: 'Project: Weather App'
       }
     ] },
   { title: 'React', pages: [
@@ -89,13 +89,13 @@ export const MODULES = [
       },
       {
         path: '/react/04-hooks-usestate-useref',
-        enTitle: 'Hooks — useState & useRef',
-        hiTitle: 'Hooks — useState Aur useRef'
+        enTitle: 'Hooks: useState & useRef',
+        hiTitle: 'Hooks: useState Aur useRef'
       },
       {
         path: '/react/05-hooks-useeffect',
-        enTitle: 'Hooks — useEffect',
-        hiTitle: 'Hooks — useEffect'
+        enTitle: 'Hooks: useEffect',
+        hiTitle: 'Hooks: useEffect'
       },
       {
         path: '/react/06-more-hooks-state-management',
@@ -119,13 +119,13 @@ export const MODULES = [
       },
       {
         path: '/react/10-project-password-manager',
-        enTitle: 'Project — Password Manager',
-        hiTitle: 'Project — Password Manager'
+        enTitle: 'Project: Password Manager',
+        hiTitle: 'Project: Password Manager'
       },
       {
         path: '/react/11-project-weather-dashboard',
-        enTitle: 'Project — Weather Dashboard',
-        hiTitle: 'Project — Weather Dashboard'
+        enTitle: 'Project: Weather Dashboard',
+        hiTitle: 'Project: Weather Dashboard'
       }
     ] },
   { title: 'Python/Flask', pages: [] },
@@ -145,7 +145,7 @@ export const MODULES = [
   { title: 'Git', pages: [
       {
         path: '/git/01-what-git-actually-is',
-        enTitle: 'What Git Actually Is',
+        enTitle: 'What Is Git',
         hiTitle: 'Git Asal Mein Kya Hai'
       },
       {
@@ -160,14 +160,14 @@ export const MODULES = [
       },
       {
         path: '/git/04-branches-and-wrap',
-        enTitle: 'Branches at a Glance',
-        hiTitle: 'Branches Ek Nazar Mein'
+        enTitle: 'Branches and Worktrees',
+        hiTitle: 'Branches Aur Worktrees'
       }
     ] },
   { title: 'Agent Coding', pages: [
       {
         path: '/agent-coding/01-what-agent-coding-actually-is',
-        enTitle: 'What Agent Coding Actually Is',
+        enTitle: 'What Is Agent Coding',
         hiTitle: 'Agent Coding Asal Mein Kya Hai'
       },
       {
@@ -187,8 +187,8 @@ export const MODULES = [
       },
       {
         path: '/agent-coding/05-from-ide-to-ade-orca',
-        enTitle: 'From IDE to ADE: Meet Orca',
-        hiTitle: 'IDE Se ADE — Orca Se Milo'
+        enTitle: 'From IDE to ADE (Orca)',
+        hiTitle: 'IDE Se ADE (Orca)'
       },
       {
         path: '/agent-coding/06-when-to-trust-and-wrap',

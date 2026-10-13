@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791886274.8534796,
-    "ast_hash": "fe0a1aa66089bd23048b85e505961863",
+    "mtime": 1791898828.9680789,
+    "ast_hash": "7dda139016760eb2e34c21cb271832b2",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -665,8 +665,8 @@
     "semantic_hash": ""
   },
   "site/en/git/01-what-git-actually-is.md": {
-    "mtime": 1791804420.4182527,
-    "ast_hash": "dafe123184de67dd5d94f7d0218e0c4b",
+    "mtime": 1791898840.327454,
+    "ast_hash": "0ee571c515fa73faf16f21291155ecdc",
     "semantic_hash": ""
   },
   "site/en/git/02-everyday-git.md": {
@@ -680,8 +680,8 @@
     "semantic_hash": ""
   },
   "site/en/git/04-branches-and-wrap.md": {
-    "mtime": 1791809211.2713323,
-    "ast_hash": "b7a7c280cf8fa70b5edb1a4302a4d918",
+    "mtime": 1791898840.7792802,
+    "ast_hash": "6d7545d9ad3e82da6a0e3b086c5fffaf",
     "semantic_hash": ""
   },
   "site/hi/react/01-start-here.md": {
@@ -750,8 +750,8 @@
     "semantic_hash": ""
   },
   "site/en/agent-coding/01-what-agent-coding-actually-is.md": {
-    "mtime": 1791885299.170103,
-    "ast_hash": "03541b7f3949b6729a6c372616e1a57b",
+    "mtime": 1791898841.594976,
+    "ast_hash": "2cd4a996ce36c00ade3e3dd099c118fd",
     "semantic_hash": ""
   },
   "site/en/agent-coding/02-controlling-the-agent.md": {
@@ -770,8 +770,8 @@
     "semantic_hash": ""
   },
   "site/en/agent-coding/05-from-ide-to-ade-orca.md": {
-    "mtime": 1791885717.2395816,
-    "ast_hash": "d3c7a818211fd6012d88a927ccb448f5",
+    "mtime": 1791898841.838982,
+    "ast_hash": "f1150c02280ce20588beec8da80dc1bd",
     "semantic_hash": ""
   },
   "site/en/agent-coding/06-when-to-trust-and-wrap.md": {

@@ -1286,7 +1286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system",
-      "community": 23,
+      "community": 12,
       "community_name": "design_system.py",
       "norm_label": "design_system.py"
     },
@@ -1551,7 +1551,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_hex_to_ansi",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "hex_to_ansi()"
     },
     {
@@ -1562,7 +1562,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_ansi_ljust",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "ansi_ljust()"
     },
     {
@@ -1573,7 +1573,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_section_header",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "section_header()"
     },
     {
@@ -1584,7 +1584,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_ascii_box",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format_ascii_box()"
     },
     {
@@ -1595,7 +1595,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_markdown",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format_markdown()"
     },
     {
@@ -1606,7 +1606,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_design_system",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "generate_design_system()"
     },
     {
@@ -1617,7 +1617,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_safe_slug",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "safe_slug()"
     },
     {
@@ -1628,7 +1628,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_write_persisted_file",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "_write_persisted_file()"
     },
     {
@@ -1639,7 +1639,7 @@
       "_origin": "ast",
       "id": "path",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "path"
     },
     {
@@ -1650,7 +1650,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_persist_design_system",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "persist_design_system()"
     },
     {
@@ -1661,7 +1661,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_master_md",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "format_master_md()"
     },
     {
@@ -1671,8 +1671,8 @@
       "source_location": "L1381",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_format_page_override_md",
-      "community": 23,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": "_generate_intelligent_overrides",
       "norm_label": "format_page_override_md()"
     },
     {
@@ -1682,8 +1682,8 @@
       "source_location": "L1490",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_generate_intelligent_overrides",
-      "community": 23,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": "_generate_intelligent_overrides",
       "norm_label": "_generate_intelligent_overrides()"
     },
     {
@@ -1693,8 +1693,8 @@
       "source_location": "L1596",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_detect_page_type",
-      "community": 23,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": "_generate_intelligent_overrides",
       "norm_label": "_detect_page_type()"
     },
     {
@@ -1903,7 +1903,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_612",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "convert hex color to ansi true color swatch (\u2588\u2588) with fallback."
     },
     {
@@ -1914,7 +1914,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_626",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "like str.ljust but accounts for zero-width ansi escape sequences."
     },
     {
@@ -1925,7 +1925,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_634",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "create a unicode section separator: \u251c\u2500\u2500\u2500 name \u2500\u2500\u2500...\u2524"
     },
     {
@@ -1936,7 +1936,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_641",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format design system as unicode box with ansi color swatches."
     },
     {
@@ -1947,7 +1947,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_792",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "format design system as markdown."
     },
     {
@@ -1958,7 +1958,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_923",
       "community": 12,
-      "community_name": "generate_design_system",
+      "community_name": "design_system.py",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,..."
     },
     {
@@ -1969,7 +1969,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_962",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "slugify a name into a single safe path segment. only [a-z0-9_-] survives; every..."
     },
     {
@@ -1980,7 +1980,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_973",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "write fully to a temp file, then publish atomically."
     },
     {
@@ -1991,7 +1991,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_997",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "persist design system to design-system/<project>/ folder using master +..."
     },
     {
@@ -2002,7 +2002,7 @@
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1077",
       "community": 23,
-      "community_name": "design_system.py",
+      "community_name": "persist_design_system",
       "norm_label": "format design system as master.md with hierarchical override logic."
     },
     {
@@ -2012,8 +2012,8 @@
       "source_location": "L1382",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1382",
-      "community": 23,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": "_generate_intelligent_overrides",
       "norm_label": "format a page-specific override file with intelligent ai-generated content."
     },
     {
@@ -2023,8 +2023,8 @@
       "source_location": "L1491",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1491",
-      "community": 23,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": "_generate_intelligent_overrides",
       "norm_label": "generate intelligent overrides based on page type using layered search. uses..."
     },
     {
@@ -2034,8 +2034,8 @@
       "source_location": "L1597",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_1597",
-      "community": 23,
-      "community_name": "design_system.py",
+      "community": 41,
+      "community_name": "_generate_intelligent_overrides",
       "norm_label": "detect page type from context and search results."
     },
     {
@@ -8466,19 +8466,19 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "01-what-agent-coding-actually-is.md"
     },
     {
-      "label": "8.1 What Agent Coding Actually Is",
+      "label": "8.1 What Is Agent Coding",
       "file_type": "document",
       "source_file": "site/en/agent-coding/01-what-agent-coding-actually-is.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "id": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
-      "norm_label": "8.1 what agent coding actually is"
+      "community_name": "8.1 What Is Agent Coding",
+      "norm_label": "8.1 what is agent coding"
     },
     {
       "label": "Chat vs agent",
@@ -8488,7 +8488,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is_chat_vs_agent",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "chat vs agent"
     },
     {
@@ -8499,7 +8499,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is_claude_code_the_agent_we_use_daily",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "claude code, the agent we use daily"
     },
     {
@@ -8510,7 +8510,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is_opencode_the_same_animal_in_a_different_coat",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "opencode, the same animal in a different coat"
     },
     {
@@ -8521,7 +8521,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is_gemini_cli_and_the_many_others",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "gemini cli and the many others"
     },
     {
@@ -8532,7 +8532,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is_the_tools_will_change",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "the tools will change"
     },
     {
@@ -8543,7 +8543,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_01_what_agent_coding_actually_is_hands_on_meet_your_agent",
       "community": 137,
-      "community_name": "8.1 What Agent Coding Actually Is",
+      "community_name": "8.1 What Is Agent Coding",
       "norm_label": "hands-on: meet your agent"
     },
     {
@@ -8741,19 +8741,19 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_05_from_ide_to_ade_orca",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
+      "community_name": "8.5 From IDE to ADE (Orca)",
       "norm_label": "05-from-ide-to-ade-orca.md"
     },
     {
-      "label": "8.5 From IDE to ADE: Meet Orca",
+      "label": "8.5 From IDE to ADE (Orca)",
       "file_type": "document",
       "source_file": "site/en/agent-coding/05-from-ide-to-ade-orca.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "id": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
-      "norm_label": "8.5 from ide to ade: meet orca"
+      "community_name": "8.5 From IDE to ADE (Orca)",
+      "norm_label": "8.5 from ide to ade (orca)"
     },
     {
       "label": "The IDE era: built for one typist",
@@ -8763,7 +8763,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_05_from_ide_to_ade_orca_the_ide_era_built_for_one_typist",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
+      "community_name": "8.5 From IDE to ADE (Orca)",
       "norm_label": "the ide era: built for one typist"
     },
     {
@@ -8774,7 +8774,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_05_from_ide_to_ade_orca_the_ade_era_built_for_you_and_your_agents",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
+      "community_name": "8.5 From IDE to ADE (Orca)",
       "norm_label": "the ade era: built for you and your agents"
     },
     {
@@ -8785,7 +8785,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_05_from_ide_to_ade_orca_orca_the_room_we_use",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
+      "community_name": "8.5 From IDE to ADE (Orca)",
       "norm_label": "orca: the room we use"
     },
     {
@@ -8796,7 +8796,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_05_from_ide_to_ade_orca_why_we_use_an_ade_not_an_ide",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
+      "community_name": "8.5 From IDE to ADE (Orca)",
       "norm_label": "why we use an ade, not an ide"
     },
     {
@@ -8807,7 +8807,7 @@
       "_origin": "ast",
       "id": "site_en_agent_coding_05_from_ide_to_ade_orca_hands_on",
       "community": 140,
-      "community_name": "8.5 From IDE to ADE: Meet Orca",
+      "community_name": "8.5 From IDE to ADE (Orca)",
       "norm_label": "hands-on"
     },
     {
@@ -9093,19 +9093,19 @@
       "_origin": "ast",
       "id": "site_en_git_01_what_git_actually_is",
       "community": 127,
-      "community_name": "7.1 What Git Actually Is",
+      "community_name": "7.1 What Is Git",
       "norm_label": "01-what-git-actually-is.md"
     },
     {
-      "label": "7.1 What Git Actually Is",
+      "label": "7.1 What Is Git",
       "file_type": "document",
       "source_file": "site/en/git/01-what-git-actually-is.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "id": "site_en_git_01_what_git_actually_is_7_1_what_is_git",
       "community": 127,
-      "community_name": "7.1 What Git Actually Is",
-      "norm_label": "7.1 what git actually is"
+      "community_name": "7.1 What Is Git",
+      "norm_label": "7.1 what is git"
     },
     {
       "label": "The problem it solves",
@@ -9115,7 +9115,7 @@
       "_origin": "ast",
       "id": "site_en_git_01_what_git_actually_is_the_problem_it_solves",
       "community": 127,
-      "community_name": "7.1 What Git Actually Is",
+      "community_name": "7.1 What Is Git",
       "norm_label": "the problem it solves"
     },
     {
@@ -9126,7 +9126,7 @@
       "_origin": "ast",
       "id": "site_en_git_01_what_git_actually_is_what_a_repo_is",
       "community": 127,
-      "community_name": "7.1 What Git Actually Is",
+      "community_name": "7.1 What Is Git",
       "norm_label": "what a repo is"
     },
     {
@@ -9137,7 +9137,7 @@
       "_origin": "ast",
       "id": "site_en_git_01_what_git_actually_is_install_git_on_your_machine",
       "community": 127,
-      "community_name": "7.1 What Git Actually Is",
+      "community_name": "7.1 What Is Git",
       "norm_label": "install git on your machine"
     },
     {
@@ -9148,7 +9148,7 @@
       "_origin": "ast",
       "id": "site_en_git_01_what_git_actually_is_hands_on_first_contact",
       "community": 127,
-      "community_name": "7.1 What Git Actually Is",
+      "community_name": "7.1 What Is Git",
       "norm_label": "hands-on \u2014 first contact"
     },
     {
@@ -9335,19 +9335,19 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "04-branches-and-wrap.md"
     },
     {
-      "label": "7.4 Branches at a Glance",
+      "label": "7.4 Branches and Worktrees",
       "file_type": "document",
       "source_file": "site/en/git/04-branches-and-wrap.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "id": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
-      "norm_label": "7.4 branches at a glance"
+      "community_name": "7.4 Branches and Worktrees",
+      "norm_label": "7.4 branches and worktrees"
     },
     {
       "label": "The default line \u2014 main",
@@ -9357,7 +9357,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_the_default_line_main",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "the default line \u2014 main"
     },
     {
@@ -9368,7 +9368,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_a_branch_is_a_parallel_timeline",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "a branch is a parallel timeline"
     },
     {
@@ -9379,7 +9379,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_git_worktree_one_repo_many_folders",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "git worktree \u2014 one repo, many folders"
     },
     {
@@ -9390,7 +9390,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_half_done_branch_it_and_push_anyway",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "half-done? branch it and push anyway"
     },
     {
@@ -9401,7 +9401,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_the_git_summary_the_module_on_one_table",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "the git summary \u2014 the module on one table"
     },
     {
@@ -9412,7 +9412,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_where_you_stand",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "where you stand"
     },
     {
@@ -9423,7 +9423,7 @@
       "_origin": "ast",
       "id": "site_en_git_04_branches_and_wrap_test_yourself",
       "community": 121,
-      "community_name": "7.4 Branches at a Glance",
+      "community_name": "7.4 Branches and Worktrees",
       "norm_label": "test yourself"
     },
     {
@@ -23006,7 +23006,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_agent_coding_01_what_agent_coding_actually_is",
-      "target": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "target": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "confidence_score": 1.0
     },
     {
@@ -23016,7 +23016,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "target": "site_en_agent_coding_01_what_agent_coding_actually_is_chat_vs_agent",
       "confidence_score": 1.0
     },
@@ -23027,7 +23027,7 @@
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "target": "site_en_agent_coding_01_what_agent_coding_actually_is_claude_code_the_agent_we_use_daily",
       "confidence_score": 1.0
     },
@@ -23038,7 +23038,7 @@
       "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "target": "site_en_agent_coding_01_what_agent_coding_actually_is_gemini_cli_and_the_many_others",
       "confidence_score": 1.0
     },
@@ -23049,7 +23049,7 @@
       "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "target": "site_en_agent_coding_01_what_agent_coding_actually_is_hands_on_meet_your_agent",
       "confidence_score": 1.0
     },
@@ -23060,7 +23060,7 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "target": "site_en_agent_coding_01_what_agent_coding_actually_is_opencode_the_same_animal_in_a_different_coat",
       "confidence_score": 1.0
     },
@@ -23071,7 +23071,7 @@
       "source_location": "L45",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_agent_coding_actually_is",
+      "source": "site_en_agent_coding_01_what_agent_coding_actually_is_8_1_what_is_agent_coding",
       "target": "site_en_agent_coding_01_what_agent_coding_actually_is_the_tools_will_change",
       "confidence_score": 1.0
     },
@@ -23237,7 +23237,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_agent_coding_05_from_ide_to_ade_orca",
-      "target": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "target": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "confidence_score": 1.0
     },
     {
@@ -23247,7 +23247,7 @@
       "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "target": "site_en_agent_coding_05_from_ide_to_ade_orca_hands_on",
       "confidence_score": 1.0
     },
@@ -23258,7 +23258,7 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "target": "site_en_agent_coding_05_from_ide_to_ade_orca_orca_the_room_we_use",
       "confidence_score": 1.0
     },
@@ -23269,7 +23269,7 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "target": "site_en_agent_coding_05_from_ide_to_ade_orca_the_ade_era_built_for_you_and_your_agents",
       "confidence_score": 1.0
     },
@@ -23280,7 +23280,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "target": "site_en_agent_coding_05_from_ide_to_ade_orca_the_ide_era_built_for_one_typist",
       "confidence_score": 1.0
     },
@@ -23291,7 +23291,7 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_meet_orca",
+      "source": "site_en_agent_coding_05_from_ide_to_ade_orca_8_5_from_ide_to_ade_orca",
       "target": "site_en_agent_coding_05_from_ide_to_ade_orca_why_we_use_an_ade_not_an_ide",
       "confidence_score": 1.0
     },
@@ -23545,7 +23545,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_git_01_what_git_actually_is",
-      "target": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "target": "site_en_git_01_what_git_actually_is_7_1_what_is_git",
       "confidence_score": 1.0
     },
     {
@@ -23555,7 +23555,7 @@
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_is_git",
       "target": "site_en_git_01_what_git_actually_is_hands_on_first_contact",
       "confidence_score": 1.0
     },
@@ -23566,7 +23566,7 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_is_git",
       "target": "site_en_git_01_what_git_actually_is_install_git_on_your_machine",
       "confidence_score": 1.0
     },
@@ -23577,7 +23577,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_is_git",
       "target": "site_en_git_01_what_git_actually_is_the_problem_it_solves",
       "confidence_score": 1.0
     },
@@ -23588,7 +23588,7 @@
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_01_what_git_actually_is_7_1_what_git_actually_is",
+      "source": "site_en_git_01_what_git_actually_is_7_1_what_is_git",
       "target": "site_en_git_01_what_git_actually_is_what_a_repo_is",
       "confidence_score": 1.0
     },
@@ -23754,7 +23754,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "site_en_git_04_branches_and_wrap",
-      "target": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "target": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "confidence_score": 1.0
     },
     {
@@ -23764,7 +23764,7 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_a_branch_is_a_parallel_timeline",
       "confidence_score": 1.0
     },
@@ -23775,7 +23775,7 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_git_worktree_one_repo_many_folders",
       "confidence_score": 1.0
     },
@@ -23786,7 +23786,7 @@
       "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_half_done_branch_it_and_push_anyway",
       "confidence_score": 1.0
     },
@@ -23797,7 +23797,7 @@
       "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_test_yourself",
       "confidence_score": 1.0
     },
@@ -23808,7 +23808,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_the_default_line_main",
       "confidence_score": 1.0
     },
@@ -23819,7 +23819,7 @@
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_the_git_summary_the_module_on_one_table",
       "confidence_score": 1.0
     },
@@ -23830,7 +23830,7 @@
       "source_location": "L75",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "site_en_git_04_branches_and_wrap_7_4_branches_at_a_glance",
+      "source": "site_en_git_04_branches_and_wrap_7_4_branches_and_worktrees",
       "target": "site_en_git_04_branches_and_wrap_where_you_stand",
       "confidence_score": 1.0
     },
@@ -26608,5 +26608,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f23c50b79be145eb5ede8f4fe3613c76f2745aa6"
+  "built_at_commit": "fe091bb08183a3cb5f1a37f33e416790af4f7ac8"
 }

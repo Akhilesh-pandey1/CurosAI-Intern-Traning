@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-13)
 
 ## Corpus Check
-- 149 files · ~224,138 words
+- 149 files · ~224,112 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1155 nodes · 1235 edges · 142 communities (133 shown, 9 thin omitted)
+- 1155 nodes · 1235 edges · 143 communities (134 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f23c50b7`
+- Built from commit: `fe091bb0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,7 @@
 - Before Grill — the problem gate
 - Page Map
 - tickets.mjs
-- generate_design_system
+- design_system.py
 - Steps
 - Test-Driven Development
 - package.json
@@ -38,7 +38,7 @@
 - .generate
 - AGENTS.md
 - CLAUDE.md
-- design_system.py
+- persist_design_system
 - graphify reference: extra exports and benchmark
 - helper.js
 - Code Style & Standards
@@ -56,6 +56,7 @@
 - 1.1 Start Here
 - 1.2 HTML Essentials
 - node-js-code-style.md
+- _generate_intelligent_overrides
 - PageNextButton.vue
 - graphify reference: query, path, explain
 - write-spec-greenfield/templates/design.md
@@ -119,13 +120,13 @@
 - 3.5 Hooks — useEffect
 - 6.2 Essential Commands
 - 7.2 Everyday Git
-- 7.4 Branches at a Glance
+- 7.4 Branches and Worktrees
 - 3.7 npm & package.json
 - 6.1 GUI vs Terminal
 - 7.3 Remote & GitHub
 - 3.6 More Hooks
 - 3.9 npm Packages We Use
-- 7.1 What Git Actually Is
+- 7.1 What Is Git
 - 3.2 Components & Props
 - 3.4 Hooks — useState & useRef
 - 3.8 React Router
@@ -135,10 +136,10 @@
 - 3.3 Conditional Rendering & Lists
 - 3.5 Hooks — useEffect
 - Humanizer: remove AI writing patterns
-- 8.1 What Agent Coding Actually Is
+- 8.1 What Is Agent Coding
 - 8.6 When to Trust, When to Check
 - 8.2 Controlling the Agent
-- 8.5 From IDE to ADE: Meet Orca
+- 8.5 From IDE to ADE (Orca)
 - 8.3 Context
 - 8.4 Skills
 
@@ -169,7 +170,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (142 total, 9 thin omitted)
+## Communities (143 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -219,8 +220,8 @@ Nodes (15): 10. Frontend UI Design — 5 pages, 11. Clean Code & Testing — 5 p
 Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
-### Community 12 - "generate_design_system"
-Cohesion: 0.17
+### Community 12 - "design_system.py"
+Cohesion: 0.22
 Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
 
 ### Community 13 - "Steps"
@@ -263,9 +264,9 @@ Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines,
 Cohesion: 0.22
 Nodes (8): Env Files, Language, Private Folder, Rules, Search, Tasks, Timelines, Working Directory
 
-### Community 23 - "design_system.py"
-Cohesion: 0.18
-Nodes (15): _detect_page_type(), format_master_md(), format_page_override_md(), _generate_intelligent_overrides(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses… (+7 more)
+### Community 23 - "persist_design_system"
+Cohesion: 0.25
+Nodes (9): format_master_md(), persist_design_system(), Format design system as MASTER.md with hierarchical override logic., Slugify a name into a single safe path segment. Only [a-z0-9_-] survives; every…, Write fully to a temp file, then publish atomically., Persist design system to design-system/<project>/ folder using Master +…, safe_slug(), _write_persisted_file() (+1 more)
 
 ### Community 24 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
@@ -334,6 +335,10 @@ Nodes (6): 1.2 HTML Essentials, Forms — page input कैसे लेता �
 ### Community 40 - "node-js-code-style.md"
 Cohesion: 0.33
 Nodes (5): Error & Exception Handling, File Structure, Function Composition & Layout, Libraries & Dependencies, MVC Folder Structure
+
+### Community 41 - "_generate_intelligent_overrides"
+Cohesion: 0.33
+Nodes (6): _detect_page_type(), format_page_override_md(), _generate_intelligent_overrides(), Format a page-specific override file with intelligent AI-generated content., Generate intelligent overrides based on page type using layered search. Uses…, Detect page type from context and search results.
 
 ### Community 42 - "PageNextButton.vue"
 Cohesion: 0.13
@@ -551,9 +556,9 @@ Nodes (9): 6.2 Essential Commands, Delete: rm (read twice), Find your feet: pwd,
 Cohesion: 0.22
 Nodes (8): 7.2 Everyday Git, add — call into the frame, commit — the click, Hands-on — a repo with a real history, log — flip the album, Not everything belongs in the photo, status — ask before everything, The three places a change can live
 
-### Community 121 - "7.4 Branches at a Glance"
+### Community 121 - "7.4 Branches and Worktrees"
 Cohesion: 0.22
-Nodes (8): 7.4 Branches at a Glance, A branch is a parallel timeline, git worktree — one repo, many folders, Half-done? Branch it and push anyway, Test Yourself, The default line — main, The Git summary — the module on one table, Where you stand
+Nodes (8): 7.4 Branches and Worktrees, A branch is a parallel timeline, git worktree — one repo, many folders, Half-done? Branch it and push anyway, Test Yourself, The default line — main, The Git summary — the module on one table, Where you stand
 
 ### Community 122 - "3.7 npm & package.json"
 Cohesion: 0.22
@@ -575,9 +580,9 @@ Nodes (6): 3.6 More Hooks, Problem — props पाँच मंज़िल न
 Cohesion: 0.29
 Nodes (6): 3.9 npm Packages We Use, AI चलाता है, आप रास्ता दिखाते हो, Axios — fetch, कम मेहनत में, Hands-on — दोनों packages, पहिया आपके हाथ, Zustand — state का store, आदत — बनाने से पहले पूछो
 
-### Community 127 - "7.1 What Git Actually Is"
+### Community 127 - "7.1 What Is Git"
 Cohesion: 0.33
-Nodes (5): 7.1 What Git Actually Is, Hands-on — first contact, Install git on your machine, The problem it solves, What a repo is
+Nodes (5): 7.1 What Is Git, Hands-on — first contact, Install git on your machine, The problem it solves, What a repo is
 
 ### Community 128 - "3.2 Components & Props"
 Cohesion: 0.33
@@ -615,9 +620,9 @@ Nodes (4): 3.5 Hooks — useEffect, Dependency array — पूरा hook ए�
 Cohesion: 0.05
 Nodes (39): 10. Hyphenated pairs everywhere, 11. Passive voice and missing subjects, 12. Overused AI words, 13. Inflated significance, 14. Vague connection or association, 15. Shallow -ing riders, 16. Sales language, 17. Borrowed authority (+31 more)
 
-### Community 137 - "8.1 What Agent Coding Actually Is"
+### Community 137 - "8.1 What Is Agent Coding"
 Cohesion: 0.25
-Nodes (7): 8.1 What Agent Coding Actually Is, Chat vs agent, Claude Code, the agent we use daily, Gemini CLI and the many others, Hands-on: meet your agent, OpenCode, the same animal in a different coat, The tools will change
+Nodes (7): 8.1 What Is Agent Coding, Chat vs agent, Claude Code, the agent we use daily, Gemini CLI and the many others, Hands-on: meet your agent, OpenCode, the same animal in a different coat, The tools will change
 
 ### Community 138 - "8.6 When to Trust, When to Check"
 Cohesion: 0.25
@@ -627,9 +632,9 @@ Nodes (7): 8.6 When to Trust, When to Check, Test yourself, The agent is confide
 Cohesion: 0.29
 Nodes (6): 8.2 Controlling the Agent, Hands-on: take the reins, One change at a time, The plan: grill first, code last, The prompt: say what, where, and done, The review: git diff is your X-ray
 
-### Community 140 - "8.5 From IDE to ADE: Meet Orca"
+### Community 140 - "8.5 From IDE to ADE (Orca)"
 Cohesion: 0.29
-Nodes (6): 8.5 From IDE to ADE: Meet Orca, Hands-on, Orca: the room we use, The ADE era: built for you and your agents, The IDE era: built for one typist, Why we use an ADE, not an IDE
+Nodes (6): 8.5 From IDE to ADE (Orca), Hands-on, Orca: the room we use, The ADE era: built for you and your agents, The IDE era: built for one typist, Why we use an ADE, not an IDE
 
 ### Community 141 - "8.3 Context"
 Cohesion: 0.40
@@ -647,9 +652,9 @@ Nodes (4): 8.4 Skills, A skill is a complete guide, Hands-on, The skills our tea
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `.generate`, `generate_design_system`, `design_system.py`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`?**
+- **Why does `search()` connect `core.py` to `_generate_intelligent_overrides`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `apply_decision_rules()` connect `._apply_reasoning` to `design_system.py`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._

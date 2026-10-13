@@ -1,4 +1,4 @@
-# 8.5 From IDE to ADE: Meet Orca
+# 8.5 From IDE to ADE (Orca)
 
 One more shift, and it is happening across the industry and inside this company.
 
