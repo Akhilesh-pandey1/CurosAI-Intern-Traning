@@ -1,12 +1,12 @@
 # 6.2 Essential Commands
 
-The terminal's vocabulary is tiny — about a dozen words cover almost every day of a developer's life. This page gives you the words. Each one takes ten seconds to learn and ten seconds to practice, right here, right now.
+The terminal's vocabulary is tiny: about a dozen words cover almost every day of a developer's life. This page gives you the words. Each one takes ten seconds to learn and ten seconds to practice.
 
-**Do not memorize this page.** Read each word once, try it once, and know it exists — that is enough. AI remembers the exact spelling for you, and even senior developers look up commands every day.
+**Do not memorize this page.** Read each word once, try it once, and know it exists. That is enough. AI remembers the exact spelling for you, and even senior developers look up commands every day.
 
-One idea first, and the whole page hangs on it: **the terminal always stands inside one folder.** Every command you type happens *there* — in the folder you are standing in, not the one you see on screen. `pwd` asks where am I, `ls` asks what is here, `cd` walks somewhere else. That is the entire mental model.
+One idea first, and the whole page hangs on it: **the terminal always stands inside one folder.** Every command you type happens *there*, in the folder you are standing in, not the one you see on screen. `pwd` asks where am I, `ls` asks what is here, `cd` walks somewhere else.
 
-## Find your feet — pwd, ls, cd
+## Find your feet: pwd, ls, cd
 
 ```bash
 pwd          # print working directory — where am I standing?
@@ -17,9 +17,9 @@ cd ~         # jump home
 clear        # wipe the screen
 ```
 
-`pwd` prints an address like `C:\Users\you` (Windows) or `/home/you` (Mac/Linux). `ls` shows the folders and files around you. `cd` moves you. After every `cd`, run `pwd` — watch yourself stand somewhere new.
+`pwd` prints an address like `C:\Users\you` (Windows) or `/home/you` (Mac/Linux). `ls` shows the folders and files around you. `cd` moves you. After every `cd`, run `pwd` and watch yourself stand somewhere new.
 
-## Make things — mkdir, touch, echo
+## Make things: mkdir, touch, echo
 
 ```bash
 mkdir notes                        # new folder, right here
@@ -28,17 +28,17 @@ New-Item day1.txt                  # empty file (Windows)
 echo "learned cd today" > day1.txt # file WITH content — works everywhere
 ```
 
-The `echo "text" > file` line is worth a second look: echo says the text, the `>` catches it and pours it into the file. Create or overwrite — that is how files get born from the terminal.
+The `echo "text" > file` line is worth a second look: echo says the text, the `>` catches it and pours it into the file. Create or overwrite: that is how files get born from the terminal.
 
-## Look inside — cat
+## Look inside: cat
 
 ```bash
 cat day1.txt   # print the file content right in the terminal
 ```
 
-No window opens, nothing launches — the words just appear where you stand. Fastest way ever invented to peek into a file.
+No window opens and nothing launches: the words just appear where you stand. It is the fastest way to peek into a file.
 
-## Move, copy, rename — mv and cp
+## Move, copy, rename: mv and cp
 
 ```bash
 cp day1.txt backup.txt    # copy — now there are two
@@ -46,9 +46,9 @@ mv backup.txt notes/      # move backup.txt into the notes folder
 mv day1.txt monday.txt    # rename — moving to a new name in the same place
 ```
 
-Rename has no command of its own — it **is** a move, to a new name in the same folder. One tool, two jobs.
+Rename has no command of its own: it **is** a move to a new name in the same folder, so one tool does two jobs.
 
-## Delete — rm (read twice)
+## Delete: rm (read twice)
 
 ```bash
 rm backup.txt                        # delete a file
@@ -56,13 +56,13 @@ rm -rf notes                         # delete a folder and everything in it (Mac
 rm -Recurse -Force notes             # same, Windows
 ```
 
-This is the respect-from-page-6.1. Terminal delete has **no undo and no Recycle Bin**. The habit is not fear — it is reading the command once more before Enter, every time, forever.
+This is the respect from page 6.1. Terminal delete has **no undo and no Recycle Bin**. The habit is simple: read the command once more before Enter, every time, forever.
 
-Almost everything above works identically on Windows and Mac/Linux — `pwd`, `ls`, `cd`, `mkdir`, `cat`, `cp`, `mv` are the same words. Only the empty file (`touch` vs `New-Item`) and the folder delete flag differ.
+Almost everything above works identically on Windows and Mac/Linux: `pwd`, `ls`, `cd`, `mkdir`, `cat`, `cp`, `mv` are the same words. Only the empty file (`touch` vs `New-Item`) and the folder delete flag differ.
 
 ## The command summary
 
-The module, one table — a menu card, not a memory test. Nobody keeps it in their head: when a command slips your mind, come back here or ask AI. Senior developers do the same.
+The whole module in one table: a menu card, not a memory test. Nobody keeps it in their head. When a command slips your mind, come back here or ask AI. Senior developers do the same.
 
 | You want to | Type | Works on |
 | --- | --- | --- |
@@ -82,32 +82,32 @@ The module, one table — a menu card, not a memory test. Nobody keeps it in the
 | Delete a folder | `rm -rf name` / `rm -Recurse -Force name` | Mac/Linux / Windows |
 | Wipe the screen | `clear` | everywhere |
 
-## Hands-on — build a small world, then take it down
+## Hands-on: build a small world, then take it down
 
 Predict before every Enter. If a result surprises you, stop and ask why.
 
-1. `mkdir terminal-practice`, `cd terminal-practice` — then `pwd`. Confirm you stand inside it.
+1. `mkdir terminal-practice`, `cd terminal-practice`, then `pwd`. Confirm you stand inside it.
 2. `mkdir projects` and `mkdir notes`, then `ls`. Predict the two lines before running.
 3. `echo "my first terminal file" > notes/day1.txt`, then `cat notes/day1.txt`. You made and read a file without any window.
-4. `cp notes/day1.txt notes/backup.txt`, then `ls notes` — predict two files before Enter.
-5. `mv notes/backup.txt .` — the `.` means right here. `ls` and `ls notes` — where did it go, what is left?
+4. `cp notes/day1.txt notes/backup.txt`, then `ls notes`. Predict the two files before Enter.
+5. `mv notes/backup.txt .`: the `.` means right here. Then `ls` and `ls notes`: where did it go, and what is left?
 6. Rename it: `mv backup.txt day-one-backup.txt`.
-7. The takedown: `rm day-one-backup.txt`, then `rm -rf notes` (or `rm -Recurse -Force notes` on Windows). `ls` after each — watch it vanish for real.
+7. The takedown: `rm day-one-backup.txt`, then `rm -rf notes` (or `rm -Recurse -Force notes` on Windows). Run `ls` after each and watch it vanish for real.
 8. Ask AI: "Why does rm have no undo? What do people do instead?" One line in your own words.
 
-## Test Yourself
+## Test yourself
 
 Seven questions, straight from the two pages. Answer first, flip after. Every miss points at a spot worth one more visit.
 
 <QuizBlock
   :questions="[
-    { question: 'What is the terminal, in one sentence?', answer: 'The same computer entered through a text door — you type what you want, it answers in text. Its official name is the CLI. (page 6.1)' },
-    { question: 'How do you open a Terminal already standing inside a folder on Windows?', answer: 'Right-click inside the folder and choose Open in Terminal — or type wt in the File Explorer address bar. (page 6.1)' },
+    { question: 'What is the terminal, in one sentence?', answer: 'The same computer entered through a text door: you type what you want, it answers in text. Its official name is the CLI. (page 6.1)' },
+    { question: 'How do you open a Terminal already standing inside a folder on Windows?', answer: 'Right-click inside the folder and choose Open in Terminal, or type wt in the File Explorer address bar. (page 6.1)' },
     { question: 'Name two tools that exist only in the terminal.', answer: 'Any two of: npm, git, Python, servers, AI coding tools. They were built to be typed to. (page 6.1)' },
-    { question: 'Do you have to memorize the commands?', answer: 'No — know what the CLI can do and when it saves time. AI remembers the exact words; senior developers look up commands every day. (page 6.1)' },
-    { question: 'The terminal always stands inside one folder. Why does that matter?', answer: 'Every command acts on the folder you stand in, not the one you see on screen. Wrong place, wrong result — pwd checks, cd moves. (page 6.2)' },
-    { question: 'cp vs mv — what is the difference?', answer: 'cp duplicates — two exist after. mv relocates or renames — one exists, somewhere else or called something else. (page 6.2)' },
-    { question: 'Why read twice before rm?', answer: 'Terminal delete skips the Recycle Bin — no undo, gone is gone. Reading takes two seconds; the file took hours. (page 6.2)' }
+    { question: 'Do you have to memorize the commands?', answer: 'No. Know what the CLI can do and when it saves time. AI remembers the exact words; senior developers look up commands every day. (page 6.1)' },
+    { question: 'The terminal always stands inside one folder. Why does that matter?', answer: 'Every command acts on the folder you stand in, not the one you see on screen. Wrong place, wrong result: pwd checks where you are, cd moves you. (page 6.2)' },
+    { question: 'cp vs mv, what is the difference?', answer: 'cp duplicates: two copies exist after. mv moves or renames: one file, somewhere else or under a new name. (page 6.2)' },
+    { question: 'Why read twice before rm?', answer: 'Terminal delete skips the Recycle Bin: no undo, gone is gone. Reading takes two seconds; the file took hours. (page 6.2)' }
   ]"
 />
 

@@ -9449,7 +9449,7 @@
       "norm_label": "1.1 start here"
     },
     {
-      "label": "User side vs server side \u2014 in basic words",
+      "label": "User side vs server side, in basic words",
       "file_type": "document",
       "source_file": "site/en/html-css/01-start-here.md",
       "source_location": "L5",
@@ -9457,7 +9457,7 @@
       "id": "site_en_html_css_01_start_here_user_side_vs_server_side_in_basic_words",
       "community": 36,
       "community_name": "1.1 Start Here",
-      "norm_label": "user side vs server side \u2014 in basic words"
+      "norm_label": "user side vs server side, in basic words"
     },
     {
       "label": "What HTML and CSS are",
@@ -9526,7 +9526,7 @@
       "norm_label": "the structure every page shares"
     },
     {
-      "label": "Forms \u2014 how a page collects input",
+      "label": "Forms: how a page collects input",
       "file_type": "document",
       "source_file": "site/en/html-css/02-html-essentials.md",
       "source_location": "L58",
@@ -9534,10 +9534,10 @@
       "id": "site_en_html_css_02_html_essentials_forms_how_a_page_collects_input",
       "community": 37,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "forms \u2014 how a page collects input"
+      "norm_label": "forms: how a page collects input"
     },
     {
-      "label": "Hands-on \u2014 build your portfolio page, part by part",
+      "label": "Hands-on: build your portfolio page, part by part",
       "file_type": "document",
       "source_file": "site/en/html-css/02-html-essentials.md",
       "source_location": "L80",
@@ -9545,7 +9545,7 @@
       "id": "site_en_html_css_02_html_essentials_hands_on_build_your_portfolio_page_part_by_part",
       "community": 37,
       "community_name": "1.2 HTML Essentials",
-      "norm_label": "hands-on \u2014 build your portfolio page, part by part"
+      "norm_label": "hands-on: build your portfolio page, part by part"
     },
     {
       "label": "en/html-css/03-css-and-tailwind.md",
@@ -9581,7 +9581,7 @@
       "norm_label": "what css actually does"
     },
     {
-      "label": "Tailwind CSS \u2014 the framework we use",
+      "label": "Tailwind CSS: the framework we use",
       "file_type": "document",
       "source_file": "site/en/html-css/03-css-and-tailwind.md",
       "source_location": "L46",
@@ -9589,7 +9589,7 @@
       "id": "site_en_html_css_03_css_and_tailwind_tailwind_css_the_framework_we_use",
       "community": 84,
       "community_name": "1.3 CSS and Tailwind CSS",
-      "norm_label": "tailwind css \u2014 the framework we use"
+      "norm_label": "tailwind css: the framework we use"
     },
     {
       "label": "The core parts of Tailwind",
@@ -9603,7 +9603,7 @@
       "norm_label": "the core parts of tailwind"
     },
     {
-      "label": "Responsiveness \u2014 where Tailwind shines",
+      "label": "Responsiveness: where Tailwind shines",
       "file_type": "document",
       "source_file": "site/en/html-css/03-css-and-tailwind.md",
       "source_location": "L83",
@@ -9611,10 +9611,10 @@
       "id": "site_en_html_css_03_css_and_tailwind_responsiveness_where_tailwind_shines",
       "community": 84,
       "community_name": "1.3 CSS and Tailwind CSS",
-      "norm_label": "responsiveness \u2014 where tailwind shines"
+      "norm_label": "responsiveness: where tailwind shines"
     },
     {
-      "label": "Hands-on \u2014 restyle your portfolio, twice",
+      "label": "Hands-on: restyle your portfolio, twice",
       "file_type": "document",
       "source_file": "site/en/html-css/03-css-and-tailwind.md",
       "source_location": "L107",
@@ -9622,7 +9622,7 @@
       "id": "site_en_html_css_03_css_and_tailwind_hands_on_restyle_your_portfolio_twice",
       "community": 84,
       "community_name": "1.3 CSS and Tailwind CSS",
-      "norm_label": "hands-on \u2014 restyle your portfolio, twice"
+      "norm_label": "hands-on: restyle your portfolio, twice"
     },
     {
       "label": "en/index.md",
@@ -26608,5 +26608,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a122fb214a70b77ba1149fec4115c758449eaa10"
+  "built_at_commit": "52da1aa8f5107d8746b5ad9d2c08b7ce03985f59"
 }
