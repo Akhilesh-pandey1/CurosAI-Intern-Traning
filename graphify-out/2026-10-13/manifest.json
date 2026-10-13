@@ -655,13 +655,13 @@
     "semantic_hash": ""
   },
   "site/en/cli/01-gui-vs-terminal.md": {
-    "mtime": 1791293664.1223786,
-    "ast_hash": "40d4d52eea66bd4cce755eec12683555",
+    "mtime": 1791889137.9566185,
+    "ast_hash": "ffec2acc3a8200fd30088c7fa07eb95f",
     "semantic_hash": ""
   },
   "site/en/cli/02-essential-commands.md": {
-    "mtime": 1791304805.5526626,
-    "ast_hash": "5af4316e599547fd1b3b6bdeec3c229c",
+    "mtime": 1791889162.9542117,
+    "ast_hash": "606ca2c527ea56f01ca1e836852c7dd5",
     "semantic_hash": ""
   },
   "site/en/git/01-what-git-actually-is.md": {

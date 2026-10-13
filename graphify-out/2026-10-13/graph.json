@@ -1297,8 +1297,8 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_resolve_dial",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "_resolve_dial()"
     },
     {
@@ -1396,8 +1396,8 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_filter_anti_patterns_for_mode",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "_filter_anti_patterns_for_mode()"
     },
     {
@@ -1484,8 +1484,8 @@
       "source_location": "L319",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_multi_domain_search",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "._multi_domain_search()"
     },
     {
@@ -1528,8 +1528,8 @@
       "source_location": "L445",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_extract_results",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "._extract_results()"
     },
     {
@@ -1539,8 +1539,8 @@
       "source_location": "L449",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_designsystemgenerator_generate",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": ".generate()"
     },
     {
@@ -1704,8 +1704,8 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_91",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "bucket a 1-10 dial value into its tier config. returns none if value is none."
     },
     {
@@ -1803,8 +1803,8 @@
       "source_location": "L247",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_247",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 12,
+      "community_name": "design_system.py",
       "norm_label": "drop \"avoid dark mode\" advice once dark mode is the resolved answer."
     },
     {
@@ -1836,8 +1836,8 @@
       "source_location": "L321",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_321",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "execute searches across multiple domains."
     },
     {
@@ -1880,8 +1880,8 @@
       "source_location": "L446",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_446",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "extract results list from search result dict."
     },
     {
@@ -1891,8 +1891,8 @@
       "source_location": "L451",
       "_origin": "ast",
       "id": "claude_skills_design_screens_uiux_scripts_design_system_rationale_451",
-      "community": 41,
-      "community_name": ".generate",
+      "community": 16,
+      "community_name": "DesignSystemGenerator",
       "norm_label": "generate complete design system recommendation. variance/motion/density are..."
     },
     {
@@ -8965,7 +8965,7 @@
       "norm_label": "nothing to memorize"
     },
     {
-      "label": "Hands-on \u2014 your first CLI magic (Windows)",
+      "label": "Hands-on: your first CLI magic (Windows)",
       "file_type": "document",
       "source_file": "site/en/cli/01-gui-vs-terminal.md",
       "source_location": "L41",
@@ -8973,7 +8973,7 @@
       "id": "site_en_cli_01_gui_vs_terminal_hands_on_your_first_cli_magic_windows",
       "community": 123,
       "community_name": "6.1 GUI vs Terminal",
-      "norm_label": "hands-on \u2014 your first cli magic (windows)"
+      "norm_label": "hands-on: your first cli magic (windows)"
     },
     {
       "label": "02-essential-commands.md",
@@ -8998,7 +8998,7 @@
       "norm_label": "6.2 essential commands"
     },
     {
-      "label": "Find your feet \u2014 pwd, ls, cd",
+      "label": "Find your feet: pwd, ls, cd",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L9",
@@ -9006,10 +9006,10 @@
       "id": "site_en_cli_02_essential_commands_find_your_feet_pwd_ls_cd",
       "community": 119,
       "community_name": "6.2 Essential Commands",
-      "norm_label": "find your feet \u2014 pwd, ls, cd"
+      "norm_label": "find your feet: pwd, ls, cd"
     },
     {
-      "label": "Make things \u2014 mkdir, touch, echo",
+      "label": "Make things: mkdir, touch, echo",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L22",
@@ -9017,10 +9017,10 @@
       "id": "site_en_cli_02_essential_commands_make_things_mkdir_touch_echo",
       "community": 119,
       "community_name": "6.2 Essential Commands",
-      "norm_label": "make things \u2014 mkdir, touch, echo"
+      "norm_label": "make things: mkdir, touch, echo"
     },
     {
-      "label": "Look inside \u2014 cat",
+      "label": "Look inside: cat",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L33",
@@ -9028,10 +9028,10 @@
       "id": "site_en_cli_02_essential_commands_look_inside_cat",
       "community": 119,
       "community_name": "6.2 Essential Commands",
-      "norm_label": "look inside \u2014 cat"
+      "norm_label": "look inside: cat"
     },
     {
-      "label": "Move, copy, rename \u2014 mv and cp",
+      "label": "Move, copy, rename: mv and cp",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L41",
@@ -9039,10 +9039,10 @@
       "id": "site_en_cli_02_essential_commands_move_copy_rename_mv_and_cp",
       "community": 119,
       "community_name": "6.2 Essential Commands",
-      "norm_label": "move, copy, rename \u2014 mv and cp"
+      "norm_label": "move, copy, rename: mv and cp"
     },
     {
-      "label": "Delete \u2014 rm (read twice)",
+      "label": "Delete: rm (read twice)",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L51",
@@ -9050,7 +9050,7 @@
       "id": "site_en_cli_02_essential_commands_delete_rm_read_twice",
       "community": 119,
       "community_name": "6.2 Essential Commands",
-      "norm_label": "delete \u2014 rm (read twice)"
+      "norm_label": "delete: rm (read twice)"
     },
     {
       "label": "The command summary",
@@ -9064,7 +9064,7 @@
       "norm_label": "the command summary"
     },
     {
-      "label": "Hands-on \u2014 build a small world, then take it down",
+      "label": "Hands-on: build a small world, then take it down",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L85",
@@ -9072,10 +9072,10 @@
       "id": "site_en_cli_02_essential_commands_hands_on_build_a_small_world_then_take_it_down",
       "community": 119,
       "community_name": "6.2 Essential Commands",
-      "norm_label": "hands-on \u2014 build a small world, then take it down"
+      "norm_label": "hands-on: build a small world, then take it down"
     },
     {
-      "label": "Test Yourself",
+      "label": "Test yourself",
       "file_type": "document",
       "source_file": "site/en/cli/02-essential-commands.md",
       "source_location": "L98",
@@ -26608,5 +26608,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "52da1aa8f5107d8746b5ad9d2c08b7ce03985f59"
+  "built_at_commit": "7e67d79400eb425d9d90edd32d28015c84d95e6d"
 }

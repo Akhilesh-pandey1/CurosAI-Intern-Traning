@@ -1,16 +1,16 @@
 # Graph Report - Intern-Training  (2026-10-13)
 
 ## Corpus Check
-- 149 files · ~224,464 words
+- 149 files · ~224,414 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1155 nodes · 1235 edges · 143 communities (134 shown, 9 thin omitted)
+- 1155 nodes · 1235 edges · 142 communities (133 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `52da1aa8`
+- Built from commit: `7e67d794`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -56,7 +56,6 @@
 - 1.1 Start Here
 - 1.2 HTML Essentials
 - node-js-code-style.md
-- .generate
 - PageNextButton.vue
 - graphify reference: query, path, explain
 - write-spec-greenfield/templates/design.md
@@ -170,7 +169,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (143 total, 9 thin omitted)
+## Communities (142 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -221,8 +220,8 @@ Cohesion: 0.14
 Nodes (11): args, blockedArg, byId, flushPoint(), flushTask(), ids, ok, out (+3 more)
 
 ### Community 12 - "design_system.py"
-Cohesion: 0.22
-Nodes (12): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Convert hex color to ANSI True Color swatch (██) with fallback., Like str.ljust but accounts for zero-width ANSI escape sequences., Create a Unicode section separator: ├─── NAME ───...┤ (+4 more)
+Cohesion: 0.18
+Nodes (14): ansi_ljust(), _filter_anti_patterns_for_mode(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Convert hex color to ANSI True Color swatch (██) with fallback. (+6 more)
 
 ### Community 13 - "Steps"
 Cohesion: 0.15
@@ -237,8 +236,8 @@ Cohesion: 0.15
 Nodes (12): dependencies, canvas-confetti, devDependencies, vitepress, canvas-confetti, name, private, scripts (+4 more)
 
 ### Community 16 - "DesignSystemGenerator"
-Cohesion: 0.27
-Nodes (4): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords.
+Cohesion: 0.15
+Nodes (9): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Execute searches across multiple domains., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None. (+1 more)
 
 ### Community 17 - "._apply_reasoning"
 Cohesion: 0.24
@@ -335,10 +334,6 @@ Nodes (6): 1.2 HTML Essentials, Forms — page input कैसे लेता �
 ### Community 40 - "node-js-code-style.md"
 Cohesion: 0.33
 Nodes (5): Error & Exception Handling, File Structure, Function Composition & Layout, Libraries & Dependencies, MVC Folder Structure
-
-### Community 41 - ".generate"
-Cohesion: 0.20
-Nodes (7): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., Execute searches across multiple domains., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None., _resolve_dial()
 
 ### Community 42 - "PageNextButton.vue"
 Cohesion: 0.13
@@ -550,7 +545,7 @@ Nodes (4): 3.5 Hooks — useEffect, Hands-on — data from outside, The dependen
 
 ### Community 119 - "6.2 Essential Commands"
 Cohesion: 0.20
-Nodes (9): 6.2 Essential Commands, Delete — rm (read twice), Find your feet — pwd, ls, cd, Hands-on — build a small world, then take it down, Look inside — cat, Make things — mkdir, touch, echo, Move, copy, rename — mv and cp, Test Yourself (+1 more)
+Nodes (9): 6.2 Essential Commands, Delete: rm (read twice), Find your feet: pwd, ls, cd, Hands-on: build a small world, then take it down, Look inside: cat, Make things: mkdir, touch, echo, Move, copy, rename: mv and cp, Test yourself (+1 more)
 
 ### Community 120 - "7.2 Everyday Git"
 Cohesion: 0.22
@@ -566,7 +561,7 @@ Nodes (8): 3.7 npm & package.json, Hands-on — अपना project खुद �
 
 ### Community 123 - "6.1 GUI vs Terminal"
 Cohesion: 0.29
-Nodes (6): 6.1 GUI vs Terminal, Hands-on — your first CLI magic (Windows), Nothing to fear, Nothing to memorize, Two ways to talk to your computer, Why developers live here
+Nodes (6): 6.1 GUI vs Terminal, Hands-on: your first CLI magic (Windows), Nothing to fear, Nothing to memorize, Two ways to talk to your computer, Why developers live here
 
 ### Community 124 - "7.3 Remote & GitHub"
 Cohesion: 0.29
@@ -652,9 +647,9 @@ Nodes (4): 8.4 Skills, A skill is a complete guide, Hands-on, The skills our tea
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
+- **Why does `search()` connect `core.py` to `DesignSystemGenerator`, `design_system.py`, `_generate_intelligent_overrides`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `apply_decision_rules()` connect `._apply_reasoning` to `design_system.py`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._

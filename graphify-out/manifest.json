@@ -495,53 +495,53 @@
     "semantic_hash": ""
   },
   "site/en/javascript/01-start-here.md": {
-    "mtime": 1791186897.9737935,
-    "ast_hash": "8541138a6edc38e8627dad7282c2f811",
+    "mtime": 1791892690.4866333,
+    "ast_hash": "8aebc10e1a298eaa7b7730aeec78eb19",
     "semantic_hash": ""
   },
   "site/en/javascript/02-variables-types-operators.md": {
-    "mtime": 1791197914.8463182,
-    "ast_hash": "c53190f57a6b08523558fab5dce543b5",
+    "mtime": 1791892912.6605165,
+    "ast_hash": "85b327babe7b95449fa0f20ae006d637",
     "semantic_hash": ""
   },
   "site/en/javascript/03-arrays-objects.md": {
-    "mtime": 1791204168.911383,
-    "ast_hash": "b78c69f54f3ad891cdd21e206d84e2e6",
+    "mtime": 1791892752.0983255,
+    "ast_hash": "763c87f7b6ae5c244d77606a67639bc6",
     "semantic_hash": ""
   },
   "site/en/javascript/04-conditions-loops.md": {
-    "mtime": 1791203125.1342568,
-    "ast_hash": "4e477544a21f219f72e27e3e383aea2b",
+    "mtime": 1791892768.2072608,
+    "ast_hash": "2b714f0c6325b4ae878cbfdbb0391c93",
     "semantic_hash": ""
   },
   "site/en/javascript/05-functions-es6-modules.md": {
-    "mtime": 1791203067.1893635,
-    "ast_hash": "3b50fe63d3691273f37ba871a0484c3b",
+    "mtime": 1791892788.3473716,
+    "ast_hash": "038c9e679c622d83eab1c41e62b2b77b",
     "semantic_hash": ""
   },
   "site/en/javascript/06-dom-events-storage.md": {
-    "mtime": 1791205512.3159103,
-    "ast_hash": "f9a6bc7a5f5de21dd5d5878737a8595c",
+    "mtime": 1791892810.9541135,
+    "ast_hash": "dc49e2340a8455a60cdecb0397acea9c",
     "semantic_hash": ""
   },
   "site/en/javascript/07-async-apis.md": {
-    "mtime": 1791206676.3359966,
-    "ast_hash": "b18be74d9c3fdaf4fe82424f6a31142e",
+    "mtime": 1791892831.774479,
+    "ast_hash": "256b1f10fca3df13429a0f32af098742",
     "semantic_hash": ""
   },
   "site/en/javascript/08-project-calculator.md": {
-    "mtime": 1791207364.2077854,
-    "ast_hash": "9faae3d13f8dd878f333594e2207658f",
+    "mtime": 1791892859.2015219,
+    "ast_hash": "b29d5fdd91039d680774223aa794764f",
     "semantic_hash": ""
   },
   "site/en/javascript/09-project-todo-list.md": {
-    "mtime": 1791207498.000783,
-    "ast_hash": "d11698eb90b8c9ce6a50e7bb56793a92",
+    "mtime": 1791892872.2004306,
+    "ast_hash": "eecf707211985705b8532f028d6c83fe",
     "semantic_hash": ""
   },
   "site/en/javascript/10-project-weather-app.md": {
-    "mtime": 1791208215.6813307,
-    "ast_hash": "f06288dba560c73e78f9fe7cd74feeb7",
+    "mtime": 1791892897.410547,
+    "ast_hash": "88c4f31de3947c3339be1248a3913dd2",
     "semantic_hash": ""
   },
   "site/hi/html-css/03-css-and-tailwind.md": {
