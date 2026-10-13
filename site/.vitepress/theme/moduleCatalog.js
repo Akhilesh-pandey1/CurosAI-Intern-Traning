@@ -164,7 +164,38 @@ export const MODULES = [
         hiTitle: 'Branches Ek Nazar Mein'
       }
     ] },
-  { title: 'Agent Coding', pages: [] },
+  { title: 'Agent Coding', pages: [
+      {
+        path: '/agent-coding/01-what-agent-coding-actually-is',
+        enTitle: 'What Agent Coding Actually Is',
+        hiTitle: 'Agent Coding Asal Mein Kya Hai'
+      },
+      {
+        path: '/agent-coding/02-controlling-the-agent',
+        enTitle: 'Controlling the Agent',
+        hiTitle: 'Agent Ko Control Karna'
+      },
+      {
+        path: '/agent-coding/03-context',
+        enTitle: 'Context',
+        hiTitle: 'Context'
+      },
+      {
+        path: '/agent-coding/04-skills',
+        enTitle: 'Skills',
+        hiTitle: 'Skills'
+      },
+      {
+        path: '/agent-coding/05-from-ide-to-ade-orca',
+        enTitle: 'From IDE to ADE: Meet Orca',
+        hiTitle: 'IDE Se ADE — Orca Se Milo'
+      },
+      {
+        path: '/agent-coding/06-when-to-trust-and-wrap',
+        enTitle: 'When to Trust, When to Check',
+        hiTitle: 'Kab Bharosa Karein, Kab Check Karein'
+      }
+    ] },
   { title: 'API Design', pages: [] },
   { title: 'Frontend UI Design', pages: [] },
   { title: 'Clean Code & Testing', pages: [] },

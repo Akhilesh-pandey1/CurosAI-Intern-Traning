@@ -1,16 +1,16 @@
-# Graph Report - Intern-Training  (2026-10-12)
+# Graph Report - Intern-Training  (2026-10-13)
 
 ## Corpus Check
-- 141 files · ~214,959 words
+- 149 files · ~224,563 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1075 nodes · 1162 edges · 136 communities (127 shown, 9 thin omitted)
+- 1155 nodes · 1235 edges · 143 communities (134 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c2be18de`
+- Built from commit: `a122fb21`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -135,6 +135,13 @@
 - 3.1 Start Here
 - 3.3 Conditional Rendering & Lists
 - 3.5 Hooks — useEffect
+- Humanizer: remove AI writing patterns
+- 8.1 What Agent Coding Actually Is
+- 8.6 When to Trust, When to Check
+- 8.2 Controlling the Agent
+- 8.5 From IDE to ADE: Meet Orca
+- 8.3 Context
+- 8.4 Skills
 
 ## God Nodes (most connected - your core abstractions)
 1. `allow` - 24 edges
@@ -163,7 +170,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (136 total, 9 thin omitted)
+## Communities (143 total, 9 thin omitted)
 
 ### Community 0 - "core.py"
 Cohesion: 0.06
@@ -609,8 +616,36 @@ Nodes (4): 3.3 Conditional Rendering & Lists, Hands-on — एक list जो �
 Cohesion: 0.40
 Nodes (4): 3.5 Hooks — useEffect, Dependency array — पूरा hook एक line में, Hands-on — बाहर से आया data, useEffect — जो render matter करता है, उसके बाद
 
+### Community 136 - "Humanizer: remove AI writing patterns"
+Cohesion: 0.05
+Nodes (39): 10. Hyphenated pairs everywhere, 11. Passive voice and missing subjects, 12. Overused AI words, 13. Inflated significance, 14. Vague connection or association, 15. Shallow -ing riders, 16. Sales language, 17. Borrowed authority (+31 more)
+
+### Community 137 - "8.1 What Agent Coding Actually Is"
+Cohesion: 0.25
+Nodes (7): 8.1 What Agent Coding Actually Is, Chat vs agent, Claude Code, the agent we use daily, Gemini CLI and the many others, Hands-on: meet your agent, OpenCode, the same animal in a different coat, The tools will change
+
+### Community 138 - "8.6 When to Trust, When to Check"
+Cohesion: 0.25
+Nodes (7): 8.6 When to Trust, When to Check, Test yourself, The agent is confident even when wrong, The checks that are always cheap, The module on one table, The tools of today: one table, Where you stand
+
+### Community 139 - "8.2 Controlling the Agent"
+Cohesion: 0.29
+Nodes (6): 8.2 Controlling the Agent, Hands-on: take the reins, One change at a time, The plan: grill first, code last, The prompt: say what, where, and done, The review: git diff is your X-ray
+
+### Community 140 - "8.5 From IDE to ADE: Meet Orca"
+Cohesion: 0.29
+Nodes (6): 8.5 From IDE to ADE: Meet Orca, Hands-on, Orca: the room we use, The ADE era: built for you and your agents, The IDE era: built for one typist, Why we use an ADE, not an IDE
+
+### Community 141 - "8.3 Context"
+Cohesion: 0.40
+Nodes (4): 8.3 Context, CLAUDE.md, or AGENTS.md, Hands-on: ask, read, use, Rules files
+
+### Community 142 - "8.4 Skills"
+Cohesion: 0.40
+Nodes (4): 8.4 Skills, A skill is a complete guide, Hands-on, The skills our team uses
+
 ## Knowledge Gaps
-- **613 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+608 more)
+- **672 isolated node(s):** `$schema`, `autoMemoryEnabled`, `disableBundledSkills`, `disableWorkflows`, `disableArtifact` (+667 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -620,11 +655,11 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `._apply_reasoning`, `design_system.py`, `.generate`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `search()` connect `core.py` to `.generate`, `design_system.py`, `_generate_intelligent_overrides`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `apply_decision_rules()` connect `._apply_reasoning` to `design_system.py`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `$schema`, `autoMemoryEnabled`, `disableBundledSkills` to the rest of the system?**
-  _613 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _672 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `core.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06241519674355495 - nodes in this community are weakly interconnected._
 - **Should `server.cjs` be split into smaller, more focused modules?**

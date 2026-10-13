@@ -83,14 +83,15 @@ One home page plus twelve modules. The sidebar shows the modules in this order, 
 3. Remote — clone, push, pull, GitHub basics
 4. Branches at a Glance + summary + Test Yourself
 
-## 8. Agent Coding — 6 pages
+## 8. Agent Coding — 7 pages
 
-1. What It Is — the agent harness in action, real screenshots of Claude Code
-2. Controlling It — prompting, one change at a time, reviewing what it did
-3. Context — CLAUDE.md, rules files, how it reads the project
-4. Skills — what they are, how to use them
-5. A Real Task End-to-End — grill, plan, build, test in one walkthrough
-6. When to Trust, When to Check — Claude Code as the main tool, Gemini CLI as the alternative, tools change but principles stay + Wrap + Test Yourself
+1. What Agent Coding Actually Is — chat vs agent, the loop, the harness, Claude Code in action with the captain's video, OpenCode, Gemini CLI and the many other agents, tools change
+2. Controlling the Agent — prompting (what, where, done), plan mode, one change at a time, git diff review, permissions
+3. Context — CLAUDE.md, rules files, AGENTS.md in OpenCode, owning the context
+4. Skills — saved playbooks, context vs skills, using them
+5. A Real Task End-to-End — grill, plan, build, test, commit on a real feature
+6. From IDE to ADE — Meet Orca — IDE vs ADE, worktrees on autopilot, bring-your-own-agent, Orca as the company's ADE
+7. When to Trust, When to Check — hallucination, cheap checks, tools table + Wrap + Test Yourself
 
 ## 9. API Design — 4 pages
 

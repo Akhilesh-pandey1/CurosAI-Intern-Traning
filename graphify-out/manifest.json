@@ -425,13 +425,13 @@
     "semantic_hash": ""
   },
   "agent-doc/decisions.md": {
-    "mtime": 1790858607.8224304,
-    "ast_hash": "4cc72719113ea32feaa7b1835fb91756",
+    "mtime": 1791811869.6040072,
+    "ast_hash": "af0b33f0174b1415a2e652a157872daa",
     "semantic_hash": ""
   },
   "agent-doc/structure.md": {
-    "mtime": 1790858610.3504524,
-    "ast_hash": "9eef8dd4e7370a2059b0e444f63f077d",
+    "mtime": 1791811866.340246,
+    "ast_hash": "ad3760d14b63e2a752da268b7986a353",
     "semantic_hash": ""
   },
   "agent-doc/testing.md": {
@@ -470,8 +470,8 @@
     "semantic_hash": ""
   },
   "site/.vitepress/theme/moduleCatalog.js": {
-    "mtime": 1791800627.722387,
-    "ast_hash": "5a51d9403fa2c5fb1d0db61c7aa634a5",
+    "mtime": 1791886274.8534796,
+    "ast_hash": "fe0a1aa66089bd23048b85e505961863",
     "semantic_hash": ""
   },
   "site/.vitepress/theme/components/PageNextButton.vue": {
@@ -737,6 +737,46 @@
   "site/hi/react/11-project-weather-dashboard.md": {
     "mtime": 1791290428.538833,
     "ast_hash": "4926b9df30ccc3b6eed34a9af058c92d",
+    "semantic_hash": ""
+  },
+  "skills-lock.json": {
+    "mtime": 1791876777.0347643,
+    "ast_hash": "cb1746502d42b1056d22489b201a207b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/humanizer/SKILL.md": {
+    "mtime": 1791876851.8781898,
+    "ast_hash": "f9047e64c961fe96cd8847ea8645c779",
+    "semantic_hash": ""
+  },
+  "site/en/agent-coding/01-what-agent-coding-actually-is.md": {
+    "mtime": 1791885299.170103,
+    "ast_hash": "03541b7f3949b6729a6c372616e1a57b",
+    "semantic_hash": ""
+  },
+  "site/en/agent-coding/02-controlling-the-agent.md": {
+    "mtime": 1791881709.1865737,
+    "ast_hash": "b163ef5aebb943c76cc9a40d329ab363",
+    "semantic_hash": ""
+  },
+  "site/en/agent-coding/03-context.md": {
+    "mtime": 1791882492.5455139,
+    "ast_hash": "19ab0e8f51b3071a9f4eb0f6b3514762",
+    "semantic_hash": ""
+  },
+  "site/en/agent-coding/04-skills.md": {
+    "mtime": 1791884518.5027566,
+    "ast_hash": "5427b94f300d8d7e9aefb83094105d84",
+    "semantic_hash": ""
+  },
+  "site/en/agent-coding/05-from-ide-to-ade-orca.md": {
+    "mtime": 1791885717.2395816,
+    "ast_hash": "d3c7a818211fd6012d88a927ccb448f5",
+    "semantic_hash": ""
+  },
+  "site/en/agent-coding/06-when-to-trust-and-wrap.md": {
+    "mtime": 1791886739.858615,
+    "ast_hash": "40f478a48f612b76b2d9f460bd0383bd",
     "semantic_hash": ""
   }
 }
