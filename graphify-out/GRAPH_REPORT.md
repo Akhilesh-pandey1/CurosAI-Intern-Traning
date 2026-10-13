@@ -1,7 +1,7 @@
 # Graph Report - Intern-Training  (2026-10-13)
 
 ## Corpus Check
-- 149 files · ~224,563 words
+- 149 files · ~224,464 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a122fb21`
+- Built from commit: `52da1aa8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -318,11 +318,11 @@ Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What C
 
 ### Community 36 - "1.1 Start Here"
 Cohesion: 0.50
-Nodes (3): 1.1 Start Here, User side vs server side — in basic words, What HTML and CSS are
+Nodes (3): 1.1 Start Here, User side vs server side, in basic words, What HTML and CSS are
 
 ### Community 37 - "1.2 HTML Essentials"
 Cohesion: 0.29
-Nodes (6): 1.2 HTML Essentials, First: what to do and what not to do, Forms — how a page collects input, Hands-on — build your portfolio page, part by part, The structure every page shares, The tags you will actually use
+Nodes (6): 1.2 HTML Essentials, First: what to do and what not to do, Forms: how a page collects input, Hands-on: build your portfolio page, part by part, The structure every page shares, The tags you will actually use
 
 ### Community 38 - "1.1 Start Here"
 Cohesion: 0.50
@@ -410,7 +410,7 @@ Nodes (8): blockTitle, handleAnswerToggle(), hideAnswerLabel, isAnswerVisible(),
 
 ### Community 84 - "1.3 CSS and Tailwind CSS"
 Cohesion: 0.29
-Nodes (6): 1.3 CSS and Tailwind CSS, Hands-on — restyle your portfolio, twice, Responsiveness — where Tailwind shines, Tailwind CSS — the framework we use, The core parts of Tailwind, What CSS actually does
+Nodes (6): 1.3 CSS and Tailwind CSS, Hands-on: restyle your portfolio, twice, Responsiveness: where Tailwind shines, Tailwind CSS: the framework we use, The core parts of Tailwind, What CSS actually does
 
 ### Community 85 - "ContinueButton.vue"
 Cohesion: 0.25

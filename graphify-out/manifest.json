@@ -440,13 +440,13 @@
     "semantic_hash": ""
   },
   "site/en/html-css/01-start-here.md": {
-    "mtime": 1790929384.0609937,
-    "ast_hash": "47560c8c09e6ced8eb1be62400e03f69",
+    "mtime": 1791888184.0483944,
+    "ast_hash": "cc851cc89b25ed9a98b888527b5db298",
     "semantic_hash": ""
   },
   "site/en/html-css/02-html-essentials.md": {
-    "mtime": 1790931406.7872832,
-    "ast_hash": "9f133afdc934b538bdf71810c6367ca3",
+    "mtime": 1791888276.873431,
+    "ast_hash": "12ecc3b919649dfef8396606d122596a",
     "semantic_hash": ""
   },
   "site/en/index.md": {
@@ -490,8 +490,8 @@
     "semantic_hash": ""
   },
   "site/en/html-css/03-css-and-tailwind.md": {
-    "mtime": 1791197938.7737541,
-    "ast_hash": "3c4e2c8383c90a39b4176f88a121f689",
+    "mtime": 1791888478.0747046,
+    "ast_hash": "badd69c0e7e558e1f8c181c4f47c9816",
     "semantic_hash": ""
   },
   "site/en/javascript/01-start-here.md": {
